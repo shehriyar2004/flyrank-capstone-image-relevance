@@ -31,3 +31,11 @@ test('semantic_aliases_and_cosine_ranking_do_not_depend_on_filenames', async () 
   assert.deepEqual(rankCandidates(vector,candidates).map(c=>c.id), ['fox','wolf']);
   assert.equal(rankCandidates(vector,[{ id: 'other', vector: { ...vector, model: 'other' } }]).length, 0);
 });
+
+test('ambiguous_species_cannot_become_a_confident_fox_recommendation',async()=>{
+  const {guard}=await import('../src/matching/guard.mjs');
+  const {flagged}=await import('../src/ai/schemas.mjs');
+  const metadata={...wolf,subject:'fox or wolf',confidence:0.95};
+  assert.equal(flagged(metadata),true);
+  assert.equal(guard({intent,metadata,similarity:0.99,threshold:0.5,eligible:true}).accepted,false);
+});

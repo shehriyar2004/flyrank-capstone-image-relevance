@@ -1,8 +1,9 @@
 import { canonicalSubject } from './taxonomy.mjs';
 import { flagged } from '../ai/schemas.mjs';
 
-export function guard({ intent, metadata, similarity, threshold, eligible }) {
+export function guard({ intent, metadata, similarity, threshold, eligible, postEligible=true }) {
   const reasons = [];
+  if(!postEligible)reasons.push('Post is failed, flagged, or still processing');
   if (!intent || flagged(intent) || canonicalSubject(intent.subject) === 'unknown') reasons.push('Post subject is uncertain or ambiguous');
   if (!metadata) reasons.push('Image metadata unavailable');
   else {

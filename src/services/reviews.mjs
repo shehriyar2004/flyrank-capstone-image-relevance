@@ -13,7 +13,8 @@ export function createReviews({ pool, repo, catalog, matching }) {
           await database.query('SELECT id FROM images WHERE tenant_id=$1 AND id=$2 FOR UPDATE',[tenantId,suggestion.image_id]);
           const post=await repo.getPost(tenantId,suggestion.post_id,database), image=await repo.getImage(tenantId,suggestion.image_id,database);
           if(post.intent_version!==suggestion.post_version || image.metadata_version!==suggestion.image_version || matching.version!==suggestion.threshold_version)throw httpError(409,'Suggestion metadata or threshold changed');
-          const current=await catalog.check(tenantId,suggestion.post_id,suggestion.image_id);
+          const current=await catalog.check(tenantId,suggestion.post_id,suggestion.image_id,database);
+          if(current.embeddingRevision!==suggestion.embedding_revision)throw httpError(409,'Suggestion embedding evidence changed');
           if(!current.accepted)throw httpError(409,'Candidate no longer clears the mismatch guard');
         }
         const result=(await database.query('INSERT INTO reviews(tenant_id,suggestion_id,action,explanation) VALUES($1,$2,$3,$4) RETURNING id,action,explanation,created_at',[tenantId,suggestionId,decision.action,decision.explanation??null])).rows[0];

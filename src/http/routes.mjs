@@ -22,7 +22,7 @@ export function createRoutes({pool,repo,catalog,reviews}) {
   routes.get('/images/:id',async(req,res)=>{const image=await repo.getImage(req.tenantId,uuid.parse(req.params.id));if(!image)throw httpError(404,'Image not found');res.json(image);});
   routes.post('/posts',mutation('post',post,(req,payload,client)=>catalog.createPost(req.tenantId,payload,client)));
   routes.get('/posts/:id/images',async(req,res)=>{const id=uuid.parse(req.params.id);const {limit}=pagination.parse(req.query);res.json(await catalog.recommend(req.tenantId,id,limit));});
-  routes.post('/posts/:id/images/check',mutation('check',z.strictObject({imageId:uuid}),async(req,payload)=>({status:200,body:await catalog.check(req.tenantId,uuid.parse(req.params.id),payload.imageId)})));
+  routes.post('/posts/:id/images/check',mutation('check',z.strictObject({imageId:uuid}),async(req,payload,client)=>({status:200,body:await catalog.check(req.tenantId,uuid.parse(req.params.id),payload.imageId,client)})));
   routes.post('/suggestions/:id/reviews',mutation('review',review,async(req,payload,client)=>({status:200,body:await reviews.reviewSuggestion(req.tenantId,uuid.parse(req.params.id),payload,client)})));
   routes.get('/suggestions/:id',async(req,res)=>{const row=(await pool.query('SELECT id,post_id,image_id,score,snapshot,status FROM suggestions WHERE tenant_id=$1 AND id=$2',[req.tenantId,uuid.parse(req.params.id)])).rows[0];if(!row)throw httpError(404,'Suggestion not found');res.json(row);});
   routes.get('/jobs/:id',async(req,res)=>{const row=await repo.getJob(req.tenantId,uuid.parse(req.params.id));if(!row)throw httpError(404,'Job not found');res.json(row);});

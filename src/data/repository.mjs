@@ -22,7 +22,7 @@ export function createRepository(pool) {
     getImage(tenantId, id, client = pool) { return one('SELECT i.*,t.metadata,t.model FROM images i LEFT JOIN image_tags t ON t.tenant_id=i.tenant_id AND t.image_id=i.id AND t.version=i.metadata_version WHERE i.tenant_id=$1 AND i.id=$2', [tenantId, id], client); },
     getPost(tenantId, id, client = pool) { return one('SELECT * FROM posts WHERE tenant_id=$1 AND id=$2', [tenantId, id], client); },
     getJob(tenantId, id) { return one('SELECT id,kind,entity_id,status,attempts,progress,result,error_code,created_at,updated_at FROM jobs WHERE tenant_id=$1 AND id=$2', [tenantId, id]); },
-    async listImages(tenantId, limit = 50, offset = 0) { return (await pool.query('SELECT i.*,t.metadata FROM images i LEFT JOIN image_tags t ON t.tenant_id=i.tenant_id AND t.image_id=i.id AND t.version=i.metadata_version WHERE i.tenant_id=$1 ORDER BY i.created_at,i.id LIMIT $2 OFFSET $3', [tenantId, limit, offset])).rows; },
+    async listImages(tenantId, limit = 50, offset = 0, client=pool) { return (await client.query('SELECT i.*,t.metadata,t.model FROM images i LEFT JOIN image_tags t ON t.tenant_id=i.tenant_id AND t.image_id=i.id AND t.version=i.metadata_version WHERE i.tenant_id=$1 ORDER BY i.created_at,i.id LIMIT $2 OFFSET $3', [tenantId, limit, offset])).rows; },
     async idempotent(tenantId, operation, key, payload, action) {
       return transaction(pool, async client => {
         const payloadHash = hash(JSON.stringify(canonical(payload)));

@@ -23,7 +23,7 @@ test('concurrent_budget_reservations_allow_two_calls_and_preserve_attribution', 
 
 test('real_provider_boundary_accounts_for_invalid_output_and_failed_transport', async () => {
   const db = await testDatabase();
-  const server = createServer((_request, response) => response.end(JSON.stringify({ model: 'fixture-vision', message: { content: 'invalid output' }, done: true, prompt_eval_count: 11, eval_count: 3 })));
+  const server = createServer((request, response) => response.end(JSON.stringify(request.url==='/api/tags'?{models:[{name:'fixture-vision',digest:'a'.repeat(64)},{name:'fixture-embed',digest:'b'.repeat(64)}]}:{ model: 'fixture-vision', message: { content: 'invalid output' }, done: true, prompt_eval_count: 11, eval_count: 3 })));
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   try {
     const { createAccounting } = await import('../../src/ai/accounting.mjs');
@@ -33,7 +33,7 @@ test('real_provider_boundary_accounts_for_invalid_output_and_failed_transport', 
     const context = { tenantId: a, jobId: null, entityId: image.id, attempt: 1 };
     await assert.rejects(provider.classifyImage(Buffer.from('fixture bytes'), context), e => e.code === 'INVALID_MODEL_OUTPUT');
     await new Promise(resolve => server.close(resolve));
-    await assert.rejects(provider.embed('example', context), e => e.code === 'PROVIDER_UNAVAILABLE');
+    await assert.rejects(provider.embed('example', {...context,embeddingIdentity:`fixture-embed@${'b'.repeat(64)}`}), e => e.code === 'PROVIDER_UNAVAILABLE');
     const rows = (await db.pool.query('SELECT * FROM ai_calls WHERE tenant_id=$1 ORDER BY created_at', [a])).rows;
     assert.deepEqual(rows.map(r => r.status), ['error', 'error']);
     assert.equal(rows[0].input_tokens, 11);

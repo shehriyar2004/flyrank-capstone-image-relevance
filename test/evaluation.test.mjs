@@ -12,4 +12,5 @@ test('calibration_selects_a_threshold_without_accepting_labeled_negatives',async
   const positives=[{expected:'a',candidates:[{id:'a',score:0.8,subjectPass:true}]},{expected:'b',candidates:[{id:'b',score:0.7,subjectPass:true}]}];
   const negatives=[{candidates:[{id:'bad',score:0.65,subjectPass:true}]}];
   assert.equal(selectThreshold(positives,negatives),0.7);
+  assert.throws(()=>selectThreshold([{expected:'a',candidates:[]}],negatives));
 });

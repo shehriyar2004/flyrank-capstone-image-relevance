@@ -17,6 +17,10 @@ for(const split of ['calibration','evaluation']) {
     posts[`${split}:${sample.id}`]=await api('/posts',{method:'POST',body:payload,idempotency:`seed-${split}-${sample.id}-${hash(JSON.stringify(payload))}`});
   }
 }
+for(const sample of JSON.parse(await readFile('data/demo-posts.json','utf8'))) {
+  const payload={title:sample.title,content:sample.content};
+  posts[`demo:${sample.id}`]=await api('/posts',{method:'POST',body:payload,idempotency:`seed-demo-${sample.id}-${hash(JSON.stringify(payload))}`});
+}
 await mkdir('.local',{recursive:true});
 await writeFile('.local/seed.json',JSON.stringify({corpusHash,images:batch.jobs,posts},null,2)+'\n');
 console.log(JSON.stringify({queuedImages:batch.jobs.length,queuedPosts:Object.keys(posts).length,progress:'GET /jobs/:id; results become available as the local worker processes them'}));

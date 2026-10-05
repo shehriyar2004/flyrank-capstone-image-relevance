@@ -6,15 +6,16 @@ Status: deterministic/backend checks verified; real full-corpus batch and held-o
 
 ```text
 npm test
-tests 12; pass 12; fail 0
+tests 14; pass 14; fail 0
 
 docker compose --profile testing run --rm --no-deps test-runner npm run test:integration
-tests 11; pass 11; fail 0
+tests 15; pass 15; fail 0
 
 npm run seed (replayed)
 {"images":50,"categories":["animal","plant","landscape","architecture"]}
 {"downloaded":0,"cached":50}
 {"queuedImages":50,"queuedPosts":22}
+# Later common/scientific-name demo seed: queuedImages 50; queuedPosts 24
 ```
 
 1. **Structured vision and invalid-output rejection:** `vision_schema_rejects_untrusted_shape_and_confidence`, `invalid_vision_output_retries_without_trusted_tags`, and `real_provider_boundary_accounts_for_invalid_output_and_failed_transport` passed. A real local response plus a real 768-dimensional embedding are recorded in `evidence/model-smoke.json`. Invalid original thinking-model smoke responses were rejected and their failed calls remain attributed.
@@ -44,3 +45,15 @@ npm run seed (replayed)
 | Cost and budget guard | Local costs above; `concurrent_budget_reservations_allow_two_calls_and_preserve_attribution` passes 20 competing reservations under budget 2, with one exhaustion alert |
 
 Fixtures/failure injection are used only for deterministic component tests and explicitly described here. They are not presented as live model evidence. Final acceptance transcripts will replace the pending annotations after the actual batch finishes.
+
+## Independent review regressions
+
+Each test below failed before its fix and then passed:
+
+- `failed_post_never_matches_or_passes_approval_even_with_old_vectors`
+- `approval_survives_a_saturated_pool_by_using_its_held_transaction`
+- `embedding_changes_create_distinct_suggestions_and_block_old_approval`
+- `concurrent_forced_checks_do_not_acquire_extra_pool_connections`
+- `ambiguous_species_cannot_become_a_confident_fox_recommendation`
+- `model_identity_tracks_immutable_digest_when_a_tag_changes`
+- Calibration rejects empty candidate matrices. Real early-run output: `Finish corpus/calibration jobs before calibrating`.
