@@ -28,7 +28,7 @@ services:
       ollama: {condition: service_healthy}
     environment: {OLLAMA_HOST: "http://ollama:11434"}
     entrypoint: [/bin/sh, -c]
-    command: ["ollama pull ${VISION_MODEL:-qwen3-vl:2b} && ollama pull ${EMBEDDING_MODEL:-embeddinggemma:300m}"]
+    command: ["ollama pull ${VISION_MODEL:-qwen3-vl:2b-instruct} && ollama pull ${EMBEDDING_MODEL:-embeddinggemma:300m}"]
     restart: on-failure
   app:
     build: .
@@ -38,7 +38,7 @@ services:
       TENANT_A_KEY: ${TENANT_A_KEY:?Run node scripts/run.mjs first}
       TENANT_B_KEY: ${TENANT_B_KEY:?Run node scripts/run.mjs first}
       CALL_BUDGET: ${CALL_BUDGET:-1000}
-      VISION_MODEL: ${VISION_MODEL:-qwen3-vl:2b}
+      VISION_MODEL: ${VISION_MODEL:-qwen3-vl:2b-instruct}
       EMBEDDING_MODEL: ${EMBEDDING_MODEL:-embeddinggemma:300m}
       OLLAMA_URL: http://ollama:11434
       HOST: 0.0.0.0
@@ -46,10 +46,10 @@ services:
     depends_on:
       db: {condition: service_healthy}
   worker:
-    profiles: [pipeline]
     build: .
     command: [node, src/jobs/worker.mjs]
     environment: *app-environment
+    volumes: ["./data/images:/app/data/images:ro"]
     depends_on:
       db: {condition: service_healthy}
       model-init: {condition: service_completed_successfully}
@@ -57,7 +57,7 @@ services:
     profiles: [testing]
     image: node:24-alpine
     working_dir: /app
-    volumes: ["./:/app:ro"]
+    volumes: ["./:/app"]
     environment: *app-environment
     depends_on:
       db: {condition: service_healthy}

@@ -6,7 +6,7 @@ Status: approved by the user on 2026-10-05; implementation has not started.
 
 Build the Backend AI Engineering capstone described in **AI Image Understanding Live Capstone.pdf**: understand licensed images through a real vision model, rank them against posts using real embeddings, and refuse unsafe pairings. Completion means reproducible evidence for every core and shared requirement, followed by FlyRank's acceptance; it does not mean a guaranteed certificate immediately after submission. The portal currently records five Backend assignments submitted.
 
-Use Node.js 24, Express, Zod, PostgreSQL 17, and Docker Compose. Run local Ollama with `qwen3-vl:2b` for image understanding and post subject extraction, and `embeddinggemma:300m` for embeddings. The official model downloads are approximately 1.9 GB and 622 MB respectively. CPU inference is the portable default; performance and classification quality must be measured on this computer. No cloud key, payment, or credit card is needed. Non-goal: a public image platform or a full frontend.
+Use Node.js 24, Express, Zod, PostgreSQL 17, and Docker Compose. Run local Ollama with `qwen3-vl:2b-instruct` for image understanding and post subject extraction, and `embeddinggemma:300m` for embeddings. The official model downloads are approximately 1.9 GB and 622 MB respectively. CPU inference is the portable default; performance and classification quality must be measured on this computer. No cloud key, payment, or credit card is needed. Non-goal: a public image platform or a full frontend.
 
 ## Layers and flow
 
@@ -73,7 +73,7 @@ Provide MIT-licensed application code, image attribution/licensing separately, `
 - Supplied brief: `C:\Users\pc\Downloads\AI Image Understanding Live Capstone.pdf`.
 - Portal capstone: https://internship.flyrank.ai/intern/assignments/CUSTOM-MQYC2OKX-00A4F545
 - Certificate requirements: https://internship.flyrank.ai/intern/completion
-- Vision model: https://ollama.com/library/qwen3-vl:2b
+- Vision model: https://ollama.com/library/qwen3-vl:2b-instruct
 - Embedding model: https://ollama.com/library/embeddinggemma
 - Structured output: https://docs.ollama.com/capabilities/structured-outputs
 - Image licenses: https://unsplash.com/license and https://www.pexels.com/license/

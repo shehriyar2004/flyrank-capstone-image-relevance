@@ -2,7 +2,7 @@
 
 **Problem.** Match article meaning to an image library while refusing unsafe recommendations. A red-fox post should surface a red fox and reject a wolf. Uncertainty must remain visible rather than turn into invented metadata.
 
-**Scope.** Fifty licensed images from at least four broad categories, including confusing animal species; one local vision model (`qwen3-vl:2b`), one local embedding model (`embeddinggemma:300m`), and at least ten independently labeled posts in each of separate calibration/evaluation sets. A full frontend is an explicit non-goal.
+**Scope.** Fifty licensed images from at least four broad categories, including confusing animal species; one local vision model (`qwen3-vl:2b-instruct`), one local embedding model (`embeddinggemma:300m`), and at least ten independently labeled posts in each of separate calibration/evaluation sets. A full frontend is an explicit non-goal.
 
 **Layers and flow.** Express validates and authenticates tenant requests, services apply business rules, and repositories use PostgreSQL. HTTP creation endpoints enqueue persistent jobs and return `202`. A separate worker interprets actual image bytes, validates strict JSON tags/captions/confidence, extracts post subject intent, and creates genuine embeddings. Stored vectors meet at cosine ranking, followed by the guard and an approval/rejection API.
 

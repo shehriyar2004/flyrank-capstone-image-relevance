@@ -1,0 +1,78 @@
+{
+  "images": [
+    {
+      "manifest_id": "avA-YuEe2ZA",
+      "id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "status": "flagged",
+      "metadata": {
+        "caption": "A close-up of a monstera plant with large, vibrant green leaves against a light background.",
+        "subject": "monstera",
+        "category": "plant",
+        "attributes": [
+          "large green leaves",
+          "distinct heart-shaped and split leaves",
+          "stem and leaves against a light background",
+          "natural, healthy appearance"
+        ],
+        "confidence": 0.7
+      },
+      "raw_response": "{\"subject\":\"monstera\",\"category\":\"plant\",\"attributes\":[\"large green leaves\",\"distinct heart-shaped and split leaves\",\"stem and leaves against a light background\",\"natural, healthy appearance\"],\"caption\":\"A close-up of a monstera plant with large, vibrant green leaves against a light background.\",\"confidence\":0.7}",
+      "version": "77015d246749ea7ced086df26a9d7283f8ce768db985e5760478f0f2d3b88406",
+      "model": "qwen3-vl:2b-instruct",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m",
+      "input_hash": "68086d03d30d33655163a2cb7ef073c1113265576bf24852afe2272cd56e1bab"
+    }
+  ],
+  "models": [
+    {
+      "name": "embeddinggemma:300m",
+      "digest": "85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "size": 621875917
+    },
+    {
+      "name": "qwen3-vl:2b-instruct",
+      "digest": "ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "size": 1889519783
+    },
+    {
+      "name": "qwen3-vl:2b",
+      "digest": "0635d9d857d497aeadba3d7d27485746c50554446f9f6ec01ef39788221adbe8",
+      "size": 1889519687
+    }
+  ],
+  "calls": [
+    {
+      "id": "ea8d4207-2578-42c8-bda6-ff2264372d56",
+      "tenant_id": "11111111-1111-4111-8111-111111111111",
+      "job_id": "073ede89-e337-4f4f-965b-d77dbbec90a1",
+      "entity_id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "operation": "vision",
+      "model": "qwen3-vl:2b-instruct",
+      "attempt": 1,
+      "status": "succeeded",
+      "input_tokens": 1168,
+      "output_tokens": 92,
+      "duration_ms": 82056.965364,
+      "cost_usd": "0.000000",
+      "error_code": null,
+      "created_at": "2026-10-05T17:33:24.960Z"
+    },
+    {
+      "id": "7153daed-c90c-426c-ba74-5abda58aa183",
+      "tenant_id": "11111111-1111-4111-8111-111111111111",
+      "job_id": "073ede89-e337-4f4f-965b-d77dbbec90a1",
+      "entity_id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "operation": "embedding",
+      "model": "embeddinggemma:300m",
+      "attempt": 1,
+      "status": "succeeded",
+      "input_tokens": 22,
+      "output_tokens": null,
+      "duration_ms": 2993.3475320000143,
+      "cost_usd": "0.000000",
+      "error_code": null,
+      "created_at": "2026-10-05T17:34:47.032Z"
+    }
+  ]
+}

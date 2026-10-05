@@ -7,7 +7,7 @@ const schema = z.object({
   PORT: z.coerce.number().int().min(1).max(65535).default(3100),
   HOST: z.enum(['127.0.0.1', '0.0.0.0']).default('127.0.0.1'),
   OLLAMA_URL: z.string().url().default('http://ollama:11434'),
-  VISION_MODEL: z.string().min(1).refine(v => !/cloud/i.test(v)).default('qwen3-vl:2b'),
+  VISION_MODEL: z.string().min(1).refine(v => !/cloud/i.test(v)).default('qwen3-vl:2b-instruct'),
   EMBEDDING_MODEL: z.string().min(1).refine(v => !/cloud/i.test(v)).default('embeddinggemma:300m'),
   CALL_BUDGET: z.coerce.number().int().min(0).max(100000).default(1000),
 });

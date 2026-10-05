@@ -6,7 +6,7 @@ import { spawn } from 'node:child_process';
 
 export async function ensureLocalEnv(path) {
   const secret = () => randomBytes(32).toString('hex');
-  const content = `POSTGRES_PASSWORD=${secret()}\nTENANT_A_KEY=${secret()}\nTENANT_B_KEY=${secret()}\nAPP_PORT=3100\nCALL_BUDGET=1000\nVISION_MODEL=qwen3-vl:2b\nEMBEDDING_MODEL=embeddinggemma:300m\n`;
+  const content = `POSTGRES_PASSWORD=${secret()}\nTENANT_A_KEY=${secret()}\nTENANT_B_KEY=${secret()}\nAPP_PORT=3100\nCALL_BUDGET=1000\nVISION_MODEL=qwen3-vl:2b-instruct\nEMBEDDING_MODEL=embeddinggemma:300m\n`;
   try { await writeFile(path, content, { flag: 'wx', mode: 0o600 }); }
   catch (error) { if (error.code !== 'EEXIST') throw error; }
 }

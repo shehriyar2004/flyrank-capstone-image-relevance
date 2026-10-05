@@ -38,6 +38,6 @@ test('migrations_are_repeatable_without_losing_rows', async () => {
     const { migrate } = await import('../../src/data/migrate.mjs');
     await migrate(db.pool);
     assert.equal((await repo.getImage(a, image.id)).manifest_id, 'sample-a');
-    assert.equal(Number((await db.pool.query('SELECT count(*) FROM schema_migrations')).rows[0].count), 1);
+    assert.equal(Number((await db.pool.query('SELECT count(*) FROM schema_migrations')).rows[0].count), 2);
   } finally { await db.close(); }
 });
