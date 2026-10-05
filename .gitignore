@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.superpowers/
+.worktrees/
+.local/
+data/images/
+coverage/
+*.log
+*.tmp
+Thumbs.db
