@@ -1,0 +1,25 @@
+{
+  "name": "flyrank-capstone-image-relevance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/http/server.mjs",
+    "run": "node scripts/run.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:integration": "node --test --test-concurrency=1 test/integration/*.test.mjs",
+    "seed": "node scripts/seed.mjs",
+    "evaluate": "node scripts/evaluate.mjs",
+    "calibrate": "node scripts/calibrate.mjs",
+    "probe": "node scripts/probe.mjs",
+    "check:pack": "node scripts/check-pack.mjs"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.1",
+    "zod": "^4.6.5"
+  }
+}

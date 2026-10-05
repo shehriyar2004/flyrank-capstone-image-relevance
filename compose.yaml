@@ -1,0 +1,66 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: capstone
+      POSTGRES_USER: capstone
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run node scripts/run.mjs first}
+    volumes: [database:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U capstone -d capstone"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  ollama:
+    image: &ollama-image ollama/ollama@sha256:292ee7945dfc3d5840a181f3ab86fedb1e66703e02c8af98b50f4da56b7e278c
+    volumes: [models:/root/.ollama]
+    environment:
+      OLLAMA_NUM_PARALLEL: 1
+      OLLAMA_MAX_LOADED_MODELS: 1
+    healthcheck:
+      test: [CMD, ollama, list]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+  model-init:
+    image: *ollama-image
+    depends_on:
+      ollama: {condition: service_healthy}
+    environment: {OLLAMA_HOST: "http://ollama:11434"}
+    entrypoint: [/bin/sh, -c]
+    command: ["ollama pull ${VISION_MODEL:-qwen3-vl:2b} && ollama pull ${EMBEDDING_MODEL:-embeddinggemma:300m}"]
+    restart: on-failure
+  app:
+    build: .
+    ports: ["127.0.0.1:${APP_PORT:-3100}:3100"]
+    environment: &app-environment
+      DATABASE_URL: postgresql://capstone:${POSTGRES_PASSWORD}@db:5432/capstone
+      TENANT_A_KEY: ${TENANT_A_KEY:?Run node scripts/run.mjs first}
+      TENANT_B_KEY: ${TENANT_B_KEY:?Run node scripts/run.mjs first}
+      CALL_BUDGET: ${CALL_BUDGET:-1000}
+      VISION_MODEL: ${VISION_MODEL:-qwen3-vl:2b}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-embeddinggemma:300m}
+      OLLAMA_URL: http://ollama:11434
+      HOST: 0.0.0.0
+      PORT: 3100
+    depends_on:
+      db: {condition: service_healthy}
+  worker:
+    profiles: [pipeline]
+    build: .
+    command: [node, src/jobs/worker.mjs]
+    environment: *app-environment
+    depends_on:
+      db: {condition: service_healthy}
+      model-init: {condition: service_completed_successfully}
+  test-runner:
+    profiles: [testing]
+    image: node:24-alpine
+    working_dir: /app
+    volumes: ["./:/app:ro"]
+    environment: *app-environment
+    depends_on:
+      db: {condition: service_healthy}
+volumes:
+  database:
+  models:
