@@ -20,7 +20,7 @@ Startup creates an ignored `.env` with random local demo secrets if missing, ins
 npm run seed
 ```
 
-Seed verifies/downloads 50 licensed images and enqueues their vision/embedding work plus 24 posts (10 calibration, 10 held-out positive evaluation, an absent-subject negative in each split, and two common/scientific-name demo posts). Rerunning seed replays the same idempotent actions. Actual inference can take more than an hour on CPU; watch job IDs in `.local/seed.json` through `GET /jobs/:id`. Downloads and processing need no cloud credentials, credit card, or paid API.
+Seed verifies the 50 bundled licensed images (about 1.62 MB), downloading a hash-checked replacement only if absent, and enqueues their vision/embedding work plus 24 posts (10 calibration, 10 held-out positive evaluation, an absent-subject negative in each split, and two common/scientific-name demo posts). Rerunning seed replays the same idempotent actions. Actual inference can take more than an hour on CPU; watch job IDs in `.local/seed.json` through `GET /jobs/:id`. Downloads and processing need no cloud credentials, credit card, or paid API.
 
 To start without attached logs after the first setup: `docker compose up -d --build`. To pause processing: `docker compose stop worker`; resume: `docker compose up -d worker`. These preserve database/model volumes. Do not use `down -v` if you want to retain results.
 
