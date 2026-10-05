@@ -1,5 +1,5 @@
 {
   "threshold": 0.5,
-  "version": "uncalibrated",
+  "version": "uncalibrated-sentence-similarity",
   "calibrated": false
 }

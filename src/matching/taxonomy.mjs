@@ -12,7 +12,18 @@ export function canonicalSubject(subject) {
   const text = String(subject ?? '').toLowerCase().trim().replace(/[._]/g,' ').replace(/\s+/g,' ');
   if(ambiguousSubject(text))return 'unknown';
   for (const [canonical, aliases] of Object.entries(groups)) if (aliases.includes(text)) return canonical;
-  // A modifier may narrow a recognizable subject, but cannot substitute another species.
-  for (const canonical of ['fox','wolf','dog','bear','deer','monstera','forest','mountain','lake','river','building','staircase']) if (new RegExp(`\\b${canonical}s?\\b`).test(text)) return canonical;
+  // Prefer long aliases, suppress overlapping shorter aliases, and refuse competing types.
+  const spans=[],found=new Set();
+  const aliases=Object.entries(groups).flatMap(([canonical,values])=>values.map(alias=>({canonical,alias}))).sort((a,b)=>b.alias.length-a.alias.length);
+  for(const {canonical,alias} of aliases){
+    const escaped=alias.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    for(const match of text.matchAll(new RegExp(`\\b${escaped}s?\\b`,'g'))){
+      const start=match.index,end=start+match[0].length;
+      if(spans.some(span=>start<span.end&&end>span.start))continue;
+      spans.push({start,end});found.add(canonical);
+    }
+  }
+  if(found.size===1)return [...found][0];
+  if(found.size>1)return 'unknown';
   return text;
 }

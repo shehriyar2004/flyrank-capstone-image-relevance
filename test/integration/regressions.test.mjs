@@ -9,7 +9,7 @@ async function readyFixture() {
   await f.pool.query("UPDATE images SET metadata_version='i',status='ready' WHERE id=$1",[f.image.id]);
   await f.pool.query("INSERT INTO image_tags(tenant_id,image_id,version,model,metadata,raw_response) VALUES($1,$2,'i','fixture',$3,$4)",[f.a,f.image.id,JSON.stringify(metadata),JSON.stringify(metadata)]);
   await f.pool.query("UPDATE posts SET status='ready',intent_version='p',intent=$2 WHERE id=$1",[f.post.id,JSON.stringify({subject:'fox',category:'animal',confidence:0.95,ambiguous:false})]);
-  for(const owner of ['image','post'])await f.pool.query('INSERT INTO embeddings(tenant_id,image_id,post_id,model,dimensions,vector,input_hash) VALUES($1,$2,$3,\'fixture\',2,\'{1,0}\',$4)',[f.a,owner==='image'?f.image.id:null,owner==='post'?f.post.id:null,hash(owner==='image'?metadata.caption:`${f.post.title}\n${f.post.content}`)]);
+  for(const owner of ['image','post'])await f.pool.query('INSERT INTO embeddings(tenant_id,image_id,post_id,model,dimensions,vector,input_hash) VALUES($1,$2,$3,\'fixture\',2,\'{1,0}\',$4)',[f.a,owner==='image'?f.image.id:null,owner==='post'?f.post.id:null,hash('task: sentence similarity | query: '+(owner==='image'?metadata.caption:`${f.post.title}\n${f.post.content}`))]);
   return f;
 }
 test('failed_post_never_matches_or_passes_approval_even_with_old_vectors',async()=>{

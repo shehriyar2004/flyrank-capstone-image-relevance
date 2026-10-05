@@ -19,6 +19,7 @@ if(process.argv[1]&&pathToFileURL(resolve(process.argv[1])).href===import.meta.u
     const result=await api(`/posts/${seed.posts[`evaluation:${sample.id}`].postId}/images`);
     if(result.status==='processing')throw new Error('Wait for evaluation post processing to finish');
     if(result.embeddingModelIdentity!==matching.models.embedding)throw new Error('Evaluation embedding model differs from frozen calibration');
+    if(result.embeddingProfile!==matching.inputProfile)throw new Error('Evaluation input profile differs from frozen calibration');
     results.push({id:sample.id,expected:sample.expectedImageId,actual:result.suggestions[0]?.manifestId??null,status:result.status,first:result.suggestions[0]??null,reasons:result.reasons});
   }
   for(const sample of dataset.negatives) {

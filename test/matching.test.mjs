@@ -24,6 +24,9 @@ test('semantic_aliases_and_cosine_ranking_do_not_depend_on_filenames', async () 
   assert.equal(canonicalSubject('Vulpes vulpes'), 'fox');
   assert.equal(canonicalSubject('red fox'), 'fox');
   assert.equal(canonicalSubject('Canis lupus'), 'wolf');
+  assert.equal(canonicalSubject('Sunlight through woodland'),'forest');
+  assert.equal(canonicalSubject('Zamioculcas leaves'),'zz plant');
+  assert.equal(canonicalSubject('fox wolf portrait'),'unknown');
   assert.equal(cosine([1,0],[0,1]), 0);
   for (const pair of [[[0,0],[1,0]],[[NaN,1],[1,0]],[[1],[1,0]]]) assert.throws(() => cosine(...pair));
   const vector = { values: [1,0], model: 'test', dimensions: 2 };

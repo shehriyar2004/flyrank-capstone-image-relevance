@@ -60,6 +60,7 @@ Use `X-Tenant-Key` from `.env` for all endpoints except health. Every POST also 
 | POST `/images/batches` | `{ "imageIds": ["u5RZZJKM05E"] }`; manifest IDs only, returns 202 |
 | GET `/images`, `/images/:id` | Inspect tags, flags, provenance ID |
 | POST `/posts` | `{ "title": "Red fox behavior", "content": "An article about red foxes in woodland." }`; returns 202 |
+| POST `/posts/:id/process` | `{}`; explicitly queue a new processing run while preserving the post ID |
 | GET `/posts/:id/images` | Ranked guarded suggestions, rejections, or processing/no-match status |
 | POST `/posts/:id/images/check` | `{ "imageId": "UUID" }`; force a candidate through the guard |
 | GET `/suggestions/:id` | Inspect stored explanation snapshot |

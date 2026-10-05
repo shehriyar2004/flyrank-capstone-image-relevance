@@ -22,5 +22,10 @@ test('API_validates_boundaries_and_enqueues_without_inference',async()=>{
     const batch=await f.api('/images/batches',{method:'POST',body:{imageIds:['sample-a']}});
     assert.equal(batch.status,202);
     assert.equal((await f.api(`/posts/${f.post.id}/images/check`,{method:'POST',key:'test-key-b',body:{imageId:f.image.id}})).status,404);
+    assert.equal((await f.api(`/posts/${f.post.id}/process`,{method:'POST',key:'test-key-b',body:{}})).status,404);
+    const processing=await f.api(`/posts/${f.post.id}/process`,{method:'POST',body:{}});
+    assert.equal(processing.status,202);
+    const repeated=await f.api(`/posts/${f.post.id}/process`,{method:'POST',body:{}});
+    assert.deepEqual(await repeated.json(),await processing.json());
   } finally {await f.close();}
 });

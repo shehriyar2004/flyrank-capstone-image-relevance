@@ -21,6 +21,7 @@ export function createRoutes({pool,repo,catalog,reviews}) {
   routes.get('/images',async(req,res)=>{const {limit,offset}=pagination.parse(req.query);res.json({images:await repo.listImages(req.tenantId,limit,offset)});});
   routes.get('/images/:id',async(req,res)=>{const image=await repo.getImage(req.tenantId,uuid.parse(req.params.id));if(!image)throw httpError(404,'Image not found');res.json(image);});
   routes.post('/posts',mutation('post',post,(req,payload,client)=>catalog.createPost(req.tenantId,payload,client)));
+  routes.post('/posts/:id/process',mutation('post-process',z.strictObject({}),async(req,_payload,client)=>catalog.processPost(req.tenantId,uuid.parse(req.params.id),req.get('Idempotency-Key'),client)));
   routes.get('/posts/:id/images',async(req,res)=>{const id=uuid.parse(req.params.id);const {limit}=pagination.parse(req.query);res.json(await catalog.recommend(req.tenantId,id,limit));});
   routes.post('/posts/:id/images/check',mutation('check',z.strictObject({imageId:uuid}),async(req,payload,client)=>({status:200,body:await catalog.check(req.tenantId,uuid.parse(req.params.id),payload.imageId,client)})));
   routes.post('/suggestions/:id/reviews',mutation('review',review,async(req,payload,client)=>({status:200,body:await reviews.reviewSuggestion(req.tenantId,uuid.parse(req.params.id),payload,client)})));

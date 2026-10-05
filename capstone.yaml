@@ -8,6 +8,7 @@ probes:
   - POST /images/batches
   - GET /images
   - POST /posts
+  - POST /posts/:id/process
   - GET /posts/:id/images
   - POST /posts/:id/images/check
   - POST /suggestions/:id/reviews

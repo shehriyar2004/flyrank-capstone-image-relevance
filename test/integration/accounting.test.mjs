@@ -43,3 +43,22 @@ test('real_provider_boundary_accounts_for_invalid_output_and_failed_transport', 
     assert.equal(rows.every(r => r.duration_ms >= 0 && Number(r.cost_usd) === 0), true);
   } finally { if (server.listening) await new Promise(resolve => server.close(resolve)); await db.close(); }
 });
+
+test('embedding_provider_uses_the_sentence_similarity_task_prompt',async()=>{
+  const db=await testDatabase();let received;
+  const server=createServer(async(request,response)=>{
+    let body='';for await(const chunk of request)body+=chunk;
+    if(request.url==='/api/tags')response.end(JSON.stringify({models:[{name:'fixture-embed',digest:'b'.repeat(64)}]}));
+    else{received=JSON.parse(body);response.end(JSON.stringify({model:'fixture-embed',embeddings:[[1,0]],prompt_eval_count:9}));}
+  });
+  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+  try{
+    const {createOllama}=await import('../../src/ai/ollama.mjs');
+    const {createAccounting}=await import('../../src/ai/accounting.mjs');
+    const {a,image}=await demoEntities(db.pool);
+    const provider=createOllama({config:{ollamaUrl:`http://127.0.0.1:${server.address().port}`,embeddingModel:'fixture-embed'},accounting:createAccounting(db.pool)});
+    const result=await provider.embed('A fox in woodland.',{tenantId:a,jobId:null,entityId:image.id,attempt:1});
+    assert.equal(received.input,'task: sentence similarity | query: A fox in woodland.');
+    assert.equal(result.inputHash,(await import('../../src/data/repository.mjs')).hash('task: sentence similarity | query: A fox in woodland.'));
+  }finally{await new Promise(resolve=>server.close(resolve));await db.close();}
+});

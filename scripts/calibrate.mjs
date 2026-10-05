@@ -4,6 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { createClient } from './api-client.mjs';
 import { hash } from '../src/data/repository.mjs';
 import {randomUUID} from 'node:crypto';
+import {EMBEDDING_PROFILE} from '../src/ai/embedding-input.mjs';
 
 export function selectThreshold(positives,negatives) {
   if(!positives.length||[...positives,...negatives].some(sample=>!sample.candidates.length))throw new Error('Calibration needs completed compatible embeddings for every sample');
@@ -41,7 +42,7 @@ if(process.argv[1]&&pathToFileURL(resolve(process.argv[1])).href===import.meta.u
   const threshold=selectThreshold(positives,negatives);
   if(embeddingModels.size!==1||visionModels.size!==1)throw new Error('Calibration model provenance is incomplete or mixed');
   const models={embedding:[...embeddingModels][0],vision:[...visionModels][0]};
-  const config={threshold,models,version:hash(raw+JSON.stringify({threshold,models})),calibrated:true,calibrationHash:hash(raw),selection:'Maximize correct calibration top-1 with no accepted negatives; higher threshold wins ties',frozenAt:new Date().toISOString()};
+  const config={threshold,models,inputProfile:EMBEDDING_PROFILE,version:hash(raw+JSON.stringify({threshold,models,profile:EMBEDDING_PROFILE})),calibrated:true,calibrationHash:hash(raw),selection:'Maximize correct calibration top-1 with no accepted negatives; higher threshold wins ties',frozenAt:new Date().toISOString()};
   await writeFile('config/matching.json',JSON.stringify(config,null,2)+'\n');
   await mkdir('evidence',{recursive:true});await writeFile('evidence/calibration.json',JSON.stringify({config,positives,negatives},null,2)+'\n');
   console.log(JSON.stringify(config));console.log('Rebuild/restart the API to load the frozen threshold, then run evaluation.');
