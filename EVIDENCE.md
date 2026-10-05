@@ -57,3 +57,27 @@ Each test below failed before its fix and then passed:
 - `ambiguous_species_cannot_become_a_confident_fox_recommendation`
 - `model_identity_tracks_immutable_digest_when_a_tag_changes`
 - Calibration rejects empty candidate matrices. Real early-run output: `Finish corpus/calibration jobs before calibrating`.
+
+## Clean startup/seed reproduction
+
+Independent tracked-source archive, fresh secrets/dependencies/PostgreSQL volume, separate localhost port; temporary override disabled duplicate model processing while the primary actual batch ran:
+
+```text
+node scripts/run.mjs
+added 83 packages; found 0 vulnerabilities
+Image relevance API listening on port 3100
+GET http://127.0.0.1:3101/health -> 200 {"status":"ok","service":"image-relevance"}
+
+npm run seed
+{"images":50,"categories":["animal","plant","landscape","architecture"]}
+{"downloaded":50,"cached":0}
+{"queuedImages":50,"queuedPosts":24}
+
+npm run seed (repeat)
+{"downloaded":0,"cached":50}
+{"queuedImages":50,"queuedPosts":24}
+
+Database after both seeds: 50 images, 24 posts, 74 jobs, 3 migrations.
+```
+
+This proves fresh startup, migrations, license-manifest downloads and seed idempotency. It does not substitute for the primary project's actual model/acceptance evidence.

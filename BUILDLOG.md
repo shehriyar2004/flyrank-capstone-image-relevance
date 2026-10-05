@@ -31,3 +31,10 @@
 - The reviewer also flagged early calibration caching and mutable model tags. These were treated as important correctness issues: calibration now requires completed jobs and fresh per-run idempotency keys, refuses empty candidate matrices, and freezes model identities. Runtime inference persists immutable model digests and refuses incompatible calibrated versions. A controlled backfill linked already generated demo records to independently recorded unchanged digests; outcomes/confidence were not rewritten.
 - The saturated-pool regression exposed the same issue in the forced-candidate endpoint: ten concurrent checks returned 500 before passing the held transaction through that handler. It was fixed in the same review pass.
 - After the fixes, 14 unit tests and 15 PostgreSQL/API integration tests passed. An early real calibration attempt explicitly refused while batch jobs were unfinished rather than producing a false metric. Final actual evaluation remains pending.
+
+## Clean startup and seed reproduction
+
+- Archived tracked source into an independent directory with no `.env`, dependencies, downloaded corpus or prior database. The documented `node scripts/run.mjs` installed CLI dependencies, generated fresh local secrets, built the app and migrated a fresh PostgreSQL volume; health returned 200 on a separate localhost port.
+- To avoid duplicating the expensive ongoing model run, this bounded reproduction used a temporary Compose override disabling the model services/worker. Actual default model provisioning is already verified in the primary fresh project; final full-corpus/evaluation evidence comes from that actual run, not the disabled reproduction.
+- Cold seed downloaded and verified all 50 JPEGs; repeated seed used 50 cached files and retained 50 images, 24 posts and 74 jobs. The reproduction containers were stopped without touching the primary project.
+- Fresh startup exposed a Windows Node shell-argument deprecation warning. Replaced that installer launch with a fixed `cmd.exe /d /s /c npm ci` invocation, without interpolated arguments; the real dependency install completed with exit 0 and no deprecation warning.

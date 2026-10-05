@@ -16,7 +16,9 @@ if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.m
   await ensureLocalEnv(resolve(root, '.env'));
   try { await access(resolve(root,'node_modules/express/package.json')); }
   catch {
-    const install=spawnSync(process.platform==='win32'?'npm.cmd':'npm',['ci'],{cwd:root,stdio:'inherit',shell:process.platform==='win32'});
+    const install=process.platform==='win32'
+      ? spawnSync('cmd.exe',['/d','/s','/c','npm ci'],{cwd:root,stdio:'inherit',windowsHide:true})
+      : spawnSync('npm',['ci'],{cwd:root,stdio:'inherit'});
     if(install.status!==0)throw new Error('Dependency installation failed');
   }
   const child = spawn('docker', ['compose', 'up', '--build'], { cwd: root, stdio: 'inherit' });
