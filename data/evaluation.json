@@ -1,0 +1,84 @@
+{
+  "labeling": "AI-assisted independent visual inspection of corpus contact sheets before seeing model metadata/ranking; one visually justified correct image per positive post. User should review and understand these labels.",
+  "positives": [
+    {
+      "id": "post-04",
+      "title": "Portrait of Vulpes vulpes",
+      "content": "The red fox looks directly at the viewer. Orange ears and cheeks frame its white neck and black nose in a centered head portrait with a gray background.",
+      "expectedImageId": "Powgsxla7Es",
+      "labelReason": "Centered forward-facing red fox portrait; scientific-name semantic case."
+    },
+    {
+      "id": "post-05",
+      "title": "Red fox hiding in tall grass",
+      "content": "A red fox peers over tall green grass. Only its face and pointed ears are visible beneath dark woodland shade.",
+      "expectedImageId": "7LzKELgdzzI",
+      "labelReason": "Only fox head peering from grass."
+    },
+    {
+      "id": "post-07",
+      "title": "Wolf displaying its teeth",
+      "content": "A wolf opens its mouth wide to show its teeth in a dark blue-black setting, shown in side view.",
+      "expectedImageId": "QZ2EQuPpQJs",
+      "labelReason": "Only snarling wolf with open mouth."
+    },
+    {
+      "id": "post-15",
+      "title": "Pug wearing denim",
+      "content": "A black pug faces the viewer wearing a blue denim jacket against a gray background. Its round eyes and short muzzle are prominent.",
+      "expectedImageId": "K4mSJ7kc0As",
+      "labelReason": "Only pug in a blue denim garment."
+    },
+    {
+      "id": "post-19",
+      "title": "Roaring brown bear",
+      "content": "A brown bear opens its mouth wide and shows its teeth against a nearly black background.",
+      "expectedImageId": "rGPDLlMNFF4",
+      "labelReason": "Only open-mouth brown bear portrait."
+    },
+    {
+      "id": "post-23",
+      "title": "Young spotted deer at woodland edge",
+      "content": "A young deer with a spotted brown coat stands beside leafy shrubs and looks toward the camera.",
+      "expectedImageId": "favQn8WgRyk",
+      "labelReason": "Spotted deer standing in dark woodland; distinct from the grassy field spotted deer."
+    },
+    {
+      "id": "post-32",
+      "title": "Monstera leaf on a light background",
+      "content": "A green monstera leaf with characteristic splits is shown on a long stem against a plain cream background.",
+      "expectedImageId": "avA-YuEe2ZA",
+      "labelReason": "Only isolated monstera against a cream background."
+    },
+    {
+      "id": "post-36",
+      "title": "Misty river valley",
+      "content": "A river winds between dark evergreen forest slopes toward distant mountains hidden in pale mist.",
+      "expectedImageId": "2Hzmz15wGik",
+      "labelReason": "Only river valley with strongly misty forested slopes."
+    },
+    {
+      "id": "post-44",
+      "title": "Glass office buildings under blue sky",
+      "content": "Looking upward between angular blue glass buildings, the sky and white clouds appear above the reflective facades.",
+      "expectedImageId": "pPxhM0CRzl4",
+      "labelReason": "Distinct angular blue glass courtyard view."
+    },
+    {
+      "id": "post-50",
+      "title": "Orange curved architecture",
+      "content": "An orange textured architectural facade curves upward against a clear blue sky, with sweeping sharp-edged forms.",
+      "expectedImageId": "PzYiCWOHtfU",
+      "labelReason": "Only orange curved facade against saturated blue sky."
+    }
+  ],
+  "negatives": [
+    {
+      "id": "absent-octopus",
+      "title": "Octopus underwater behavior",
+      "content": "An octopus moves across a coral reef under the ocean, using eight arms and changing its skin color.",
+      "expectedImageId": null,
+      "labelReason": "Visual audit of all 50 images finds no octopus or underwater marine animal."
+    }
+  ]
+}

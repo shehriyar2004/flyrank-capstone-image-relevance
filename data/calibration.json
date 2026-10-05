@@ -1,0 +1,84 @@
+{
+  "labeling": "AI-assisted independent visual inspection of corpus contact sheets before seeing model metadata/ranking; one visually justified correct image per positive post. User should review and understand these labels.",
+  "positives": [
+    {
+      "id": "post-01",
+      "title": "Red fox woodland behavior",
+      "content": "A red fox walks left through green grass beside dark woodland vegetation. This article describes its solitary woodland behavior.",
+      "expectedImageId": "u5RZZJKM05E",
+      "labelReason": "One fox shown walking left in a full-body woodland scene."
+    },
+    {
+      "id": "post-08",
+      "title": "Gray wolf winter portrait",
+      "content": "A gray wolf is seen in side profile looking right. Snow and warm brown woodland tones surround its thick pale neck fur.",
+      "expectedImageId": "1AIYdIb3O5M",
+      "labelReason": "Single pale gray wolf portrait facing right against snow and brown trees."
+    },
+    {
+      "id": "post-14",
+      "title": "Happy beagle outdoors",
+      "content": "A happy beagle faces the camera with its mouth open and tongue showing against a grassy background.",
+      "expectedImageId": "2l0CWTpcChI",
+      "labelReason": "Tan white black beagle face with pink tongue; distinct from other dog breeds."
+    },
+    {
+      "id": "post-22",
+      "title": "Polar bear waving in snow",
+      "content": "A polar bear stands upright on snowy ground and lifts one paw toward the viewer.",
+      "expectedImageId": "qQWV91TTBrE",
+      "labelReason": "Only upright polar bear with a visibly lifted paw; distinguishes the adjacent standing bear."
+    },
+    {
+      "id": "post-26",
+      "title": "Resting deer in grass",
+      "content": "A deer with branching antlers rests on the ground surrounded by soft green grass.",
+      "expectedImageId": "F0dmGPe2KG0",
+      "labelReason": "Only deer lying down with antlers."
+    },
+    {
+      "id": "post-33",
+      "title": "Zamioculcas leaves",
+      "content": "A ZZ plant stem displays alternating glossy oval green leaflets against a plain white background.",
+      "expectedImageId": "lWBZ01XRRoI",
+      "labelReason": "Single ZZ plant stem on white."
+    },
+    {
+      "id": "post-38",
+      "title": "Sunlight through woodland",
+      "content": "Golden sunbeams pass between tall straight forest trunks and illuminate a warm autumn floor.",
+      "expectedImageId": "RwHv7LgeC7s",
+      "labelReason": "Distinct golden straight-trunk woodland photo."
+    },
+    {
+      "id": "post-35",
+      "title": "Clear alpine lake",
+      "content": "A small boat floats on bright turquoise transparent water below steep mountain cliffs.",
+      "expectedImageId": "T7K4aEPoGGk",
+      "labelReason": "Only turquoise lake with a boat and clear shallow water."
+    },
+    {
+      "id": "post-48",
+      "title": "Curved concrete staircase",
+      "content": "A sweeping curved concrete stairway with a thin metal handrail rises inside a modern building.",
+      "expectedImageId": "ttS--i2y9Bo",
+      "labelReason": "Unique interior concrete stairway; visually inspected architectural scene."
+    },
+    {
+      "id": "post-28",
+      "title": "Indoor houseplant collection",
+      "content": "Numerous potted green houseplants fill wooden shelves beside bright windows in an indoor room.",
+      "expectedImageId": "dDVU6D_6T80",
+      "labelReason": "Only plant scene containing shelving and numerous terracotta pots."
+    }
+  ],
+  "negatives": [
+    {
+      "id": "absent-octopus",
+      "title": "Octopus underwater behavior",
+      "content": "An octopus moves across a coral reef under the ocean, using eight arms and changing its skin color.",
+      "expectedImageId": null,
+      "labelReason": "Visual audit of all 50 images finds no octopus or underwater marine animal."
+    }
+  ]
+}
