@@ -1,0 +1,23 @@
+name: flyrank-capstone-image-relevance
+run: node scripts/run.mjs
+seed: npm run seed
+test: npm test
+base_url: http://localhost:3100
+probes:
+  - GET /health
+  - POST /images/batches
+  - GET /images
+  - POST /posts
+  - GET /posts/:id/images
+  - POST /posts/:id/images/check
+  - POST /suggestions/:id/reviews
+  - GET /suggestions/:id
+  - GET /jobs/:id
+  - GET /costs
+  - GET /alerts
+authentication:
+  header: X-Tenant-Key
+  source: ignored local .env TENANT_A_KEY
+idempotency:
+  header: Idempotency-Key
+  required_for: POST requests

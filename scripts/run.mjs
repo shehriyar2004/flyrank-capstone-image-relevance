@@ -1,8 +1,8 @@
 import { randomBytes } from 'node:crypto';
-import { writeFile } from 'node:fs/promises';
+import { writeFile,access } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { spawn } from 'node:child_process';
+import { spawn,spawnSync } from 'node:child_process';
 
 export async function ensureLocalEnv(path) {
   const secret = () => randomBytes(32).toString('hex');
@@ -14,6 +14,11 @@ export async function ensureLocalEnv(path) {
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {
   const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
   await ensureLocalEnv(resolve(root, '.env'));
+  try { await access(resolve(root,'node_modules/express/package.json')); }
+  catch {
+    const install=spawnSync(process.platform==='win32'?'npm.cmd':'npm',['ci'],{cwd:root,stdio:'inherit',shell:process.platform==='win32'});
+    if(install.status!==0)throw new Error('Dependency installation failed');
+  }
   const child = spawn('docker', ['compose', 'up', '--build'], { cwd: root, stdio: 'inherit' });
   child.on('error', () => { console.error('Docker Compose could not start. Start Docker Desktop and retry.'); process.exitCode = 1; });
   child.on('exit', code => { process.exitCode = code ?? 1; });
