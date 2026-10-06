@@ -1,0 +1,2824 @@
+{
+  "config": {
+    "threshold": 0.83,
+    "models": {
+      "embedding": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "vision": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300"
+    },
+    "inputProfile": "sentence-similarity-v1",
+    "version": "ccfc23ace199b2d436a90dd812a70d58f43006f5d366221ec7e06246fbd7eebe",
+    "calibrated": true,
+    "calibrationHash": "e363f3458a3a4e5fd7debf8652c79a0cea596fbb3e565133481edb645db877d3",
+    "selection": "Maximize correct calibration top-1 with no accepted negatives; higher threshold wins ties",
+    "frozenAt": "2026-10-06T00:18:45.643Z"
+  },
+  "positives": [
+    {
+      "expected": "u5RZZJKM05E",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.8361945254732338,
+          "subjectPass": true
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.7339627640912706,
+          "subjectPass": true
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.7190380025336994,
+          "subjectPass": true
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.723952384711776,
+          "subjectPass": true
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.799840275244445,
+          "subjectPass": true
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.7022437667571709,
+          "subjectPass": true
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.6183401812037564,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.6655018469916435,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.6573011516925134,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.6054497466766193,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.6184775122612591,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.685923127673887,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5549170760234282,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.6382400370879984,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.527716978927321,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5363741513465986,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.6001159447538258,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.535635880379161,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.5794752752098105,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.670724589318408,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.5603156761135214,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.62159959042676,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6903844929188145,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.6952046844684633,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.6337247752112852,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.6258564662792541,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.5596950620914207,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.48299706167154155,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5384727317640716,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5333678959325527,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5487762121342505,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.49384346076024005,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5356765248585029,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.5147813135883613,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.48169338966924063,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.5744944137712753,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5154170613207333,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5987665790359286,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.49267294991426874,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5798958571582072,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.5283369265696733,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5177823118471385,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.4496233508166467,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.472692880041287,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.42611531967415617,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.4450918620206272,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.4446208568095199,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.4446922028311502,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.4432755999340194,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.45867428772762053,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "1AIYdIb3O5M",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.6507113256331711,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.7719083058571938,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.7695233026166287,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.7553343068146535,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.6679036627823748,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.6201367927109093,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.7449224515838861,
+          "subjectPass": true
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.8412727392478238,
+          "subjectPass": true
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.6715370220981887,
+          "subjectPass": true
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.857957192212344,
+          "subjectPass": true
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.778250589360914,
+          "subjectPass": true
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.8364808626637752,
+          "subjectPass": true
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.6838138426016446,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.5854266803726861,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.6258344384705652,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5974108318930417,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.5378428152050982,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5316335134058809,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.633367382887336,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.683221187079077,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.6704390944128351,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.7172648941988399,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6625577321515773,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.665899870060036,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.6492874582811226,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.6441962434065435,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.5135466927472057,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.4954618009222449,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5442236559868199,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.548462854253029,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5858993528172147,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5503783707098577,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5787406957248273,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.547565097632206,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.4864640465706507,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.5600253096742461,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.6013324597456432,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5630258133843238,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.6219827744589194,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5987014597998077,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.552772866839317,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5297263087477916,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.5528246236531357,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5497450914271609,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.5172414000906849,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5606873365349713,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.5680618359192955,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.48193659295908986,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.5576149283220008,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5146424263874229,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "2l0CWTpcChI",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.6764516206529138,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.646928202291388,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.6395678665283508,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.656989209211977,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.7077098515557031,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.6090607851367044,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.6421898774077586,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.6445416237084324,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.5334404482347445,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5950947101568642,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.5992114737080152,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.6361929600072982,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.7128180142108187,
+          "subjectPass": true
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.8984169365096504,
+          "subjectPass": true
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.6746280181256792,
+          "subjectPass": true
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.6631483778336201,
+          "subjectPass": true
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.8151897103587185,
+          "subjectPass": true
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.6537846860239424,
+          "subjectPass": true
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.6588642764325956,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.6588685925659216,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.6708262778549672,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.6260107279254425,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6724906420541672,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.6771575098669771,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.5369019424093606,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.666748383204696,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.48493102003664995,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.43576523427324293,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.49575550418905684,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5033282176734585,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5190687413319433,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5320686714261582,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5360565594967015,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.48676964547158874,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.46689868662981343,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.4746893160499552,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5105330788714452,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5088360171508196,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.5191107756184656,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5445224533386088,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.5013893277696074,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.48513031802103573,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.48729499344401217,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5241107464126769,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.4747727028436066,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.4971271486188745,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.5198044353371791,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.4591353438884269,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.5259799463778924,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5197593949661594,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "qQWV91TTBrE",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.6469135567775222,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.7346340959242021,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.7216374564059164,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.7428239229219396,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.6127250778983807,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.6270206755428452,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.5609761840164269,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.7216627760199583,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.5973060762837962,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5488323465214034,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.6080760573285113,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.7355293115032785,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.6059721305689076,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.593380354259816,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.5783914912090008,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.6071224563170907,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.5909996700564948,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5791688046402629,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.6711150100502294,
+          "subjectPass": true
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.7400157744176262,
+          "subjectPass": true
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.8798815398135734,
+          "subjectPass": true
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.9323410549856154,
+          "subjectPass": true
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6752325588255423,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.6689709036257986,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.6117734042308133,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.5885553342875698,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.46266575401444904,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.44126918324001285,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5131041234877811,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.4907396202506644,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5022611578252947,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5010829369204017,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5508107830291584,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.4803864036065265,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.4816185540300635,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.5010644495477917,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5625128254289068,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5460376508331878,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.5786413495030505,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.6015264815198431,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.5060217295162351,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5090848009632274,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.4967617636201285,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5195496573258142,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.47766797337023914,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.523679813404722,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.5122491542940498,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.43390422405250195,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.517339210935655,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5012946831285373,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "F0dmGPe2KG0",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.6691986482713013,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.5994888822163181,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.6175541657374298,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.5867418450114474,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.6583575400369238,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.6168383052859369,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.57357307373963,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.6128415039740682,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.5381246015277084,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5792634922845821,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.5766530545788584,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.6231549856878141,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5508638058069749,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.6436729904722902,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.5325592877938545,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5894210773805572,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.6882476821139986,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5044075748471977,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.5696390427224414,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.689708967735124,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.556566539953815,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.596356635724073,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6938390248228411,
+          "subjectPass": true
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.7487710165599534,
+          "subjectPass": true
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.7767854948487978,
+          "subjectPass": true
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.8677735691827817,
+          "subjectPass": true
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.550774466686894,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.4998828040242925,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5621750025492863,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5753536220217005,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.590142267160014,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5359063398951853,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.6243911432441874,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.5560012204220465,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.5052229618224868,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.5236755096706108,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5557434133240466,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.6096337096406192,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.5393355747912012,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5809930306807503,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.5457814264588401,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5269654984365069,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.5119556551977865,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5305931133362135,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.4729918718516869,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5144008192662213,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.4709962317326466,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.4622252794500501,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.4773365539509576,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5000518149713901,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "lWBZ01XRRoI",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.4980989745039746,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.5162021642180782,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.506341090345026,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.5014622750077682,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.4908671589392849,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.4403373895071993,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.47690548554085527,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.49605994219880495,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.43275381714660766,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5318073650642737,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.492714340677424,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.5101720054716193,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5421817334680245,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.48063952024780315,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.5279076983716998,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.4704491908202363,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.4797209179620147,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.42074100241346635,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.4989742326517673,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.5099669286951758,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.4926455275770481,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.5289943306460636,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.5483383376010181,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.5540471300958364,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.5307227972639553,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.5443075504385767,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.6317012489138613,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.6009764553631718,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.6742478404142762,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.6965727088783146,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.7385946954145339,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.7522745983439767,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.7877454684763215,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.7325927833131071,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.507540391062668,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.49639938099115727,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5138086257320286,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5767912977301498,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.5092130762180452,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5168700230028979,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.48772064578341623,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5306155401950038,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.5901435656180936,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5624973903116607,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.5623736664872838,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5595130351779174,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.5617822847291922,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.5601591040339021,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.565135548233956,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.4994792721818334,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "RwHv7LgeC7s",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.6098422778826146,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.5481037503593505,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.5720360173453298,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.5398722537473031,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.6051153531644639,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.5846134866407902,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.5399646662291552,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.7099488672543748,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.6068120903675478,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5361649822593999,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.6254685794730915,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.6731415840160184,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5167321319973298,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.5364550739629301,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.4634493027223311,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5571867945448101,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.5346125052024706,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5649097995629265,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.5491409072649015,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.5909162834344334,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.4855518162504726,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.5399924276052148,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.6205250277220036,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.6116695624950497,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.6915196127944274,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.5672507225810473,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.6628187301182178,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.6327722031051055,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.6301408096042975,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5987730024401823,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5938158967654023,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5937319032398485,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5959911151519028,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.6097197830953088,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.5757526327174618,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.6401087118001338,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.6602534706845661,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.8584857552938536,
+          "subjectPass": true
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.6700837333177518,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.6557654757665999,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.6589884448441702,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.6887266090716365,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.6326577107801742,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.6059109824046421,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.622068514349871,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5672666373984498,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.546174185489566,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.5497590123097962,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.5718464445888287,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5832832688509908,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "T7K4aEPoGGk",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.5185593344766272,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.5383751723958758,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.5790981931312884,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.5300847820424119,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.5279144645574174,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.5091351855967947,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.5156181137078376,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.5401830340113893,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.47021463199983643,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5079904483359138,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.5218189791236335,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.5490733357252806,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5175164330232542,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.5157111486252857,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.47141831928486627,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5900924774121478,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.48351128169876656,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5389964047797811,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.5136025037638163,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.49068079496527395,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.5127687151242747,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.5566383099775132,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.5523728157085841,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.5558501924084124,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.5238762705205237,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.51747142848703,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.5288843499370806,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.47589715552301215,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5932013431771113,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5793297469085567,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.49770266590754253,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5394999216369631,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.553603930442181,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.5410843559714106,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.849440834678334,
+          "subjectPass": true
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.630878285763364,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.6717665450867999,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5914327655094344,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.7459197998648653,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.6265519383020302,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.6464720287239687,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.6384532482502798,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.5604904067937063,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5959796158656743,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.5592093392517343,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5926604206257365,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.5442980148541627,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.48875201927383205,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.5612715899297968,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.5853194839460778,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "ttS--i2y9Bo",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.49108024566490327,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.4529099936905292,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.45798905618706054,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.45420771847476765,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.4382877587889394,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.4736010988505971,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.4675948261004969,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.4672541351232902,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.4471093482488789,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.48237114011270665,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.4891295827934158,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.4878166002785235,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.4948803759243853,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.45200708220093005,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.4721858488647542,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5190977696858291,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.42756274201108496,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5027953136966944,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.43026744307931414,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.4675555441681844,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.43215517733465675,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.49771469216556957,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.4804835881444233,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.5072211822224147,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.4804566295263472,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.4580404703203277,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.49698122175437304,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.5673754869126677,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.5571419529082705,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5131669970139331,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5307974714510508,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.5085132481883486,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5287680940222156,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.49755547449464327,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.4646609474962017,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.5220241369084746,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.48901788402317986,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5333876769030707,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.46950027186832666,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.5141058518718188,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.5091879524004612,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5240731826615782,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.719386837557578,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.6747555590389335,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.60384601311792,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.6705120154855849,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.7255291465215049,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.850685728406964,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.7299558548024976,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.620098650257199,
+          "subjectPass": false
+        }
+      ]
+    },
+    {
+      "expected": "dDVU6D_6T80",
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.42878780661691257,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.41124583362614703,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.410756104178289,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.4016405159536471,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.41916907972820705,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.4453812674049637,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.445645675944372,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.4391126491999359,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.4520356042310797,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5096632285134058,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.4785342322278146,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.4513391962125739,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.44680840106687775,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.42462022754777956,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.45476168136168654,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.40821930987092897,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.40902754981272116,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.3988172183517089,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.44474981071423225,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.4148586954072127,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.3683398546505804,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.3830069778622467,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.4452996581671803,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.46340898579578016,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.4566764461616157,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.45411972422476704,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.6501899478579427,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.825765426301185,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.6089864017416472,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.6417899286480028,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.6421310694738939,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.684124017481843,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.6804592795885218,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.6896396115847071,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.4531319269436447,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.4430808692787447,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.5081109378993874,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.5668416337597684,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.4652356919091726,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.4758542219226278,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.45952490914168165,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.5029554840232475,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.5374371553789872,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.5287660051586012,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.566342744184083,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.5031366105769033,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.48265079535139765,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.5634830771016549,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.48656027440858546,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.4714189646942243,
+          "subjectPass": false
+        }
+      ]
+    }
+  ],
+  "negatives": [
+    {
+      "expected": null,
+      "candidates": [
+        {
+          "id": "u5RZZJKM05E",
+          "score": 0.5653323427752663,
+          "subjectPass": false
+        },
+        {
+          "id": "fOV7nWWIwRk",
+          "score": 0.5176610302370148,
+          "subjectPass": false
+        },
+        {
+          "id": "gfqkrJb7Vro",
+          "score": 0.5255355947584394,
+          "subjectPass": false
+        },
+        {
+          "id": "Powgsxla7Es",
+          "score": 0.5210241431813009,
+          "subjectPass": false
+        },
+        {
+          "id": "7LzKELgdzzI",
+          "score": 0.5178352097749224,
+          "subjectPass": false
+        },
+        {
+          "id": "XBm7P2Amm2g",
+          "score": 0.48787345276867894,
+          "subjectPass": false
+        },
+        {
+          "id": "QZ2EQuPpQJs",
+          "score": 0.5359086549204346,
+          "subjectPass": false
+        },
+        {
+          "id": "1AIYdIb3O5M",
+          "score": 0.5083247197759093,
+          "subjectPass": false
+        },
+        {
+          "id": "dtfyRuKG7UY",
+          "score": 0.5127717828862695,
+          "subjectPass": false
+        },
+        {
+          "id": "tauPAnOIGvE",
+          "score": 0.5182904024990336,
+          "subjectPass": false
+        },
+        {
+          "id": "i6yrDhfZ-XQ",
+          "score": 0.530573869524572,
+          "subjectPass": false
+        },
+        {
+          "id": "iUA1cea8QiY",
+          "score": 0.5119726393864231,
+          "subjectPass": false
+        },
+        {
+          "id": "N04FIfHhv_k",
+          "score": 0.5498484225725574,
+          "subjectPass": false
+        },
+        {
+          "id": "2l0CWTpcChI",
+          "score": 0.48557972652568676,
+          "subjectPass": false
+        },
+        {
+          "id": "K4mSJ7kc0As",
+          "score": 0.5113166158559193,
+          "subjectPass": false
+        },
+        {
+          "id": "AbNO2iejoXA",
+          "score": 0.5338063227190557,
+          "subjectPass": false
+        },
+        {
+          "id": "G8cB8hY3yvU",
+          "score": 0.5078245400038183,
+          "subjectPass": false
+        },
+        {
+          "id": "yihlaRCCvd4",
+          "score": 0.5872282404211417,
+          "subjectPass": false
+        },
+        {
+          "id": "rGPDLlMNFF4",
+          "score": 0.5572916021356508,
+          "subjectPass": false
+        },
+        {
+          "id": "z4yzSsH5EAo",
+          "score": 0.5252080343300938,
+          "subjectPass": false
+        },
+        {
+          "id": "AZ31hv9kdzE",
+          "score": 0.5514372225995284,
+          "subjectPass": false
+        },
+        {
+          "id": "qQWV91TTBrE",
+          "score": 0.6009686975122714,
+          "subjectPass": false
+        },
+        {
+          "id": "favQn8WgRyk",
+          "score": 0.5429782316514077,
+          "subjectPass": false
+        },
+        {
+          "id": "FGkNt8tO04I",
+          "score": 0.5230063239664557,
+          "subjectPass": false
+        },
+        {
+          "id": "iQRKBNKyRpo",
+          "score": 0.5620684870159475,
+          "subjectPass": false
+        },
+        {
+          "id": "F0dmGPe2KG0",
+          "score": 0.5313930493188919,
+          "subjectPass": false
+        },
+        {
+          "id": "qLW70Aoo8BE",
+          "score": 0.4860098466919772,
+          "subjectPass": false
+        },
+        {
+          "id": "dDVU6D_6T80",
+          "score": 0.42204471055083964,
+          "subjectPass": false
+        },
+        {
+          "id": "bmM_IdLd1SA",
+          "score": 0.49780241774548245,
+          "subjectPass": false
+        },
+        {
+          "id": "W5XTTLpk1-I",
+          "score": 0.5250664353841812,
+          "subjectPass": false
+        },
+        {
+          "id": "xljtGZ2-P3Y",
+          "score": 0.5108218371199199,
+          "subjectPass": false
+        },
+        {
+          "id": "avA-YuEe2ZA",
+          "score": 0.4979388966605103,
+          "subjectPass": false
+        },
+        {
+          "id": "lWBZ01XRRoI",
+          "score": 0.5269269856144501,
+          "subjectPass": false
+        },
+        {
+          "id": "s4wGZw3UuLk",
+          "score": 0.5307413319502228,
+          "subjectPass": false
+        },
+        {
+          "id": "T7K4aEPoGGk",
+          "score": 0.4939346046673559,
+          "subjectPass": false
+        },
+        {
+          "id": "2Hzmz15wGik",
+          "score": 0.4823349773187249,
+          "subjectPass": false
+        },
+        {
+          "id": "Bkci_8qcdvQ",
+          "score": 0.4490384721790661,
+          "subjectPass": false
+        },
+        {
+          "id": "RwHv7LgeC7s",
+          "score": 0.46773701021702846,
+          "subjectPass": false
+        },
+        {
+          "id": "73F4pKoUkM0",
+          "score": 0.47215724701273565,
+          "subjectPass": false
+        },
+        {
+          "id": "78A265wPiO4",
+          "score": 0.4700899892767605,
+          "subjectPass": false
+        },
+        {
+          "id": "NRQV-hBF10M",
+          "score": 0.4412468789724247,
+          "subjectPass": false
+        },
+        {
+          "id": "1Z2niiBPg5A",
+          "score": 0.47444364758645957,
+          "subjectPass": false
+        },
+        {
+          "id": "dH6IjhWHNQQ",
+          "score": 0.48663876261607003,
+          "subjectPass": false
+        },
+        {
+          "id": "pPxhM0CRzl4",
+          "score": 0.48768067853515285,
+          "subjectPass": false
+        },
+        {
+          "id": "l5Tzv1alcps",
+          "score": 0.4669056637608664,
+          "subjectPass": false
+        },
+        {
+          "id": "0LAJfSNa-xQ",
+          "score": 0.4660932246648127,
+          "subjectPass": false
+        },
+        {
+          "id": "h5H5UyXBLBQ",
+          "score": 0.47999488928963624,
+          "subjectPass": false
+        },
+        {
+          "id": "ttS--i2y9Bo",
+          "score": 0.4584575885232028,
+          "subjectPass": false
+        },
+        {
+          "id": "K67sBVqLLuw",
+          "score": 0.4826313946299523,
+          "subjectPass": false
+        },
+        {
+          "id": "PzYiCWOHtfU",
+          "score": 0.46883070336652527,
+          "subjectPass": false
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ test('guard_requires_confident_subjects_similarity_and_available_metadata', asyn
   const { guard } = await import('../src/matching/guard.mjs');
   const fox = { ...wolf, subject: 'red fox' };
   assert.equal(guard({ intent, metadata: fox, similarity: 0.8, threshold: 0.5, eligible: true }).accepted, true);
-  for (const change of [{ metadata: { ...fox, confidence: 0.74 } }, { intent: { ...intent, ambiguous: true } }, { intent: { ...intent, subject: 'unknown' } }, { similarity: 0.2 }, { eligible: false }, { metadata: null }]) {
+  for (const change of [{ metadata: { ...fox, confidence: 0.74 } }, { metadata: { ...fox, confidence: 0.75 } }, { intent: { ...intent, ambiguous: true } }, { intent: { ...intent, subject: 'unknown' } }, { similarity: 0.2 }, { eligible: false }, { metadata: null }]) {
     const result = guard({ intent, metadata: fox, similarity: 0.8, threshold: 0.5, eligible: true, ...change });
     assert.equal(result.accepted, false); assert.ok(result.reasons.length);
   }

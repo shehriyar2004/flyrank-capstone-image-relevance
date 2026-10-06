@@ -2,7 +2,7 @@
 
 Local image understanding, semantic image-to-post matching, and explained mismatch rejection.
 
-Status: backend implemented; actual CPU batch processing and acceptance evaluation in progress. This public repository was created before product code. Held-out precision has not been measured yet.
+Status: core implementation and live acceptance checks complete. Held-out top-1 precision is **70.0% (7/10)**, with **70.0% coverage**. All seven accepted evaluation pairings matched their labels; three positives were refused and counted as misses. This public repository was created before product code.
 
 See [DESIGN.md](DESIGN.md), the [approved specification](docs/superpowers/specs/2026-10-05-image-relevance-design.md), and the [implementation plan](docs/superpowers/plans/2026-10-05-image-relevance.md).
 
@@ -44,7 +44,7 @@ HTTP validation + tenant key -> services -> PostgreSQL repositories
                                   suggestions -> approve/reject
 ```
 
-Vision JSON is schema-validated; failed/invalid calls never become trusted tags. Confidence below 0.75 is flagged. A fox/wolf subject mismatch rejects a candidate even at high cosine similarity. No passing image returns `no confident match` with reasons. Scientific/common-name aliases help the guard, while genuine embeddings determine ranking. Model-generated captions/intent can be wrong, so human approval remains useful and rechecks current metadata.
+Vision JSON is schema-validated; failed/invalid calls never become trusted tags. Confidence at or below 0.75 is flagged. A fox/wolf subject mismatch rejects a candidate even at high cosine similarity. No passing image returns `no confident match` with reasons. Declared scientific-name meanings normalize the embedding input while preserving raw articles and model intent; genuine embeddings determine ranking. A separate subject taxonomy drives the guard. Model-generated captions/intent can be wrong, so human approval remains useful and rechecks current metadata.
 
 Jobs use three attempts, exponential retry delays, renewable 60-second leases, stale-worker fencing, persistent progress, and exhaustion alerts. Every local inference attempt is attributed to tenant/job/entity with token usage when available and explicit monetary cost $0. The default atomic budget permits 1,000 attempts per tenant; it is a lifetime demo budget, not an automatically resetting daily quota.
 
@@ -72,18 +72,19 @@ Lists support `limit=1..100` and `offset`; missing credentials give 401, other-t
 
 ## Evaluation and verification
 
-Labels were created by AI-assisted visual inspection before model rankings, with a single justified image per positive post. Expected image IDs never enter runtime ranking or provider prompts. Calibration and held-out evaluation use separate positive posts. Refusals count as misses in positive top-1 precision; negative refusal is reported separately. The current threshold is explicitly uncalibrated until the actual batch is complete.
+Labels were created by AI-assisted visual inspection before model rankings, with a single justified image per positive post. Expected image IDs never enter runtime ranking or provider prompts. Calibration and held-out evaluation use separate positive posts. Refusals count as misses in positive top-1 precision; negative refusal is reported separately. The frozen similarity cutoff is **0.83**, selected from calibration data only; model digests and the input profile are recorded in `config/matching.json`.
 
-Once jobs finish:
+Once jobs finish, run the frozen evaluation and acceptance probes:
 
 ```sh
-npm run calibrate
-docker compose up -d --build app
 npm run evaluate
 npm run probe
+npm run check:pack
 ```
 
-Calibration searches cutoffs using calibration data only and freezes the selected configuration. Evaluation cannot modify that configuration. Actual top-1 precision and coverage will be reported here after the batch completes, including misses.
+The measured held-out result is **70.0% (7/10)** with **70.0% coverage**, and the absent-octopus negative is refused. The three misses were a misty-river post with flagged intent and two architecture posts refused by strict subject checks. These are reported as failures to suggest, not silently removed from the denominator. The sample is small and its labels are AI-assisted; it does not establish general accuracy.
+
+For deliberate recalibration on changed models/data: `npm run calibrate`, then `docker compose up -d --build app`. Calibration searches cutoffs using calibration data only. Evaluation cannot modify the frozen configuration; if you change the pipeline, keep evaluation labels independent and disclose new results.
 
 ```sh
 npm test
@@ -96,6 +97,7 @@ Deterministic provider fixtures are explicitly confined to tests; live evidence 
 
 - This is a local capstone demo, with a small visually labeled corpus and a controlled subject taxonomy. It is not a production authentication service or an unrestricted image ingestion platform.
 - Small-model confidence is self-reported, not a calibrated probability. Classification errors and unsupported subject aliases can cause false refusals.
+- The small model did not reliably translate scientific names by itself. A documented scientific-name dictionary normalizes known names in encoder input. It does not select image IDs or assign scores; unknown names are retained rather than invented.
 - CPU vision inference is slow, and downloading Docker/model files needs several GB of disk and network transfer. Invalid output is retried rather than filled with invented facts.
 - API keys are required even though the HTTP port is local. Database/Ollama services are not publicly exposed. Paid providers are rejected by configuration.
 - Source photographs retain the [Unsplash license](https://unsplash.com/license); MIT applies to application code, not the corpus. See [attribution](data/ATTRIBUTION.md).

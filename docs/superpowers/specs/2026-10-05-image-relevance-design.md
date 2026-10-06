@@ -1,6 +1,6 @@
 # FlyRank image relevance capstone — design
 
-Status: approved by the user on 2026-10-05; implementation has not started.
+Status: baseline approved by the user on 2026-10-05; implementation refinements and real outcomes are recorded in BUILDLOG.md.
 
 ## Purpose and scope
 
@@ -42,9 +42,9 @@ Image intake references only files from the seeded corpus manifest, not arbitrar
 
 ## AI output and matching rules
 
-Vision metadata is a strict object with `subject`, `category`, `attributes`, `caption`, and finite `confidence` between zero and one. Reject malformed JSON and unknown fields; retry invalid output, then flag failure. Preserve provenance, model version, prompt version, and the real response needed for evidence. Do not replace failures with invented tags. Initially flag confidence below `0.75`, unknown subjects, and ambiguous primary subjects. Model confidence is self-reported and not a calibrated probability; disclose that limitation.
+Vision metadata is a strict object with `subject`, `category`, `attributes`, `caption`, and finite `confidence` between zero and one. Reject malformed JSON and unknown fields; retry invalid output, then flag failure. Preserve provenance, model version, prompt version, and the real response needed for evidence. Do not replace failures with invented tags. Flag confidence at or below `0.75`, unknown subjects, and ambiguous primary subjects. Model confidence is self-reported and not a calibrated probability; disclose that limitation.
 
-Store finite, nonzero embedding vectors with their model and dimension. Compare only compatible vectors with cosine similarity. Ranking uses model-derived captions and post text, never filenames, expected evaluation labels, or hardcoded image IDs. Subject intent comes from the same local vision-language model's text capability. A small documented taxonomy normalizes synonyms such as `Vulpes vulpes` and `red fox` for the guard; it does not determine vector scores.
+Store finite, nonzero embedding vectors with their model and dimension. Compare only compatible vectors with cosine similarity. Ranking uses model-derived captions and post text, never filenames, expected evaluation labels, or hardcoded image IDs. Subject intent comes from the same local vision-language model's text capability. A declared scientific-name dictionary adds known common-name meaning to the post's embedding input when the model preserves a Latin name; original intent and article text are retained. The vector model computes genuine scores from the enriched text and image captions. A separate small taxonomy normalizes subjects for the guard. Neither dictionary selects image IDs or assigns similarity scores.
 
 The standalone guard rejects unavailable/flagged metadata, low confidence, incompatible subjects, and similarity below the calibrated threshold. A fox post paired with a wolf must return `Animal category mismatch: expected fox, detected wolf`. Ambiguous post intent is refused rather than guessed. Apply the guard before suggesting and again before approval. Store the score, thresholds, metadata versions, and human-readable reasons with each decision. No passing candidate returns `no confident match` plus reasons; a post still processing returns a distinct processing status.
 

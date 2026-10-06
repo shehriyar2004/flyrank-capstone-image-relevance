@@ -1,27 +1,28 @@
 {
   "images": [
     {
-      "manifest_id": "avA-YuEe2ZA",
-      "id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
-      "status": "flagged",
+      "manifest_id": "2l0CWTpcChI",
+      "id": "01f0c4a8-d706-4295-9e37-4713332de50d",
+      "status": "ready",
       "metadata": {
-        "caption": "A close-up of a monstera plant with large, vibrant green leaves against a light background.",
-        "subject": "monstera",
-        "category": "plant",
+        "caption": "A joyful beagle with its mouth open and tongue out, sitting outdoors on a dirt path with green grass in the background.",
+        "subject": "beagle",
+        "category": "animal",
         "attributes": [
-          "large green leaves",
-          "distinct heart-shaped and split leaves",
-          "stem and leaves against a light background",
-          "natural, healthy appearance"
+          "happy",
+          "open mouth",
+          "pink tongue",
+          "black collar",
+          "brown and white fur"
         ],
-        "confidence": 0.7
+        "confidence": 0.95
       },
-      "raw_response": "{\"subject\":\"monstera\",\"category\":\"plant\",\"attributes\":[\"large green leaves\",\"distinct heart-shaped and split leaves\",\"stem and leaves against a light background\",\"natural, healthy appearance\"],\"caption\":\"A close-up of a monstera plant with large, vibrant green leaves against a light background.\",\"confidence\":0.7}",
-      "version": "77015d246749ea7ced086df26a9d7283f8ce768db985e5760478f0f2d3b88406",
-      "model": "qwen3-vl:2b-instruct",
+      "raw_response": "{\n  \"subject\": \"beagle\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"happy\",\n    \"open mouth\",\n    \"pink tongue\",\n    \"black collar\",\n    \"brown and white fur\"\n  ],\n  \"caption\": \"A joyful beagle with its mouth open and tongue out, sitting outdoors on a dirt path with green grass in the background.\",\n  \"confidence\": 0.95\n}",
+      "version": "d6443b723514514ff9c886e0ca5a636417bcbfe8dd92205081c1248d14b13688",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
       "dimensions": 768,
-      "embedding_model": "embeddinggemma:300m",
-      "input_hash": "68086d03d30d33655163a2cb7ef073c1113265576bf24852afe2272cd56e1bab"
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "80fe1bb034cfc238aba3452ea630534145ee793d1ad27ebe65370e6570936a0e"
     }
   ],
   "models": [
@@ -43,36 +44,52 @@
   ],
   "calls": [
     {
-      "id": "ea8d4207-2578-42c8-bda6-ff2264372d56",
+      "id": "542c9876-84d2-4709-be98-2c19689adae8",
       "tenant_id": "11111111-1111-4111-8111-111111111111",
-      "job_id": "073ede89-e337-4f4f-965b-d77dbbec90a1",
-      "entity_id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "job_id": "66aa9278-76b4-4aa2-864c-eda1fc14dfea",
+      "entity_id": "01f0c4a8-d706-4295-9e37-4713332de50d",
       "operation": "vision",
-      "model": "qwen3-vl:2b-instruct",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
       "attempt": 1,
       "status": "succeeded",
-      "input_tokens": 1168,
-      "output_tokens": 92,
-      "duration_ms": 82056.965364,
+      "input_tokens": 1188,
+      "output_tokens": 91,
+      "duration_ms": 75641.35854999999,
       "cost_usd": "0.000000",
       "error_code": null,
-      "created_at": "2026-10-05T17:33:24.960Z"
+      "created_at": "2026-10-05T18:02:04.457Z"
     },
     {
-      "id": "7153daed-c90c-426c-ba74-5abda58aa183",
+      "id": "6d9cb6ed-7d52-44c4-a824-523685630d99",
       "tenant_id": "11111111-1111-4111-8111-111111111111",
-      "job_id": "073ede89-e337-4f4f-965b-d77dbbec90a1",
-      "entity_id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "job_id": "66aa9278-76b4-4aa2-864c-eda1fc14dfea",
+      "entity_id": "01f0c4a8-d706-4295-9e37-4713332de50d",
       "operation": "embedding",
-      "model": "embeddinggemma:300m",
+      "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
       "attempt": 1,
       "status": "succeeded",
-      "input_tokens": 22,
+      "input_tokens": 26,
       "output_tokens": null,
-      "duration_ms": 2993.3475320000143,
+      "duration_ms": 2261.995955999999,
       "cost_usd": "0.000000",
       "error_code": null,
-      "created_at": "2026-10-05T17:34:47.032Z"
+      "created_at": "2026-10-05T18:03:20.121Z"
+    },
+    {
+      "id": "b957994e-e9b2-49b5-8ad6-9c345a42c566",
+      "tenant_id": "11111111-1111-4111-8111-111111111111",
+      "job_id": "faf3e42f-3b4e-490f-a3a3-2757b37d4f19",
+      "entity_id": "01f0c4a8-d706-4295-9e37-4713332de50d",
+      "operation": "embedding",
+      "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "attempt": 1,
+      "status": "succeeded",
+      "input_tokens": 33,
+      "output_tokens": null,
+      "duration_ms": 2104.5769200001378,
+      "cost_usd": "0.000000",
+      "error_code": null,
+      "created_at": "2026-10-06T00:16:52.657Z"
     }
   ]
 }

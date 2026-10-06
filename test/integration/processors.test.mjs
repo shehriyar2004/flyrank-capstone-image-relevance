@@ -52,3 +52,18 @@ test('invalid_vision_output_retries_without_trusted_tags', async () => {
     assert.equal((await repo.getImage(a, image.id)).status, 'failed');
   } finally { await db.close(); }
 });
+
+test('post_vectors_preserve_raw_intent_and_add_declared_scientific_meaning',async()=>{
+  const db=await testDatabase();let embedded;
+  try {
+    const {createQueue}=await import('../../src/jobs/queue.mjs');
+    const {createProcessor}=await import('../../src/jobs/processors.mjs');
+    const {repo,a,post}=await demoEntities(db.pool),queue=createQueue(db.pool);
+    await queue.enqueue(a,'post',post.id,'test');
+    const provider={analyzePost:async()=>({subject:'Vulpes vulpes',category:'animal',confidence:0.95,ambiguous:false}),embed:async text=>{embedded=text;return{values:[1,0],model:'fixture',dimensions:2,inputHash:(await import('../../src/data/repository.mjs')).hash('task: sentence similarity | query: '+text)};}};
+    const processor=createProcessor({pool:db.pool,repo,queue,provider,config:{visionModel:'fixture',embeddingModel:'fixture'}});
+    await processor.processJob(await queue.claim('worker'));
+    assert.equal(embedded,'Subject: red fox\nFox\nAn article about a red fox.');
+    assert.equal((await repo.getPost(a,post.id)).intent.subject,'Vulpes vulpes');
+  }finally{await db.close();}
+});

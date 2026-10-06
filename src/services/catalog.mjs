@@ -1,9 +1,9 @@
 import { hash, httpError } from '../data/repository.mjs';
 import { rankCandidates } from '../matching/rank.mjs';
 import { guard } from '../matching/guard.mjs';
-import { PROMPT_VERSION } from '../ai/ollama.mjs';
-import {EMBEDDING_PROFILE,embeddingText} from '../ai/embedding-input.mjs';
-export const pipelineRevision=config=>hash(`${PROMPT_VERSION}:${EMBEDDING_PROFILE}:${config.visionModel}:${config.embeddingModel}`);
+import { PROMPT_VERSION,INTENT_PROMPT_VERSION } from '../ai/ollama.mjs';
+import {EMBEDDING_PROFILE,embeddingText,postEmbeddingText} from '../ai/embedding-input.mjs';
+export const pipelineRevision=config=>hash(`${PROMPT_VERSION}:${INTENT_PROMPT_VERSION}:${EMBEDDING_PROFILE}:${config.visionModel}:${config.embeddingModel}`);
 
 export function createCatalog({ pool, repo, queue, config, manifest, matching, getEmbeddingIdentity=async()=>config.embeddingModel }) {
   const allowed = new Map(manifest.map(entry=>[entry.id,entry]));
@@ -12,11 +12,12 @@ export function createCatalog({ pool, repo, queue, config, manifest, matching, g
     const post = await repo.getPost(tenantId,postId,client);
     if (!post) throw httpError(404,'Post not found');
     if (post.status === 'pending') return { post, ranked: [], processing: true };
-    if(post.status!=='ready')return {post,ranked:[],unavailable:'Post processing failed or its subject is flagged'};
+    const unavailable=post.status!=='ready'?'Post processing failed or its subject is flagged':undefined;
     const embeddingIdentity=await getEmbeddingIdentity();
-    if(matching.calibrated&&(matching.models?.embedding!==embeddingIdentity||matching.inputProfile!==EMBEDDING_PROFILE))return {post,ranked:[],unavailable:'Embedding model or input profile changed since calibration'};
-    const postVector = (await client.query('SELECT id,input_hash,vector AS values,model,dimensions FROM embeddings WHERE tenant_id=$1 AND post_id=$2 AND model=$3 AND input_hash=$4', [tenantId,postId,embeddingIdentity,hash(embeddingText(`${post.title}\n${post.content}`))])).rows[0];
-    if (!postVector) return { post, ranked: [] };
+    if(!post.intent)return {post,ranked:[],embeddingIdentity,unavailable:'Post intent unavailable'};
+    if(matching.calibrated&&(matching.models?.embedding!==embeddingIdentity||matching.inputProfile!==EMBEDDING_PROFILE))return {post,ranked:[],embeddingIdentity,unavailable:'Embedding model or input profile changed since calibration'};
+    const postVector = (await client.query('SELECT id,input_hash,vector AS values,model,dimensions FROM embeddings WHERE tenant_id=$1 AND post_id=$2 AND model=$3 AND input_hash=$4', [tenantId,postId,embeddingIdentity,hash(embeddingText(postEmbeddingText(post)))])).rows[0];
+    if (!postVector) return { post, ranked: [],embeddingIdentity,unavailable:unavailable??'Post embedding unavailable' };
     const images = await repo.listImages(tenantId,100,0,client);
     const vectors = (await client.query('SELECT id,image_id,input_hash,vector AS values,model,dimensions FROM embeddings WHERE tenant_id=$1 AND image_id IS NOT NULL AND model=$2', [tenantId,embeddingIdentity])).rows;
     const candidates = images.flatMap(image=> {
@@ -24,7 +25,7 @@ export function createCatalog({ pool, repo, queue, config, manifest, matching, g
       return vector ? [{...image, vector}] : [];
     });
     const ranked=rankCandidates(postVector,candidates).map(candidate=>({...candidate,embeddingRevision:hash(JSON.stringify({post:postVector,image:candidate.vector}))}));
-    return { post, ranked, embeddingIdentity, postVector };
+    return { post, ranked, embeddingIdentity, postVector,unavailable };
   }
   return {
     async batch(tenantId, ids, client) {
@@ -52,7 +53,7 @@ export function createCatalog({ pool, repo, queue, config, manifest, matching, g
     async recommend(tenantId,postId,limit=5) {
       const {post,ranked,processing,unavailable,embeddingIdentity,postVector} = await loadCandidates(tenantId,postId);
       if (processing) return { status:'processing', suggestions:[], rejections:[] };
-      if(unavailable)return {status:'no confident match',suggestions:[],rejections:[],reasons:[unavailable]};
+      if(unavailable)return {status:'no confident match',embeddingModelIdentity:embeddingIdentity,embeddingProfile:EMBEDDING_PROFILE,suggestions:[],rejections:[],reasons:[unavailable]};
       const suggestions=[],rejections=[];
       for (const candidate of ranked) {
         const decision=guard({ intent:post.intent,metadata:candidate.metadata,similarity:candidate.similarity,threshold:matching.threshold,eligible:candidate.status==='ready' });

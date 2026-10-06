@@ -13,4 +13,4 @@ export function validateVector(values) {
   return values;
 }
 export const ambiguousSubject = subject => /\b(or|and|possibly|maybe|uncertain|unknown|unidentified|unclear|ambiguous)\b|[/?]/i.test(subject) || /multiple subjects/i.test(subject);
-export const flagged = metadata => metadata.confidence < 0.75 || metadata.category === 'unknown' || ambiguousSubject(metadata.subject) || metadata.ambiguous === true;
+export const flagged = metadata => metadata.confidence <= 0.75 || metadata.category === 'unknown' || ambiguousSubject(metadata.subject) || metadata.ambiguous === true;

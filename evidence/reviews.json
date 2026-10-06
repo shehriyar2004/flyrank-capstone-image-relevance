@@ -1,0 +1,157 @@
+{
+  "scope": "Actual API workflow on two separate demo-only posts; not human/user approval",
+  "results": [
+    {
+      "action": "approve",
+      "post": {
+        "postId": "437be82c-5c17-4273-8b6f-304f8f45b8e9",
+        "jobId": "9e8d2187-f14d-4a8d-b3d7-ea56395d1465",
+        "pipelineRevision": "f9a375ac13b4a765579acb0f5386b5b6eeeb715cfaa7ce36dfbbe9f08159c78e"
+      },
+      "selected": {
+        "suggestionId": "32576066-9ba3-43a9-a492-5ca3255c0380",
+        "status": "pending",
+        "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+        "manifestId": "Powgsxla7Es",
+        "score": 0.8326852791949109,
+        "subject": "fox",
+        "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "inspect": {
+        "id": "32576066-9ba3-43a9-a492-5ca3255c0380",
+        "post_id": "437be82c-5c17-4273-8b6f-304f8f45b8e9",
+        "image_id": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+        "score": 0.8326852791949109,
+        "snapshot": {
+          "score": 0.8326852791949109,
+          "intent": {
+            "subject": "red fox",
+            "category": "animal",
+            "ambiguous": false,
+            "confidence": 0.95
+          },
+          "decision": {
+            "reasons": [
+              "Subject, classification confidence, and semantic similarity clear the guard"
+            ],
+            "accepted": true
+          },
+          "metadata": {
+            "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+            "subject": "fox",
+            "category": "animal",
+            "attributes": [
+              "red fur",
+              "white chest",
+              "black eyes",
+              "ears pointed upward"
+            ],
+            "confidence": 0.95
+          },
+          "threshold": 0.83,
+          "visionModel": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "postEmbedding": {
+            "id": "6d79a498-9adc-4a98-8daa-6429143e598e",
+            "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+            "inputHash": "f41f85b32256ca95fb6259bc99f71509663c74e6dd0f2f2dd250e43d0310898e"
+          },
+          "embeddingModel": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "imageEmbedding": {
+            "id": "057ad538-2bb7-4d3c-8e03-aa207ae1f99d",
+            "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+            "inputHash": "60c027be48bcf19382731762e66b5c9fde5daafb49a4026d1acbaeccc3a8a4c7"
+          },
+          "postIntentModel": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "embeddingRevision": "d4888a635063ed0fc4ef8055ded8f9b37653100d1c47e0ba33fb10fd83ae7006"
+        },
+        "status": "pending"
+      },
+      "review": {
+        "id": "62af9ff0-3e7c-4fc6-997c-2044dc63369e",
+        "action": "approve",
+        "explanation": "Automated acceptance demonstration on a separate demo post.",
+        "created_at": "2026-10-06T00:50:48.874Z"
+      },
+      "replayIdentical": true
+    },
+    {
+      "action": "reject",
+      "post": {
+        "postId": "6e4f2a74-ee26-44b8-852e-b0fbfa0d1b8c",
+        "jobId": "40d0687e-1ea8-4b15-9212-98dac86ad93b",
+        "pipelineRevision": "f9a375ac13b4a765579acb0f5386b5b6eeeb715cfaa7ce36dfbbe9f08159c78e"
+      },
+      "selected": {
+        "suggestionId": "cac9e271-93d6-485b-9af7-da81e5b8abf7",
+        "status": "pending",
+        "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+        "manifestId": "Powgsxla7Es",
+        "score": 0.8326852791949109,
+        "subject": "fox",
+        "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "inspect": {
+        "id": "cac9e271-93d6-485b-9af7-da81e5b8abf7",
+        "post_id": "6e4f2a74-ee26-44b8-852e-b0fbfa0d1b8c",
+        "image_id": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+        "score": 0.8326852791949109,
+        "snapshot": {
+          "score": 0.8326852791949109,
+          "intent": {
+            "subject": "red fox",
+            "category": "animal",
+            "ambiguous": false,
+            "confidence": 0.95
+          },
+          "decision": {
+            "reasons": [
+              "Subject, classification confidence, and semantic similarity clear the guard"
+            ],
+            "accepted": true
+          },
+          "metadata": {
+            "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+            "subject": "fox",
+            "category": "animal",
+            "attributes": [
+              "red fur",
+              "white chest",
+              "black eyes",
+              "ears pointed upward"
+            ],
+            "confidence": 0.95
+          },
+          "threshold": 0.83,
+          "visionModel": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "postEmbedding": {
+            "id": "d33d2841-8d8d-47a8-8a18-d67b17e329cb",
+            "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+            "inputHash": "f41f85b32256ca95fb6259bc99f71509663c74e6dd0f2f2dd250e43d0310898e"
+          },
+          "embeddingModel": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "imageEmbedding": {
+            "id": "057ad538-2bb7-4d3c-8e03-aa207ae1f99d",
+            "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+            "inputHash": "60c027be48bcf19382731762e66b5c9fde5daafb49a4026d1acbaeccc3a8a4c7"
+          },
+          "postIntentModel": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "embeddingRevision": "81d9b06e7d12d46cb221de3c20aab008984df3e859be588cd8c8a4c35db0c890"
+        },
+        "status": "pending"
+      },
+      "review": {
+        "id": "c1fc29b9-9666-405a-89f6-84e79c211d7f",
+        "action": "reject",
+        "explanation": "Automated acceptance demonstration on a separate demo post.",
+        "created_at": "2026-10-06T00:51:00.462Z"
+      },
+      "replayIdentical": true
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "correct": 7,
+  "total": 10,
+  "top1Precision": 0.7,
+  "coverage": 0.7,
+  "negativeResults": [
+    {
+      "id": "absent-octopus",
+      "refused": true,
+      "reasons": [
+        "Animal category mismatch: expected octopus, detected bear",
+        "Similarity below threshold or compatible embedding unavailable",
+        "Animal category mismatch: expected octopus, detected dog",
+        "Animal category mismatch: expected octopus, detected fox",
+        "Animal category mismatch: expected octopus, detected deer",
+        "Animal category mismatch: expected octopus, detected wolf",
+        "Category mismatch: expected animal, detected plant",
+        "Category mismatch: expected animal, detected landscape",
+        "Category mismatch: expected animal, detected architecture",
+        "Image is flagged, failed, or still processing",
+        "Image classification confidence below threshold or subject unknown"
+      ]
+    }
+  ],
+  "threshold": {
+    "threshold": 0.83,
+    "models": {
+      "embedding": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "vision": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300"
+    },
+    "inputProfile": "sentence-similarity-nomenclature-v4",
+    "version": "04af7972adae567073394b331a907108115520e5f3615871609bce7e02f39b56",
+    "calibrated": true,
+    "calibrationHash": "e363f3458a3a4e5fd7debf8652c79a0cea596fbb3e565133481edb645db877d3",
+    "selection": "Maximize correct calibration top-1 with no accepted negatives; higher threshold wins ties",
+    "frozenAt": "2026-10-06T00:43:31.707Z"
+  },
+  "results": [
+    {
+      "id": "post-04",
+      "expected": "Powgsxla7Es",
+      "actual": "Powgsxla7Es",
+      "status": "matched",
+      "first": {
+        "suggestionId": "573e87b7-62e3-4796-9cd0-ef7b4390cdca",
+        "status": "pending",
+        "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+        "manifestId": "Powgsxla7Es",
+        "score": 0.8432644700839196,
+        "subject": "fox",
+        "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-05",
+      "expected": "7LzKELgdzzI",
+      "actual": "7LzKELgdzzI",
+      "status": "matched",
+      "first": {
+        "suggestionId": "cf2ff919-1aa1-4498-a5df-3a32a6e01c5c",
+        "status": "pending",
+        "imageId": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+        "manifestId": "7LzKELgdzzI",
+        "score": 0.8796442218385861,
+        "subject": "fox",
+        "caption": "A red fox peeks out from the grass, its face illuminated by soft light, with a natural, blurred background.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-07",
+      "expected": "QZ2EQuPpQJs",
+      "actual": "QZ2EQuPpQJs",
+      "status": "matched",
+      "first": {
+        "suggestionId": "e94d2726-de63-4de3-b413-bfd3c3c43605",
+        "status": "pending",
+        "imageId": "3dac63ef-2bd9-4b4d-ae08-dc07e9b6a786",
+        "manifestId": "QZ2EQuPpQJs",
+        "score": 0.9133068254273942,
+        "subject": "wolf",
+        "caption": "A close-up of a wolf with its mouth wide open, showcasing sharp teeth, in a dark, natural setting.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-15",
+      "expected": "K4mSJ7kc0As",
+      "actual": "K4mSJ7kc0As",
+      "status": "matched",
+      "first": {
+        "suggestionId": "437fd0c9-35a1-468c-b1ef-30c32b6e5fac",
+        "status": "pending",
+        "imageId": "fae5c575-2d4f-40f9-9ad8-b7ea98d7f11e",
+        "manifestId": "K4mSJ7kc0As",
+        "score": 0.9251560224958885,
+        "subject": "pug",
+        "caption": "A black pug with wide eyes and a frowning expression wears a denim jacket against a plain white background.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-19",
+      "expected": "rGPDLlMNFF4",
+      "actual": "rGPDLlMNFF4",
+      "status": "matched",
+      "first": {
+        "suggestionId": "b58ec2c0-b5ab-4e5e-94a3-81f92a4d6905",
+        "status": "pending",
+        "imageId": "3fa8bfb8-0f8e-495b-94a9-98a8be9f2bb2",
+        "manifestId": "rGPDLlMNFF4",
+        "score": 0.9289188861721751,
+        "subject": "bear",
+        "caption": "A close-up of a brown bear with its mouth open, displaying its teeth, against a dark background.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-23",
+      "expected": "favQn8WgRyk",
+      "actual": "favQn8WgRyk",
+      "status": "matched",
+      "first": {
+        "suggestionId": "5802a2a4-2326-482c-aaa8-db6fd98faa71",
+        "status": "pending",
+        "imageId": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+        "manifestId": "favQn8WgRyk",
+        "score": 0.8736886749094485,
+        "subject": "fawn",
+        "caption": "A young fawn stands in a forest, looking directly at the camera with its legs slightly apart.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-32",
+      "expected": "avA-YuEe2ZA",
+      "actual": "avA-YuEe2ZA",
+      "status": "matched",
+      "first": {
+        "suggestionId": "83f0ffe6-f05b-4e94-8655-67e76cfb08c2",
+        "status": "pending",
+        "imageId": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+        "manifestId": "avA-YuEe2ZA",
+        "score": 0.8829343629299377,
+        "subject": "monstera",
+        "caption": "A close-up of a monstera plant with large, vibrant green leaves against a light background.",
+        "reasons": [
+          "Subject, classification confidence, and semantic similarity clear the guard"
+        ]
+      },
+      "reasons": []
+    },
+    {
+      "id": "post-36",
+      "expected": "2Hzmz15wGik",
+      "actual": null,
+      "status": "no confident match",
+      "first": null,
+      "reasons": [
+        "Post processing failed or its subject is flagged"
+      ]
+    },
+    {
+      "id": "post-44",
+      "expected": "pPxhM0CRzl4",
+      "actual": null,
+      "status": "no confident match",
+      "first": null,
+      "reasons": [
+        "Subject mismatch: expected building, detected architecture",
+        "Similarity below threshold or compatible embedding unavailable",
+        "Category mismatch: expected architecture, detected landscape",
+        "Category mismatch: expected architecture, detected plant",
+        "Category mismatch: expected architecture, detected animal",
+        "Image is flagged, failed, or still processing",
+        "Image classification confidence below threshold or subject unknown"
+      ]
+    },
+    {
+      "id": "post-50",
+      "expected": "PzYiCWOHtfU",
+      "actual": null,
+      "status": "no confident match",
+      "first": null,
+      "reasons": [
+        "Post subject is uncertain or ambiguous",
+        "Subject mismatch: expected orange curved architecture, detected architecture",
+        "Similarity below threshold or compatible embedding unavailable",
+        "Category mismatch: expected architecture, detected landscape",
+        "Category mismatch: expected architecture, detected animal",
+        "Category mismatch: expected architecture, detected plant",
+        "Image is flagged, failed, or still processing",
+        "Image classification confidence below threshold or subject unknown"
+      ]
+    }
+  ],
+  "evaluationHash": "ecee56686645743a93f3f8708104086fa12f26bcacb7b60538111aeec7d290f2"
+}

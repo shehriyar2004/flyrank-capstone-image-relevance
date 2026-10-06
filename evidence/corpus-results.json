@@ -1,0 +1,1162 @@
+{
+  "count": 50,
+  "images": [
+    {
+      "manifest_id": "2l0CWTpcChI",
+      "id": "01f0c4a8-d706-4295-9e37-4713332de50d",
+      "status": "ready",
+      "metadata": {
+        "caption": "A joyful beagle with its mouth open and tongue out, sitting outdoors on a dirt path with green grass in the background.",
+        "subject": "beagle",
+        "category": "animal",
+        "attributes": [
+          "happy",
+          "open mouth",
+          "pink tongue",
+          "black collar",
+          "brown and white fur"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"beagle\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"happy\",\n    \"open mouth\",\n    \"pink tongue\",\n    \"black collar\",\n    \"brown and white fur\"\n  ],\n  \"caption\": \"A joyful beagle with its mouth open and tongue out, sitting outdoors on a dirt path with green grass in the background.\",\n  \"confidence\": 0.95\n}",
+      "version": "d6443b723514514ff9c886e0ca5a636417bcbfe8dd92205081c1248d14b13688",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "80fe1bb034cfc238aba3452ea630534145ee793d1ad27ebe65370e6570936a0e"
+    },
+    {
+      "manifest_id": "xljtGZ2-P3Y",
+      "id": "03025253-7faf-4649-9134-cb882ac8d53a",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up view of a dense, overgrown plant with lush green leaves, creating a natural, textured pattern.",
+        "subject": "plant",
+        "category": "plant",
+        "attributes": [
+          "dense foliage",
+          "green leaves",
+          "natural texture",
+          "overgrown"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"plant\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"dense foliage\",\n    \"green leaves\",\n    \"natural texture\",\n    \"overgrown\"\n  ],\n  \"caption\": \"A close-up view of a dense, overgrown plant with lush green leaves, creating a natural, textured pattern.\",\n  \"confidence\": 0.95\n}",
+      "version": "c1a0afc0f1c4070fe2d00e14000325f5a1d6102147df1673b1c3421f9ddb23b8",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "94ebec69bbcd7acdfdcd4dc48024137190121050a900deef583c798fc2418f8d"
+    },
+    {
+      "manifest_id": "avA-YuEe2ZA",
+      "id": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a monstera plant with large, vibrant green leaves against a light background.",
+        "subject": "monstera",
+        "category": "plant",
+        "attributes": [
+          "large green leaves",
+          "distinct heart-shaped and split leaves",
+          "tall stems",
+          "light background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"monstera\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"large green leaves\",\n    \"distinct heart-shaped and split leaves\",\n    \"tall stems\",\n    \"light background\"\n  ],\n  \"caption\": \"A close-up of a monstera plant with large, vibrant green leaves against a light background.\",\n  \"confidence\": 0.95\n}",
+      "version": "90129e2e3030b4b4ceaadc695f721cd8545778880f4b9f34aea30f95eb6838d9",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "985b58b754180d8cc372753f3fac817bf7e79047522631b8de049306f2b4ab22"
+    },
+    {
+      "manifest_id": "Bkci_8qcdvQ",
+      "id": "12e940ac-0950-4fe5-9325-1c2da1da7b27",
+      "status": "ready",
+      "metadata": {
+        "caption": "A majestic mountain range with snow-covered peaks, lush green forests, and a serene valley under a partly cloudy blue sky.",
+        "subject": "mountain",
+        "category": "landscape",
+        "attributes": [
+          "snow-capped",
+          "green forest",
+          "blue sky",
+          "clouds"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"mountain\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"snow-capped\",\n    \"green forest\",\n    \"blue sky\",\n    \"clouds\"\n  ],\n  \"caption\": \"A majestic mountain range with snow-covered peaks, lush green forests, and a serene valley under a partly cloudy blue sky.\",\n  \"confidence\": 0.95\n}",
+      "version": "f4a48d689d553830741a77895829b9934fb8cf058bc7299b17da6c522c9bdbbe",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "d921b88838dde64e1aee9cbfd46a02fde7571b8abd2788a4ee81e1f93320607a"
+    },
+    {
+      "manifest_id": "ttS--i2y9Bo",
+      "id": "1390aab3-c728-4b82-afe8-9a00c5a4f320",
+      "status": "ready",
+      "metadata": {
+        "caption": "A modern architectural interior featuring a sweeping concrete spiral staircase, set against a minimalist design with a smooth concrete floor and a large open space.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "curved concrete staircase",
+          "modern minimalist design",
+          "spiral form",
+          "light gray and white tones"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"curved concrete staircase\",\n    \"modern minimalist design\",\n    \"spiral form\",\n    \"light gray and white tones\"\n  ],\n  \"caption\": \"A modern architectural interior featuring a sweeping concrete spiral staircase, set against a minimalist design with a smooth concrete floor and a large open space.\",\n  \"confidence\": 0.95\n}",
+      "version": "4fa1a509e2745a6abb2b0eee59137d656ef6b5253a5a538c4a95eb0c7b8189f6",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "9705fbd16ce4711acdaabf984fe8853b8d0f80daa9c8ba0d77623af45aa583a7"
+    },
+    {
+      "manifest_id": "G8cB8hY3yvU",
+      "id": "16785c6f-08f5-40ce-87bf-fed28c95d2be",
+      "status": "ready",
+      "metadata": {
+        "caption": "A joyful dog lies on its back in the grass, playfully stretching its paws and displaying a happy expression with its mouth open.",
+        "subject": "dog",
+        "category": "animal",
+        "attributes": [
+          "laying on grass",
+          "fluffy fur",
+          "happy expression",
+          "ears flared out"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"dog\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"laying on grass\",\n    \"fluffy fur\",\n    \"happy expression\",\n    \"ears flared out\"\n  ],\n  \"caption\": \"A joyful dog lies on its back in the grass, playfully stretching its paws and displaying a happy expression with its mouth open.\",\n  \"confidence\": 0.95\n}",
+      "version": "4efaab9bd8790ced5cbeab0de4d0586c7b81319a44e7ac2568fdfc80990357a8",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "a43e53d69676f714297120dd6e6cc09ac013bd03b7ff3fcd301e42987965fe1a"
+    },
+    {
+      "manifest_id": "PzYiCWOHtfU",
+      "id": "1d4d0885-3dd8-4cda-8fe1-2f95b8bf0902",
+      "status": "ready",
+      "metadata": {
+        "caption": "A low-angle view of two large, curved architectural structures with a reddish-brown textured surface, set against a clear blue sky.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "curved, wavy structures",
+          "reddish-brown textured surface",
+          "blue sky background",
+          "low-angle perspective"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"curved, wavy structures\",\n    \"reddish-brown textured surface\",\n    \"blue sky background\",\n    \"low-angle perspective\"\n  ],\n  \"caption\": \"A low-angle view of two large, curved architectural structures with a reddish-brown textured surface, set against a clear blue sky.\",\n  \"confidence\": 0.95\n}",
+      "version": "ed713d2fdf19b348fdb7feae2def5aeee9386f08ecf3db2d1e0d3bb30a47fa5a",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "eb321895e791d5c6b82d23e618881ecb0a866b81b4c9a87f73f94fa19977ffb0"
+    },
+    {
+      "manifest_id": "2Hzmz15wGik",
+      "id": "1feaa3d6-b781-4338-8219-98937d19ce76",
+      "status": "ready",
+      "metadata": {
+        "caption": "A misty mountain valley with a winding stream flowing through a dense forest, surrounded by fog and rocky terrain.",
+        "subject": "mountain valley",
+        "category": "landscape",
+        "attributes": [
+          "foggy",
+          "stream flowing through a valley",
+          "dense forest",
+          "rocky riverbed"
+        ],
+        "confidence": 0.85
+      },
+      "raw_response": "{\n  \"subject\": \"mountain valley\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"foggy\",\n    \"stream flowing through a valley\",\n    \"dense forest\",\n    \"rocky riverbed\"\n  ],\n  \"caption\": \"A misty mountain valley with a winding stream flowing through a dense forest, surrounded by fog and rocky terrain.\",\n  \"confidence\": 0.85\n}",
+      "version": "371b7ce1e80cee96cb83c0e4e790227b97d75e933a5a580b07099d1c2231d2a2",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "37469ca06be615338fde403540ae3d3c8fdc7d54ae3bb29a6232225e63b9545f"
+    },
+    {
+      "manifest_id": "qQWV91TTBrE",
+      "id": "289523dc-6f61-4c06-b888-dfdb8978bf2e",
+      "status": "ready",
+      "metadata": {
+        "caption": "A polar bear stands on its hind legs in a snowy landscape, raising one paw as if waving, with a white and gray color scheme.",
+        "subject": "polar bear",
+        "category": "animal",
+        "attributes": [
+          "standing on hind legs",
+          "raising one paw",
+          "in snowy environment",
+          "white fur"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"polar bear\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing on hind legs\",\n    \"raising one paw\",\n    \"in snowy environment\",\n    \"white fur\"\n  ],\n  \"caption\": \"A polar bear stands on its hind legs in a snowy landscape, raising one paw as if waving, with a white and gray color scheme.\",\n  \"confidence\": 0.95\n}",
+      "version": "7294856b205cd27531a349032a2ee1fee581f5198ae82a120232c3747975fdd5",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "902dd92105c8ff0baf666a07b6b292703d3f4e7ae715f91b8335be05ee54309c"
+    },
+    {
+      "manifest_id": "z4yzSsH5EAo",
+      "id": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+      "status": "ready",
+      "metadata": {
+        "caption": "A brown bear stands on grass in a natural setting, looking to the side with its fur appearing thick and textured.",
+        "subject": "bear",
+        "category": "animal",
+        "attributes": [
+          "brown fur",
+          "standing on grass",
+          "looking to the side",
+          "in a natural setting"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"bear\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"brown fur\",\n    \"standing on grass\",\n    \"looking to the side\",\n    \"in a natural setting\"\n  ],\n  \"caption\": \"A brown bear stands on grass in a natural setting, looking to the side with its fur appearing thick and textured.\",\n  \"confidence\": 0.95\n}",
+      "version": "cc3f11c9f69bb1c1c6d9d49d00b7cb9a5472fb6b2f3a6de70e9ae5d91fcf21a3",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "211fdc4d6b28c435a7c964d9173f8485d3815d33a27c16d9aaecfc74beb6a382"
+    },
+    {
+      "manifest_id": "1Z2niiBPg5A",
+      "id": "2f0ef4ea-ed0a-4f14-8a99-c6310bebdab1",
+      "status": "ready",
+      "metadata": {
+        "caption": "A winding road traverses a lush, green mountain landscape as clouds drift above the peaks during a golden sunset.",
+        "subject": "mountain",
+        "category": "landscape",
+        "attributes": [
+          "green slopes",
+          "clouds",
+          "sunlight",
+          "road"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"mountain\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"green slopes\",\n    \"clouds\",\n    \"sunlight\",\n    \"road\"\n  ],\n  \"caption\": \"A winding road traverses a lush, green mountain landscape as clouds drift above the peaks during a golden sunset.\",\n  \"confidence\": 0.95\n}",
+      "version": "b6119b65bfc7eb921245e92a2a9d68ddd9cd804866b4056177648d0554f7e3a1",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "8cc7415caad82d6221b34b73e8e70d2e56055eeb05824cfff15be7a6caefadf0"
+    },
+    {
+      "manifest_id": "73F4pKoUkM0",
+      "id": "3a6d6a15-2b39-4627-a8c4-22a1a76893f4",
+      "status": "ready",
+      "metadata": {
+        "caption": "A serene landscape featuring a vast lake surrounded by snow-covered mountains under a cloudy sky, with warm golden light illuminating the foreground.",
+        "subject": "landscape",
+        "category": "landscape",
+        "attributes": [
+          "mountain range with snow-capped peaks",
+          "large lake reflecting the sky and mountains",
+          "golden and brown grassy terrain in the foreground",
+          "overcast sky with streaky clouds"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"landscape\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"mountain range with snow-capped peaks\",\n    \"large lake reflecting the sky and mountains\",\n    \"golden and brown grassy terrain in the foreground\",\n    \"overcast sky with streaky clouds\"\n  ],\n  \"caption\": \"A serene landscape featuring a vast lake surrounded by snow-covered mountains under a cloudy sky, with warm golden light illuminating the foreground.\",\n  \"confidence\": 0.95\n}",
+      "version": "b59838decd86ade37b463a10d41d43c12b94425ddc692c18f332f879457e68ab",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "e3a2d4a162f8b991cce0ef0e8b75317cd89486ec80921aee953643ab3b5efc70"
+    },
+    {
+      "manifest_id": "h5H5UyXBLBQ",
+      "id": "3cfa14b3-6332-4909-98b5-028421d0f6ff",
+      "status": "ready",
+      "metadata": {
+        "caption": "A black and white architectural photograph captures the dynamic, curved forms of a modern building against a hazy sky.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "curved and angular",
+          "modern design",
+          "black and white",
+          "sleek metallic surface"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"curved and angular\",\n    \"modern design\",\n    \"black and white\",\n    \"sleek metallic surface\"\n  ],\n  \"caption\": \"A black and white architectural photograph captures the dynamic, curved forms of a modern building against a hazy sky.\",\n  \"confidence\": 0.95\n}",
+      "version": "f275ab794094b9ee6aa0e9b072613c2847adede0d9db61192c167019847dce27",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "66c9f624a56a9752beea1ab662c9fc0ab5f990389c94bdf3e9fc95f8b6123e56"
+    },
+    {
+      "manifest_id": "QZ2EQuPpQJs",
+      "id": "3dac63ef-2bd9-4b4d-ae08-dc07e9b6a786",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a wolf with its mouth wide open, showcasing sharp teeth, in a dark, natural setting.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "open mouth",
+          "snarling",
+          "furry coat",
+          "dark background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"open mouth\",\n    \"snarling\",\n    \"furry coat\",\n    \"dark background\"\n  ],\n  \"caption\": \"A close-up of a wolf with its mouth wide open, showcasing sharp teeth, in a dark, natural setting.\",\n  \"confidence\": 0.95\n}",
+      "version": "a99f2846ed96e135a6bdc2d3a9e3ee819bd907a585fc89cccc594509db5fc905",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "098fdbaab858cd3801c80ced1f6c4bf07ef59c5b33f21c72c8c053ed7af8f024"
+    },
+    {
+      "manifest_id": "rGPDLlMNFF4",
+      "id": "3fa8bfb8-0f8e-495b-94a9-98a8be9f2bb2",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a brown bear with its mouth open, displaying its teeth, against a dark background.",
+        "subject": "bear",
+        "category": "animal",
+        "attributes": [
+          "brown fur",
+          "open mouth",
+          "yawning",
+          "dark background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"bear\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"brown fur\",\n    \"open mouth\",\n    \"yawning\",\n    \"dark background\"\n  ],\n  \"caption\": \"A close-up of a brown bear with its mouth open, displaying its teeth, against a dark background.\",\n  \"confidence\": 0.95\n}",
+      "version": "34d522378f9b77ae5bd455eded59e7c11c5847a171876244c932ce9d39c26e20",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "d9b504cbba3a2776948b0abde76b0c3c3ce39d826046399e883775f4e0845536"
+    },
+    {
+      "manifest_id": "0LAJfSNa-xQ",
+      "id": "41984a24-80d9-49c4-b845-a35069392b12",
+      "status": "ready",
+      "metadata": {
+        "caption": "A low-angle view of a modern glass skyscraper, capturing its upward-reaching structure against a cloudy sky, with a dominant triangular composition and cool, muted colors.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "modern glass skyscraper",
+          "triangular view from below",
+          "detailed geometric patterns",
+          "overcast sky"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"modern glass skyscraper\",\n    \"triangular view from below\",\n    \"detailed geometric patterns\",\n    \"overcast sky\"\n  ],\n  \"caption\": \"A low-angle view of a modern glass skyscraper, capturing its upward-reaching structure against a cloudy sky, with a dominant triangular composition and cool, muted colors.\",\n  \"confidence\": 0.95\n}",
+      "version": "5620803132443a6541382a4f8ac504c684a2474fa337506a379916e71f3dc09f",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "69f57cdac0fccc14b546dd84b0743eba3ad72240d0f0959be43fc06287f249e9"
+    },
+    {
+      "manifest_id": "dDVU6D_6T80",
+      "id": "42b5c304-f20b-484d-a9d0-d5d24c4cf0fb",
+      "status": "ready",
+      "metadata": {
+        "caption": "A cozy indoor plant shop features a variety of potted plants on wooden shelves and stools, creating a natural and inviting atmosphere with soft lighting and earthy tones.",
+        "subject": "plant",
+        "category": "plant",
+        "attributes": [
+          "a collection of various potted plants arranged in a cozy indoor setting",
+          "the plants are on wooden shelves, stools, and small tables",
+          "the setting appears to be a plant shop or a café with natural lighting",
+          "the colors include green, brown, and white"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"plant\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"a collection of various potted plants arranged in a cozy indoor setting\",\n    \"the plants are on wooden shelves, stools, and small tables\",\n    \"the setting appears to be a plant shop or a café with natural lighting\",\n    \"the colors include green, brown, and white\"\n  ],\n  \"caption\": \"A cozy indoor plant shop features a variety of potted plants on wooden shelves and stools, creating a natural and inviting atmosphere with soft lighting and earthy tones.\",\n  \"confidence\": 0.95\n}",
+      "version": "41eeb58251b5e42c8c4b0c3e5eec6fe821b973a886788c2563e1a4711ab4b0c1",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "c83796421419fafd66e5b313558e9dd078f0eb61dcf11b6b9112a1ad8b7794ec"
+    },
+    {
+      "manifest_id": "iUA1cea8QiY",
+      "id": "437baf15-9cbe-4100-887b-87367d7f723f",
+      "status": "ready",
+      "metadata": {
+        "caption": "A wolf stands in a snowy forest, its fur detailed and its gaze directed forward, illuminated by soft light.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "standing in snow",
+          "focusing forward",
+          "detailed fur",
+          "natural forest setting"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing in snow\",\n    \"focusing forward\",\n    \"detailed fur\",\n    \"natural forest setting\"\n  ],\n  \"caption\": \"A wolf stands in a snowy forest, its fur detailed and its gaze directed forward, illuminated by soft light.\",\n  \"confidence\": 0.95\n}",
+      "version": "fb2116359ab5b5e23398e59c4c9e9c535c5edf45bb7e7785337108c4a174089c",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "446553f7e724e7e8c951f109e99169ca9d31d79cbce883ce83d4c8e2759d5ce4"
+    },
+    {
+      "manifest_id": "7LzKELgdzzI",
+      "id": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+      "status": "ready",
+      "metadata": {
+        "caption": "A red fox peeks out from the grass, its face illuminated by soft light, with a natural, blurred background.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "red fur",
+          "ears up",
+          "in grass",
+          "looking forward"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"red fur\",\n    \"ears up\",\n    \"in grass\",\n    \"looking forward\"\n  ],\n  \"caption\": \"A red fox peeks out from the grass, its face illuminated by soft light, with a natural, blurred background.\",\n  \"confidence\": 0.95\n}",
+      "version": "fe56d2e3bec0f35e9cd1343d6535945c8fe118c82863f5e6019be0651f918339",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "96fa9234bfa428d614f38f4de507061fd4159566252d1bd058b2d946a6f02276"
+    },
+    {
+      "manifest_id": "s4wGZw3UuLk",
+      "id": "53f2d6a9-e88b-41d6-a6ed-c7f7fa672065",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of several large, green tropical leaves with intricate patterns, set against a dark background, showcasing their natural texture and vibrant colors.",
+        "subject": "plant",
+        "category": "plant",
+        "attributes": [
+          "large green leaves",
+          "dark background",
+          "natural setting",
+          "varied leaf shapes"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"plant\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"large green leaves\",\n    \"dark background\",\n    \"natural setting\",\n    \"varied leaf shapes\"\n  ],\n  \"caption\": \"A close-up of several large, green tropical leaves with intricate patterns, set against a dark background, showcasing their natural texture and vibrant colors.\",\n  \"confidence\": 0.95\n}",
+      "version": "aaff338d0f8a360eedc1a6289b8b657688e0a9c329e179b282e02acf416f203a",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "b287dbe0bae690cf865a3a26a39eded29a9313655e5f744aae71929490ecde76"
+    },
+    {
+      "manifest_id": "F0dmGPe2KG0",
+      "id": "56bd9801-202a-467b-8904-9d1a5008b62b",
+      "status": "ready",
+      "metadata": {
+        "caption": "A mule deer rests on green grass, looking directly at the camera with its antlers visible.",
+        "subject": "mule deer",
+        "category": "animal",
+        "attributes": [
+          "lying on grass",
+          "antlers",
+          "focusing on camera",
+          "gray fur"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"mule deer\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"lying on grass\",\n    \"antlers\",\n    \"focusing on camera\",\n    \"gray fur\"\n  ],\n  \"caption\": \"A mule deer rests on green grass, looking directly at the camera with its antlers visible.\",\n  \"confidence\": 0.95\n}",
+      "version": "7c5d9d1e7063c3cf8b946548ad6f5e4508a94bb01f888bf4d3efbed45b9693b9",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "086f536c12f14c4cde967dec007927142702e475fc0815145580952f4578d5ff"
+    },
+    {
+      "manifest_id": "gfqkrJb7Vro",
+      "id": "59caca86-2788-412e-9111-decf3fe65d12",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a fox in a snowy landscape, looking forward with snowflakes on its fur.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "in snowy environment",
+          "focusing forward",
+          "snow on fur",
+          "white and orange fur"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"in snowy environment\",\n    \"focusing forward\",\n    \"snow on fur\",\n    \"white and orange fur\"\n  ],\n  \"caption\": \"A close-up of a fox in a snowy landscape, looking forward with snowflakes on its fur.\",\n  \"confidence\": 0.95\n}",
+      "version": "9d0ce1b4ec4d8708d22201c3e940ccaa2d79f3934571891de58ac8f0ff4cc43b",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "691644e77aa84cb9dd8b5f5c913f5e00e7b4b78ac2f4e74ef06b4f8e19c0e71a"
+    },
+    {
+      "manifest_id": "AbNO2iejoXA",
+      "id": "64235f62-6750-423c-930f-95b015524437",
+      "status": "ready",
+      "metadata": {
+        "caption": "A small, light-brown dog with floppy ears sits on a sandy beach, looking up at the sky.",
+        "subject": "dog",
+        "category": "animal",
+        "attributes": [
+          "sitting",
+          "on sand",
+          "on beach",
+          "brown fur",
+          "pink collar"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"dog\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"sitting\",\n    \"on sand\",\n    \"on beach\",\n    \"brown fur\",\n    \"pink collar\"\n  ],\n  \"caption\": \"A small, light-brown dog with floppy ears sits on a sandy beach, looking up at the sky.\",\n  \"confidence\": 0.95\n}",
+      "version": "67f586f5451640e44372d4f83de904681cd872243eb8a7599f2223d67d4cb255",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "8724a2bc90481b69a093d0ccc2ec547e5706fc85c8dd0edfce55b6aee96b2ade"
+    },
+    {
+      "manifest_id": "FGkNt8tO04I",
+      "id": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+      "status": "ready",
+      "metadata": {
+        "caption": "A young fawn stands on grassy terrain, surrounded by tall grass and a blurred forest background, with its head turned toward the viewer.",
+        "subject": "fawn",
+        "category": "animal",
+        "attributes": [
+          "standing on grass",
+          "in a field with tall grass",
+          "with white spots on its body",
+          "looking towards the camera"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fawn\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing on grass\",\n    \"in a field with tall grass\",\n    \"with white spots on its body\",\n    \"looking towards the camera\"\n  ],\n  \"caption\": \"A young fawn stands on grassy terrain, surrounded by tall grass and a blurred forest background, with its head turned toward the viewer.\",\n  \"confidence\": 0.95\n}",
+      "version": "f414390a96d4dc36664cafe97e9dab201dd64e48224eae4b497da2ab39f49306",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "6c2828224c9f8dc210cc942b0499ad5cf34d142fa55341f3cba7327f63dbad81"
+    },
+    {
+      "manifest_id": "l5Tzv1alcps",
+      "id": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+      "status": "ready",
+      "metadata": {
+        "caption": "A low-angle view of four modern skyscrapers with reflective glass facades, creating a symmetrical and visually striking composition against a pale sky, with warm orange and yellow interior lights.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "tall buildings with glass facades",
+          "symmetrical composition",
+          "orange and yellow interior lights",
+          "sky visible between buildings"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"tall buildings with glass facades\",\n    \"symmetrical composition\",\n    \"orange and yellow interior lights\",\n    \"sky visible between buildings\"\n  ],\n  \"caption\": \"A low-angle view of four modern skyscrapers with reflective glass facades, creating a symmetrical and visually striking composition against a pale sky, with warm orange and yellow interior lights.\",\n  \"confidence\": 0.95\n}",
+      "version": "b7b4a641b408925d324304643c6882ab2db35730bf86f9d1595e0567d3ab18a1",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "32966c9f5e2169fb5d3103f9731265f645d6a77459314b4abecf209d14c88912"
+    },
+    {
+      "manifest_id": "bmM_IdLd1SA",
+      "id": "6d7c514d-8a95-4802-880d-39432bec8777",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of blurred green palm leaves, with soft light filtering through, creating a natural, serene, and slightly abstract scene.",
+        "subject": "plant",
+        "category": "plant",
+        "attributes": [
+          "green leaves",
+          "fuzzy and blurred",
+          "natural",
+          "tropical"
+        ],
+        "confidence": 0.85
+      },
+      "raw_response": "{\n  \"subject\": \"plant\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"green leaves\",\n    \"fuzzy and blurred\",\n    \"natural\",\n    \"tropical\"\n  ],\n  \"caption\": \"A close-up of blurred green palm leaves, with soft light filtering through, creating a natural, serene, and slightly abstract scene.\",\n  \"confidence\": 0.85\n}",
+      "version": "c379e1257771d154a92fff943001a80fbb06c98ce2fea44be80c0823d921f9f4",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "f198ed3543480f31a92023deb0769627654f0cb222a8fc3fa58461c1bc09be79"
+    },
+    {
+      "manifest_id": "yihlaRCCvd4",
+      "id": "6f090ce4-7056-4994-bb11-4107d9118116",
+      "status": "ready",
+      "metadata": {
+        "caption": "A joyful brown dog runs playfully through foamy waves at the beach during a soft sunset.",
+        "subject": "dog",
+        "category": "animal",
+        "attributes": [
+          "brown fur",
+          "running in shallow water",
+          "happy expression",
+          "waving tail"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"dog\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"brown fur\",\n    \"running in shallow water\",\n    \"happy expression\",\n    \"waving tail\"\n  ],\n  \"caption\": \"A joyful brown dog runs playfully through foamy waves at the beach during a soft sunset.\",\n  \"confidence\": 0.95\n}",
+      "version": "e477077a9e007e59c7c3297107f05a4552a376a1fa2703eadb8e263e59e8443c",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "9622d4355e30605f2c41d2019c99a64833aaef7768ce081c22774725003e7a4f"
+    },
+    {
+      "manifest_id": "qLW70Aoo8BE",
+      "id": "74249f28-7360-42d1-a8e4-096f1ec7a8d5",
+      "status": "flagged",
+      "metadata": {
+        "caption": "A lush, dense tropical jungle with a variety of green leaves and plants, creating a vibrant, natural scene.",
+        "subject": "unknown",
+        "category": "plant",
+        "attributes": [
+          "dense tropical foliage",
+          "various leaf shapes",
+          "green and brown tones",
+          "natural, overgrown environment"
+        ],
+        "confidence": 0.75
+      },
+      "raw_response": "{\n  \"subject\": \"unknown\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"dense tropical foliage\",\n    \"various leaf shapes\",\n    \"green and brown tones\",\n    \"natural, overgrown environment\"\n  ],\n  \"caption\": \"A lush, dense tropical jungle with a variety of green leaves and plants, creating a vibrant, natural scene.\",\n  \"confidence\": 0.75\n}",
+      "version": "defa20490ce65363501ecf763002257ca77bcf8759bbbe982824ecefc97d88b4",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "1b67a53209ebcbb79060d1b024f163790dbab321c726a269171f4908805b26b7"
+    },
+    {
+      "manifest_id": "dtfyRuKG7UY",
+      "id": "769fdcac-52d3-4a7e-b976-efb02ad7ffeb",
+      "status": "ready",
+      "metadata": {
+        "caption": "A group of wolves in a dark forest, with one standing and howling into the night.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "standing on rocks",
+          "howling",
+          "in a forest",
+          "darker coloration"
+        ],
+        "confidence": 0.85
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing on rocks\",\n    \"howling\",\n    \"in a forest\",\n    \"darker coloration\"\n  ],\n  \"caption\": \"A group of wolves in a dark forest, with one standing and howling into the night.\",\n  \"confidence\": 0.85\n}",
+      "version": "8292648178b5551207fe96fb056139846da4f3b683a90a3e6c528ad6bd0e7826",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "91289750f0fa08d606e4413e95c2c7347de9fc359384f44495436f6cf1f1ab73"
+    },
+    {
+      "manifest_id": "iQRKBNKyRpo",
+      "id": "7848cece-9b52-4df7-be86-ced9e9c026b3",
+      "status": "ready",
+      "metadata": {
+        "caption": "A large deer with impressive antlers stands in a dark, forested area under a dim, autumnal light.",
+        "subject": "deer",
+        "category": "animal",
+        "attributes": [
+          "large antlers",
+          "standing in a forest",
+          "dark and moody lighting",
+          "brown and gray tones"
+        ],
+        "confidence": 0.85
+      },
+      "raw_response": "{\n  \"subject\": \"deer\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"large antlers\",\n    \"standing in a forest\",\n    \"dark and moody lighting\",\n    \"brown and gray tones\"\n  ],\n  \"caption\": \"A large deer with impressive antlers stands in a dark, forested area under a dim, autumnal light.\",\n  \"confidence\": 0.85\n}",
+      "version": "f2a88273eb9b21014ec6c75605814dc687014103d405c006603b7b20e8f3b552",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "a0f608177192fe58a15fd7b1ad4a8b4b0b4a68a55f3dacf1e0fe14c3845ab217"
+    },
+    {
+      "manifest_id": "NRQV-hBF10M",
+      "id": "930b7d56-13a0-4db3-b778-37871b05ce27",
+      "status": "ready",
+      "metadata": {
+        "caption": "A serene landscape featuring two large mountains with fog, a river flowing through the valley, and trees in the foreground, with a warm sunset casting a soft glow.",
+        "subject": "mountain",
+        "category": "landscape",
+        "attributes": [
+          "two large mountains",
+          "foggy",
+          "sunset",
+          "river",
+          "trees"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"mountain\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"two large mountains\",\n    \"foggy\",\n    \"sunset\",\n    \"river\",\n    \"trees\"\n  ],\n  \"caption\": \"A serene landscape featuring two large mountains with fog, a river flowing through the valley, and trees in the foreground, with a warm sunset casting a soft glow.\",\n  \"confidence\": 0.95\n}",
+      "version": "4fbf237b8a2b4bb5aa442c4d3ecfd078fa5457ea5e652a27d3074a2a79e813ae",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "92ff8a7033c772dd6a562740a1b348ae5144d9f5bb8c90221b9ac60ce9b755c3"
+    },
+    {
+      "manifest_id": "lWBZ01XRRoI",
+      "id": "96453130-f447-4985-8bc0-7aa3218b020a",
+      "status": "ready",
+      "metadata": {
+        "caption": "A branch with several green leaves is displayed against a white background.",
+        "subject": "leafy branch",
+        "category": "plant",
+        "attributes": [
+          "green leaves",
+          "branch",
+          "out of focus",
+          "on white background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"leafy branch\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"green leaves\",\n    \"branch\",\n    \"out of focus\",\n    \"on white background\"\n  ],\n  \"caption\": \"A branch with several green leaves is displayed against a white background.\",\n  \"confidence\": 0.95\n}",
+      "version": "ee58c721e0e17fb6c58bd66402c35d2b6a759874d4a7cc58c4ee39706952d284",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "266834b259423ac0e7e3ff183a50b79f64d51fe617c55d5c292a56adef29aff7"
+    },
+    {
+      "manifest_id": "T7K4aEPoGGk",
+      "id": "975a58fb-2aad-41f7-830f-217bc4038f88",
+      "status": "ready",
+      "metadata": {
+        "caption": "A serene lake with crystal-clear turquoise water, surrounded by rocky mountains and lush green trees, with a wooden boat and two people on the water.",
+        "subject": "lake",
+        "category": "landscape",
+        "attributes": [
+          "crystal-clear turquoise water",
+          "rocky mountains surrounding the lake",
+          "a wooden boat with two people on the water",
+          "a small shoreline with trees"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"lake\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"crystal-clear turquoise water\",\n    \"rocky mountains surrounding the lake\",\n    \"a wooden boat with two people on the water\",\n    \"a small shoreline with trees\"\n  ],\n  \"caption\": \"A serene lake with crystal-clear turquoise water, surrounded by rocky mountains and lush green trees, with a wooden boat and two people on the water.\",\n  \"confidence\": 0.95\n}",
+      "version": "0de31e90dbfacda60ade12d07550ed450466b1ea852354d17ea44c4953ac5ae1",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "b8c0ccda8bdf5cc28ede5b87b450a6aaf141fba8b6997dd20620e6d9c75fa8fe"
+    },
+    {
+      "manifest_id": "XBm7P2Amm2g",
+      "id": "a3c5639e-a39f-40c4-bab8-5d7020c8f61b",
+      "status": "ready",
+      "metadata": {
+        "caption": "An adult fox and its cub are in a natural setting, with the adult fox standing and looking up at the cub, which is sitting on the ground.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "adult fox",
+          "cub",
+          "standing",
+          "looking up",
+          "natural setting",
+          "green grass",
+          "dirt ground",
+          "forest background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"adult fox\",\n    \"cub\",\n    \"standing\",\n    \"looking up\",\n    \"natural setting\",\n    \"green grass\",\n    \"dirt ground\",\n    \"forest background\"\n  ],\n  \"caption\": \"An adult fox and its cub are in a natural setting, with the adult fox standing and looking up at the cub, which is sitting on the ground.\",\n  \"confidence\": 0.95\n}",
+      "version": "a62c13584dcbeffe0286ccab899f2dfa3b6b46e279bd6842b3918031135151ef",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "f04b5fd0b9f7c01a5474b2adae51c981da7f9f4743819904f2f92513ebe4b559"
+    },
+    {
+      "manifest_id": "Powgsxla7Es",
+      "id": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "red fur",
+          "white chest",
+          "black eyes",
+          "ears pointed upward"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"red fur\",\n    \"white chest\",\n    \"black eyes\",\n    \"ears pointed upward\"\n  ],\n  \"caption\": \"A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.\",\n  \"confidence\": 0.95\n}",
+      "version": "adfd34ec2a68c9a27d1b3897cf6e51c35e24c1c2d78dac22ec6596b0a5dbca96",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "60c027be48bcf19382731762e66b5c9fde5daafb49a4026d1acbaeccc3a8a4c7"
+    },
+    {
+      "manifest_id": "dH6IjhWHNQQ",
+      "id": "c19ce60e-c4e1-4f06-a95c-6e7f7c877cdb",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up view of a modern architectural structure with a spiraling, metallic lattice pattern, illuminated by natural light from above.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "curved, spiral-shaped structure",
+          "metallic, lattice-like pattern",
+          "lighting from above",
+          "modern, abstract design"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"curved, spiral-shaped structure\",\n    \"metallic, lattice-like pattern\",\n    \"lighting from above\",\n    \"modern, abstract design\"\n  ],\n  \"caption\": \"A close-up view of a modern architectural structure with a spiraling, metallic lattice pattern, illuminated by natural light from above.\",\n  \"confidence\": 0.95\n}",
+      "version": "4a90637a6156fee3115026d0d64d0261caf7c9f8a309527e3933c69abce42a89",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "7deadc03499f5cd64f5cb615350d08897dd63345324366faa386a6fa3ac4dec0"
+    },
+    {
+      "manifest_id": "1AIYdIb3O5M",
+      "id": "c1b1c3d4-c7e0-4235-b1ee-0e064d8784e7",
+      "status": "ready",
+      "metadata": {
+        "caption": "A wolf stands in a snowy forest, its side profile captured in warm, golden light.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "gray and white fur",
+          "side profile",
+          "standing in snow",
+          "natural forest background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"gray and white fur\",\n    \"side profile\",\n    \"standing in snow\",\n    \"natural forest background\"\n  ],\n  \"caption\": \"A wolf stands in a snowy forest, its side profile captured in warm, golden light.\",\n  \"confidence\": 0.95\n}",
+      "version": "16164fa927c28e2548ea9960c615e8bb5cb0a8616270f499150c1846af078ac8",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "ccb9fa741d2ec482bdbed933e3d924a7b1575f396413274a12be2e565624aca8"
+    },
+    {
+      "manifest_id": "favQn8WgRyk",
+      "id": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+      "status": "ready",
+      "metadata": {
+        "caption": "A young fawn stands in a forest, looking directly at the camera with its legs slightly apart.",
+        "subject": "fawn",
+        "category": "animal",
+        "attributes": [
+          "standing",
+          "in a forest",
+          "with spots",
+          "on grass"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fawn\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing\",\n    \"in a forest\",\n    \"with spots\",\n    \"on grass\"\n  ],\n  \"caption\": \"A young fawn stands in a forest, looking directly at the camera with its legs slightly apart.\",\n  \"confidence\": 0.95\n}",
+      "version": "5a3457fcd04ca670846214e247700da523b667dc6d50cfd70067201019a8ce39",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "eebeb898d8b43371c1137f9019f41a12f6c966c79287a8b2e9c6f3f41cb09842"
+    },
+    {
+      "manifest_id": "fOV7nWWIwRk",
+      "id": "c3b91456-3884-416a-9781-e5393852761d",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a red fox in profile, standing in snow, with its fur and features clearly visible against a bright white background.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "side profile",
+          "reddish-orange fur",
+          "white fur around the mouth and neck",
+          "standing in snow"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"side profile\",\n    \"reddish-orange fur\",\n    \"white fur around the mouth and neck\",\n    \"standing in snow\"\n  ],\n  \"caption\": \"A close-up of a red fox in profile, standing in snow, with its fur and features clearly visible against a bright white background.\",\n  \"confidence\": 0.95\n}",
+      "version": "8e739a47a001df19c7df5e65e7f65291ce0fbaa0596a04d8e834576c60f6002b",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "aee9ffed42306437dac2635df1c82dd275a52e77ea70491370f34abfa5c3d068"
+    },
+    {
+      "manifest_id": "K67sBVqLLuw",
+      "id": "c7526b07-491c-4ef9-86c9-69becd5a8070",
+      "status": "ready",
+      "metadata": {
+        "caption": "A black and white architectural photograph captures a modern building with a spiraling, curved design, viewed from below against a bright sky.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "curved spiral design",
+          "black and white",
+          "modern building",
+          "winding structure"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"curved spiral design\",\n    \"black and white\",\n    \"modern building\",\n    \"winding structure\"\n  ],\n  \"caption\": \"A black and white architectural photograph captures a modern building with a spiraling, curved design, viewed from below against a bright sky.\",\n  \"confidence\": 0.95\n}",
+      "version": "f5bf7c06dfbdfde94890f8c3528fc154a281ea61e48d293fb4971f44bb08aca2",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "ce69eb6449b48ae708aefb7720b9fa29985723960422be76fa144e8b8463cc6f"
+    },
+    {
+      "manifest_id": "pPxhM0CRzl4",
+      "id": "d3c95b87-138b-4488-844d-5ac43d880c49",
+      "status": "ready",
+      "metadata": {
+        "caption": "A low-angle view of a modern, glass architectural structure with curved and angular forms, reflecting the sky and clouds, set against a bright, overcast day.",
+        "subject": "architecture",
+        "category": "architecture",
+        "attributes": [
+          "modern glass building",
+          "curved and angular design",
+          "reflective windows",
+          "sky and clouds in background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"architecture\",\n  \"category\": \"architecture\",\n  \"attributes\": [\n    \"modern glass building\",\n    \"curved and angular design\",\n    \"reflective windows\",\n    \"sky and clouds in background\"\n  ],\n  \"caption\": \"A low-angle view of a modern, glass architectural structure with curved and angular forms, reflecting the sky and clouds, set against a bright, overcast day.\",\n  \"confidence\": 0.95\n}",
+      "version": "f5c1dc634abd9e69e71e5d599fbcecf133fc55bf595a537a4cc76c6ae09896af",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "bab0154cefce80fd043f8f5282c9bafea0332979d10e2ac2bc942e19c137c563"
+    },
+    {
+      "manifest_id": "u5RZZJKM05E",
+      "id": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+      "status": "ready",
+      "metadata": {
+        "caption": "A reddish-orange fox stands in a grassy area with blurred foliage, its body angled as it moves through the natural environment.",
+        "subject": "fox",
+        "category": "animal",
+        "attributes": [
+          "standing in grass",
+          "reddish-orange fur",
+          "ears perked",
+          "winding through natural vegetation"
+        ],
+        "confidence": 0.85
+      },
+      "raw_response": "{\n  \"subject\": \"fox\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing in grass\",\n    \"reddish-orange fur\",\n    \"ears perked\",\n    \"winding through natural vegetation\"\n  ],\n  \"caption\": \"A reddish-orange fox stands in a grassy area with blurred foliage, its body angled as it moves through the natural environment.\",\n  \"confidence\": 0.85\n}",
+      "version": "8f26fec2225b33f604beed7720b33485d004c37f8efbb0d32068089606497898",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "e4b60c6488bbe28f9ceee72d04faabebc916b1709c92f616fc9864061c13be3a"
+    },
+    {
+      "manifest_id": "N04FIfHhv_k",
+      "id": "dfa9120b-5cf1-4706-b9fd-9ecae040b120",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a black and white dog with tan markings, looking directly at the camera against a pink background.",
+        "subject": "dog",
+        "category": "animal",
+        "attributes": [
+          "black and white fur with tan markings",
+          "ears are up",
+          "looking directly at the camera",
+          "on a pink background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"dog\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"black and white fur with tan markings\",\n    \"ears are up\",\n    \"looking directly at the camera\",\n    \"on a pink background\"\n  ],\n  \"caption\": \"A close-up of a black and white dog with tan markings, looking directly at the camera against a pink background.\",\n  \"confidence\": 0.95\n}",
+      "version": "7ec6b984a1c4f591ac9129a9493283b6bc2b3cb0b1a813413f286e5930958fff",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "3a39bb737c87ec011232c4d5b3fc2988740113d7626996919e6097cd2f61f89c"
+    },
+    {
+      "manifest_id": "AZ31hv9kdzE",
+      "id": "e88e296c-c0a2-4537-aff7-6019f4a18033",
+      "status": "ready",
+      "metadata": {
+        "caption": "A polar bear stands upright on a snowy ice field, facing the camera with its paws raised in a curious pose.",
+        "subject": "polar bear",
+        "category": "animal",
+        "attributes": [
+          "standing on its hind legs",
+          "on a snowy ice surface",
+          "in a natural polar environment",
+          "with a white and light brown fur coat"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"polar bear\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"standing on its hind legs\",\n    \"on a snowy ice surface\",\n    \"in a natural polar environment\",\n    \"with a white and light brown fur coat\"\n  ],\n  \"caption\": \"A polar bear stands upright on a snowy ice field, facing the camera with its paws raised in a curious pose.\",\n  \"confidence\": 0.95\n}",
+      "version": "168255c7b5d0920e1b52afc4637e6bb0189bc8954861e65fd2dc893873f134c4",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "63e6bb611900fa1fb5f2d1b4bf63ab20c809dc11fd9a1b9946e5fded66be1c7d"
+    },
+    {
+      "manifest_id": "W5XTTLpk1-I",
+      "id": "ee35ce3c-28d3-4478-83f3-6041554d223b",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of several large, wet green leaves with water droplets, set against a dark background.",
+        "subject": "plant",
+        "category": "plant",
+        "attributes": [
+          "large green leaves",
+          "wet with water droplets",
+          "close-up view",
+          "dark background"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"plant\",\n  \"category\": \"plant\",\n  \"attributes\": [\n    \"large green leaves\",\n    \"wet with water droplets\",\n    \"close-up view\",\n    \"dark background\"\n  ],\n  \"caption\": \"A close-up of several large, wet green leaves with water droplets, set against a dark background.\",\n  \"confidence\": 0.95\n}",
+      "version": "19c9805df1040f617d5da66ba27a8751af474e3580411627251ba587d02225b0",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "64c2f154ba85d02b8003fd80cd01897d535a019f70e906729d86c38b9a8eae85"
+    },
+    {
+      "manifest_id": "i6yrDhfZ-XQ",
+      "id": "f2f307a7-5add-4a89-9a0c-72cce6bcd752",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up of a wolf with intense yellow eyes, standing in a dark, natural setting with a moody, atmospheric lighting.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "dark fur with gray and brown tones",
+          "intense yellow eyes",
+          "close-up view with a focused gaze",
+          "standing in a dim, natural environment"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"dark fur with gray and brown tones\",\n    \"intense yellow eyes\",\n    \"close-up view with a focused gaze\",\n    \"standing in a dim, natural environment\"\n  ],\n  \"caption\": \"A close-up of a wolf with intense yellow eyes, standing in a dark, natural setting with a moody, atmospheric lighting.\",\n  \"confidence\": 0.95\n}",
+      "version": "113a447b37d2625957fcdfccbb017a96e5b20b2f72a4274d7800e27edf62a0f7",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "484cea2059a78a0298f8a2c2c94504496bba57677cafb0a207755910a38c6d4e"
+    },
+    {
+      "manifest_id": "tauPAnOIGvE",
+      "id": "f340e626-1ffd-4f60-9a9d-9763dafb0db6",
+      "status": "ready",
+      "metadata": {
+        "caption": "A close-up portrait of a wolf with gray fur and intense green eyes, set against a dark background.",
+        "subject": "wolf",
+        "category": "animal",
+        "attributes": [
+          "gray fur",
+          "intense green eyes",
+          "dark background",
+          "close-up portrait"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"wolf\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"gray fur\",\n    \"intense green eyes\",\n    \"dark background\",\n    \"close-up portrait\"\n  ],\n  \"caption\": \"A close-up portrait of a wolf with gray fur and intense green eyes, set against a dark background.\",\n  \"confidence\": 0.95\n}",
+      "version": "bee84fbe6839c6e6aa1c5e7f986ee38c58f9595b741c5bb01c91d7d65f790011",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "a07e18af2f285a6d787d697d2cf2efee58056191d9c4d98c6d1d7a854d8ba776"
+    },
+    {
+      "manifest_id": "RwHv7LgeC7s",
+      "id": "f4728a11-f7da-4211-947c-cf8c8ea9ee26",
+      "status": "ready",
+      "metadata": {
+        "caption": "A serene forest scene at sunrise, with golden light filtering through tall trees and casting beams of light on the forest floor, which is covered in fallen leaves and moss.",
+        "subject": "forest",
+        "category": "landscape",
+        "attributes": [
+          "dense with tall trees",
+          "sunlight filtering through the canopy",
+          "golden and warm colors",
+          "moss-covered ground"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"forest\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"dense with tall trees\",\n    \"sunlight filtering through the canopy\",\n    \"golden and warm colors\",\n    \"moss-covered ground\"\n  ],\n  \"caption\": \"A serene forest scene at sunrise, with golden light filtering through tall trees and casting beams of light on the forest floor, which is covered in fallen leaves and moss.\",\n  \"confidence\": 0.95\n}",
+      "version": "1390617acd1d839a0f0d0fc69ebf0b880a58dfb37e697bca6b5169c621da42a9",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "aebe02415334a967d6313ad012db98b9ac1eba38f67197711ff195ce0f6d364f"
+    },
+    {
+      "manifest_id": "78A265wPiO4",
+      "id": "f73e662b-5665-4193-a1fc-2d626d3b87f6",
+      "status": "ready",
+      "metadata": {
+        "caption": "A lone figure stands on a rocky outcrop, overlooking a vast mountain range with green slopes and misty peaks under a golden light.",
+        "subject": "mountain",
+        "category": "landscape",
+        "attributes": [
+          "rocky peaks",
+          "green grassy slopes",
+          "a lone figure standing on a rock",
+          "distant misty mountains"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"mountain\",\n  \"category\": \"landscape\",\n  \"attributes\": [\n    \"rocky peaks\",\n    \"green grassy slopes\",\n    \"a lone figure standing on a rock\",\n    \"distant misty mountains\"\n  ],\n  \"caption\": \"A lone figure stands on a rocky outcrop, overlooking a vast mountain range with green slopes and misty peaks under a golden light.\",\n  \"confidence\": 0.95\n}",
+      "version": "e00784fcf8c8973dc8040f40ff94b07084b410347cf3777f62f712640f2944d1",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "b002150e3ea8ce981bc5cb181cdb4957e5340bdd81bf8aefbf5a18389855f257"
+    },
+    {
+      "manifest_id": "K4mSJ7kc0As",
+      "id": "fae5c575-2d4f-40f9-9ad8-b7ea98d7f11e",
+      "status": "ready",
+      "metadata": {
+        "caption": "A black pug with wide eyes and a frowning expression wears a denim jacket against a plain white background.",
+        "subject": "pug",
+        "category": "animal",
+        "attributes": [
+          "black fur",
+          "wearing a denim jacket",
+          "wide eyes",
+          "frowning expression"
+        ],
+        "confidence": 0.95
+      },
+      "raw_response": "{\n  \"subject\": \"pug\",\n  \"category\": \"animal\",\n  \"attributes\": [\n    \"black fur\",\n    \"wearing a denim jacket\",\n    \"wide eyes\",\n    \"frowning expression\"\n  ],\n  \"caption\": \"A black pug with wide eyes and a frowning expression wears a denim jacket against a plain white background.\",\n  \"confidence\": 0.95\n}",
+      "version": "93f91c148e99843eefa7bbecce6d33bc396d7975f3ac0ac3c2bf92a25abdf802",
+      "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "dimensions": 768,
+      "embedding_model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "input_hash": "926df5872bae853e37b3a52fdb0a457656b49a898e8f7023bc8bf586a4d0bc2b"
+    }
+  ]
+}

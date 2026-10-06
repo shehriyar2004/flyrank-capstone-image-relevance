@@ -29,3 +29,10 @@ test('model_identity_tracks_immutable_digest_when_a_tag_changes',async()=>{
     assert.equal(await resolveModelIdentity(url,'fixture'),`fixture@${'b'.repeat(64)}`);
   }finally{await new Promise(resolve=>server.close(resolve));}
 });
+
+test('scientific_text_normalization_respects_full_names_and_word_boundaries',async()=>{
+  const {normalizeScientificText}=await import('../src/ai/nomenclature.mjs');
+  assert.equal(normalizeScientificText('Vulpes vulpes in woodland'),'red fox in woodland');
+  assert.equal(normalizeScientificText('Canis lupus familiaris'),'domestic dog');
+  assert.equal(normalizeScientificText('Vulpes vulpesensis'),'Vulpes vulpesensis');
+});

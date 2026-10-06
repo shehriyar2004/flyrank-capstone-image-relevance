@@ -2,8 +2,8 @@ import { readFile } from 'node:fs/promises';
 import { resolve, sep } from 'node:path';
 import { hash } from '../data/repository.mjs';
 import { parseVision, parseIntent, flagged, validateVector } from '../ai/schemas.mjs';
-import { PROMPT_VERSION } from '../ai/ollama.mjs';
-import {embeddingText} from '../ai/embedding-input.mjs';
+import { PROMPT_VERSION,INTENT_PROMPT_VERSION } from '../ai/ollama.mjs';
+import {embeddingText,postEmbeddingText} from '../ai/embedding-input.mjs';
 
 export function createProcessor({ pool, repo, queue, provider, config, readImage }) {
   const loadImage = readImage ?? (async image => {
@@ -22,7 +22,7 @@ export function createProcessor({ pool, repo, queue, provider, config, readImage
       Object.assign(context,{visionIdentity,embeddingIdentity});
       const imageJob = job.kind === 'image';
       let entity = imageJob ? await repo.getImage(job.tenant_id, job.entity_id) : await repo.getPost(job.tenant_id, job.entity_id);
-      const version = hash(`${PROMPT_VERSION}:${visionIdentity}:${imageJob ? entity.sha256 : entity.title+'\n'+entity.content}`);
+      const version = hash(`${imageJob?PROMPT_VERSION:INTENT_PROMPT_VERSION}:${visionIdentity}:${imageJob ? entity.sha256 : entity.title+'\n'+entity.content}`);
       let metadata = imageJob ? entity.metadata : entity.intent;
       if ((imageJob ? entity.metadata_version : entity.intent_version) !== version) {
         const output=imageJob ? await provider.classifyImage(await loadImage(entity),context) : await provider.analyzePost(`${entity.title}\n${entity.content}`,context);
@@ -35,7 +35,7 @@ export function createProcessor({ pool, repo, queue, provider, config, readImage
           await client.query('UPDATE jobs SET progress=50 WHERE id=$1', [job.id]);
         });
       }
-      const text = imageJob ? metadata.caption : `${entity.title}\n${entity.content}`;
+      const text = imageJob ? metadata.caption : postEmbeddingText({...entity,intent:metadata});
       const inputHash = hash(embeddingText(text));
       const column = imageJob ? 'image_id' : 'post_id';
       const existing = await pool.query(`SELECT id FROM embeddings WHERE tenant_id=$1 AND ${column}=$2 AND model=$3 AND input_hash=$4`, [job.tenant_id, entity.id, embeddingIdentity, inputHash]);

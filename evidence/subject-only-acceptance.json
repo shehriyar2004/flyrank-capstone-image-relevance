@@ -1,0 +1,3332 @@
+{
+  "corpus": {
+    "pass": true,
+    "tagged": 50,
+    "flagged": [
+      {
+        "manifestId": "qLW70Aoo8BE",
+        "metadata": {
+          "caption": "A lush, dense tropical jungle with a variety of green leaves and plants, creating a vibrant, natural scene.",
+          "subject": "unknown",
+          "category": "plant",
+          "attributes": [
+            "dense tropical foliage",
+            "various leaf shapes",
+            "green and brown tones",
+            "natural, overgrown environment"
+          ],
+          "confidence": 0.75
+        }
+      }
+    ],
+    "jobs": [
+      {
+        "id": "f792dfbd-53e1-4611-be71-5b3b59196613",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "52843f63-1a32-4488-8ff6-d8ea0a916345",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "77190d61-d5af-444f-a641-6c572ff0a33a",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "ca1726a0-c811-4bf2-af07-b1d0358e1e9f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "f386e3bc-deb4-4214-9359-61890d730063",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "ae67e59e-b0aa-4b3d-b44f-e8dee084766e",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "6e36bd75-a717-444b-8748-2aa130c15267",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "7cc65f3a-0afc-4232-84fa-f1ace78b7c5f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "f6d17888-0da1-4e1b-b718-414d5b2516cd",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "2bc6a8c5-7d80-4bbe-bb12-e5f3f35d580d",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "6e14850e-8796-4f24-86d6-834b75984d39",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "2729e20b-7af2-4af6-8312-abc2fc20b1da",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "95a7414f-ff75-4af5-beec-6461ca05f9cc",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "c3c07f29-0d11-4749-9cca-5a27365076c8",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "4bcdd70d-c7ae-4612-beb1-732a8307e55f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "c0cecad4-f2ff-458a-b86a-a33d9a523c33",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "abbd7c00-51de-47f9-98db-7c1b24b7ec50",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "22eecd89-e7cc-4bcd-8cc6-c395174ff552",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "c76b1cb8-12e0-4ad2-a66f-5f1dea58af01",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "11419dc0-c3cf-4c11-8701-690d09c00461",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "f7100147-983d-4107-b50a-0daf8f7e625c",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "ab68ccd4-6c10-4eb1-bd37-e5552b20a4a2",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "1e8ebba2-df26-44ba-8126-55148b291672",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "146134e2-094f-4a6b-acfd-8b5b34c3739f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "b4455fba-42c7-45d0-93fb-bc0afa499485",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "d1a1a6c5-7134-46ac-a73e-3fa6f25dbe00",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "ce8c2b50-587d-4b81-83e0-30726d9f366c",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "87d7658d-05a8-4c66-8da2-e05861a016f2",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "dec09da9-1c5a-4c4d-9e12-df87cc7c1d0e",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "e151faf1-08ca-4832-981a-7cf673be7de8",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "f6169596-4179-4d8e-80ce-16659d1bec3f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "c3ffc9b1-a14e-4897-873f-c85569c6e15d",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "6e0e4552-b3a7-4500-a6de-76c5edc81425",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "7ce16f78-9dcd-4984-9bdc-0bf2135f03be",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "4223d7a9-8c81-4da5-8506-8d4edd84100e",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "708cbef7-b567-4d9f-bbea-ac0dd711785d",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "3c5907c1-a20d-44ba-bcb7-72eec31a8480",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "91a40996-39e5-4337-aacb-213b6fa05ef4",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "ac6d13fe-4b30-4fa8-807a-aeb695e65333",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "3c4e85ec-0dd0-46e1-9821-585bc2da070d",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "10769ce3-86a7-4075-830e-7f8560e55a42",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "1f641266-2652-43d8-8d60-4659fcbc8732",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "3bd99ea0-e59f-44f2-a764-6a7e53019fb4",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "b8506252-820f-48f9-992b-097a21ad8509",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "11eb56e5-6c73-4bb2-84f4-475071895594",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "603dbae8-7691-4304-b20a-801d2cac2123",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "3846d7ec-e173-4d34-8c81-dab2dc2fa42f",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "42cc98de-993b-44a8-a6db-7fed0fc53ce0",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "07e3f008-018c-48a5-bd31-fdcf31ab9920",
+        "status": "succeeded",
+        "attempts": 1
+      },
+      {
+        "id": "e006ff92-1737-4657-8e48-0e592e1bf26e",
+        "status": "succeeded",
+        "attempts": 1
+      }
+    ]
+  },
+  "fox": {
+    "pass": true,
+    "result": {
+      "status": "matched",
+      "embeddingModelIdentity": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "embeddingProfile": "sentence-similarity-meaning-v3",
+      "suggestions": [
+        {
+          "suggestionId": "df2f01f7-3736-42e3-9aa7-d72dcca8b752",
+          "status": "pending",
+          "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+          "manifestId": "Powgsxla7Es",
+          "score": 0.8326852791949109,
+          "subject": "fox",
+          "caption": "A close-up of a red fox with white chest fur, standing in snow, looking directly at the camera.",
+          "reasons": [
+            "Subject, classification confidence, and semantic similarity clear the guard"
+          ]
+        },
+        {
+          "suggestionId": "64c06f52-568f-4550-959c-96a14b0928e0",
+          "status": "pending",
+          "imageId": "c3b91456-3884-416a-9781-e5393852761d",
+          "manifestId": "fOV7nWWIwRk",
+          "score": 0.8302444149658809,
+          "subject": "fox",
+          "caption": "A close-up of a red fox in profile, standing in snow, with its fur and features clearly visible against a bright white background.",
+          "reasons": [
+            "Subject, classification confidence, and semantic similarity clear the guard"
+          ]
+        }
+      ],
+      "rejections": [
+        {
+          "imageId": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+          "manifestId": "7LzKELgdzzI",
+          "score": 0.8154519472537063,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "59caca86-2788-412e-9111-decf3fe65d12",
+          "manifestId": "gfqkrJb7Vro",
+          "score": 0.7999174490568784,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+          "manifestId": "u5RZZJKM05E",
+          "score": 0.7785545207221174,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f340e626-1ffd-4f60-9a9d-9763dafb0db6",
+          "manifestId": "tauPAnOIGvE",
+          "score": 0.7301139740294975,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "a3c5639e-a39f-40c4-bab8-5d7020c8f61b",
+          "manifestId": "XBm7P2Amm2g",
+          "score": 0.7217388511624286,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "dfa9120b-5cf1-4706-b9fd-9ecae040b120",
+          "manifestId": "N04FIfHhv_k",
+          "score": 0.7155192327439555,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+          "manifestId": "favQn8WgRyk",
+          "score": 0.6993951276784129,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "437baf15-9cbe-4100-887b-87367d7f723f",
+          "manifestId": "iUA1cea8QiY",
+          "score": 0.6946902208006775,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+          "manifestId": "FGkNt8tO04I",
+          "score": 0.6837704183767485,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "56bd9801-202a-467b-8904-9d1a5008b62b",
+          "manifestId": "F0dmGPe2KG0",
+          "score": 0.6575730912207478,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3dac63ef-2bd9-4b4d-ae08-dc07e9b6a786",
+          "manifestId": "QZ2EQuPpQJs",
+          "score": 0.6567864941441112,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f2f307a7-5add-4a89-9a0c-72cce6bcd752",
+          "manifestId": "i6yrDhfZ-XQ",
+          "score": 0.6540133247086855,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c1b1c3d4-c7e0-4235-b1ee-0e064d8784e7",
+          "manifestId": "1AIYdIb3O5M",
+          "score": 0.6512737202419182,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3fa8bfb8-0f8e-495b-94a9-98a8be9f2bb2",
+          "manifestId": "rGPDLlMNFF4",
+          "score": 0.6438375537984068,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "fae5c575-2d4f-40f9-9ad8-b7ea98d7f11e",
+          "manifestId": "K4mSJ7kc0As",
+          "score": 0.6236605633891883,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+          "manifestId": "z4yzSsH5EAo",
+          "score": 0.6196324166135501,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "e88e296c-c0a2-4537-aff7-6019f4a18033",
+          "manifestId": "AZ31hv9kdzE",
+          "score": 0.6170697874142399,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "64235f62-6750-423c-930f-95b015524437",
+          "manifestId": "AbNO2iejoXA",
+          "score": 0.6137105409919452,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "289523dc-6f61-4c06-b888-dfdb8978bf2e",
+          "manifestId": "qQWV91TTBrE",
+          "score": 0.6061232857967043,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "7848cece-9b52-4df7-be86-ced9e9c026b3",
+          "manifestId": "iQRKBNKyRpo",
+          "score": 0.5937779446617683,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "01f0c4a8-d706-4295-9e37-4713332de50d",
+          "manifestId": "2l0CWTpcChI",
+          "score": 0.5917136372197219,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f73e662b-5665-4193-a1fc-2d626d3b87f6",
+          "manifestId": "78A265wPiO4",
+          "score": 0.5635449683853159,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "16785c6f-08f5-40ce-87bf-fed28c95d2be",
+          "manifestId": "G8cB8hY3yvU",
+          "score": 0.5509026666215413,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "96453130-f447-4985-8bc0-7aa3218b020a",
+          "manifestId": "lWBZ01XRRoI",
+          "score": 0.5497708639505777,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "769fdcac-52d3-4a7e-b976-efb02ad7ffeb",
+          "manifestId": "dtfyRuKG7UY",
+          "score": 0.5424973429358146,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3cfa14b3-6332-4909-98b5-028421d0f6ff",
+          "manifestId": "h5H5UyXBLBQ",
+          "score": 0.5374869485196597,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c7526b07-491c-4ef9-86c9-69becd5a8070",
+          "manifestId": "K67sBVqLLuw",
+          "score": 0.5364425974411494,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c19ce60e-c4e1-4f06-a95c-6e7f7c877cdb",
+          "manifestId": "dH6IjhWHNQQ",
+          "score": 0.5360874418473316,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1d4d0885-3dd8-4cda-8fe1-2f95b8bf0902",
+          "manifestId": "PzYiCWOHtfU",
+          "score": 0.5345691828953046,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d3c95b87-138b-4488-844d-5ac43d880c49",
+          "manifestId": "pPxhM0CRzl4",
+          "score": 0.5322694115621559,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+          "manifestId": "avA-YuEe2ZA",
+          "score": 0.5320250285720218,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "03025253-7faf-4649-9134-cb882ac8d53a",
+          "manifestId": "xljtGZ2-P3Y",
+          "score": 0.5311032121043273,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f4728a11-f7da-4211-947c-cf8c8ea9ee26",
+          "manifestId": "RwHv7LgeC7s",
+          "score": 0.5302764557149885,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+          "manifestId": "l5Tzv1alcps",
+          "score": 0.5279543292754119,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "41984a24-80d9-49c4-b845-a35069392b12",
+          "manifestId": "0LAJfSNa-xQ",
+          "score": 0.5262284957533141,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6d7c514d-8a95-4802-880d-39432bec8777",
+          "manifestId": "bmM_IdLd1SA",
+          "score": 0.5219606276339396,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "ee35ce3c-28d3-4478-83f3-6041554d223b",
+          "manifestId": "W5XTTLpk1-I",
+          "score": 0.518242040572241,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3a6d6a15-2b39-4627-a8c4-22a1a76893f4",
+          "manifestId": "73F4pKoUkM0",
+          "score": 0.5148191733594918,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "53f2d6a9-e88b-41d6-a6ed-c7f7fa672065",
+          "manifestId": "s4wGZw3UuLk",
+          "score": 0.5127156618191385,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "930b7d56-13a0-4db3-b778-37871b05ce27",
+          "manifestId": "NRQV-hBF10M",
+          "score": 0.5091766873944066,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6f090ce4-7056-4994-bb11-4107d9118116",
+          "manifestId": "yihlaRCCvd4",
+          "score": 0.5068474145084085,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1feaa3d6-b781-4338-8219-98937d19ce76",
+          "manifestId": "2Hzmz15wGik",
+          "score": 0.5046941321655222,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "12e940ac-0950-4fe5-9325-1c2da1da7b27",
+          "manifestId": "Bkci_8qcdvQ",
+          "score": 0.4750618259404198,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2f0ef4ea-ed0a-4f14-8a99-c6310bebdab1",
+          "manifestId": "1Z2niiBPg5A",
+          "score": 0.47424265633856916,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "74249f28-7360-42d1-a8e4-096f1ec7a8d5",
+          "manifestId": "qLW70Aoo8BE",
+          "score": 0.46393081886036613,
+          "reasons": [
+            "Image is flagged, failed, or still processing",
+            "Image classification confidence below threshold or subject unknown",
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "42b5c304-f20b-484d-a9d0-d5d24c4cf0fb",
+          "manifestId": "dDVU6D_6T80",
+          "score": 0.46292497106675895,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1390aab3-c728-4b82-afe8-9a00c5a4f320",
+          "manifestId": "ttS--i2y9Bo",
+          "score": 0.4609352624271696,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "975a58fb-2aad-41f7-830f-217bc4038f88",
+          "manifestId": "T7K4aEPoGGk",
+          "score": 0.44874985141288465,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        }
+      ],
+      "reasons": []
+    },
+    "confuserScores": [
+      0.7301139740294975,
+      0.7155192327439555,
+      0.6946902208006775,
+      0.6567864941441112,
+      0.6540133247086855,
+      0.6512737202419182,
+      0.6236605633891883,
+      0.6137105409919452,
+      0.5917136372197219,
+      0.5509026666215413,
+      0.5424973429358146,
+      0.5068474145084085
+    ]
+  },
+  "semantic": {
+    "pass": false,
+    "samePhotoAsCommonName": false,
+    "result": {
+      "status": "no confident match",
+      "embeddingModelIdentity": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "embeddingProfile": "sentence-similarity-meaning-v3",
+      "suggestions": [],
+      "rejections": [
+        {
+          "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+          "manifestId": "Powgsxla7Es",
+          "score": 0.8255205640422191,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c3b91456-3884-416a-9781-e5393852761d",
+          "manifestId": "fOV7nWWIwRk",
+          "score": 0.8248135256834973,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+          "manifestId": "7LzKELgdzzI",
+          "score": 0.810027992102363,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "59caca86-2788-412e-9111-decf3fe65d12",
+          "manifestId": "gfqkrJb7Vro",
+          "score": 0.7957441545264371,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+          "manifestId": "u5RZZJKM05E",
+          "score": 0.7806619131666686,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f340e626-1ffd-4f60-9a9d-9763dafb0db6",
+          "manifestId": "tauPAnOIGvE",
+          "score": 0.7550326267739782,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "a3c5639e-a39f-40c4-bab8-5d7020c8f61b",
+          "manifestId": "XBm7P2Amm2g",
+          "score": 0.725162242272689,
+          "reasons": [
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "dfa9120b-5cf1-4706-b9fd-9ecae040b120",
+          "manifestId": "N04FIfHhv_k",
+          "score": 0.7212421001498535,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "437baf15-9cbe-4100-887b-87367d7f723f",
+          "manifestId": "iUA1cea8QiY",
+          "score": 0.7152898936640877,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+          "manifestId": "favQn8WgRyk",
+          "score": 0.6991289701901308,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3dac63ef-2bd9-4b4d-ae08-dc07e9b6a786",
+          "manifestId": "QZ2EQuPpQJs",
+          "score": 0.6910897382586679,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+          "manifestId": "FGkNt8tO04I",
+          "score": 0.6867860956084116,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f2f307a7-5add-4a89-9a0c-72cce6bcd752",
+          "manifestId": "i6yrDhfZ-XQ",
+          "score": 0.6863425671241254,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c1b1c3d4-c7e0-4235-b1ee-0e064d8784e7",
+          "manifestId": "1AIYdIb3O5M",
+          "score": 0.6786183413702273,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "56bd9801-202a-467b-8904-9d1a5008b62b",
+          "manifestId": "F0dmGPe2KG0",
+          "score": 0.668586869312423,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3fa8bfb8-0f8e-495b-94a9-98a8be9f2bb2",
+          "manifestId": "rGPDLlMNFF4",
+          "score": 0.6516529291349568,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "fae5c575-2d4f-40f9-9ad8-b7ea98d7f11e",
+          "manifestId": "K4mSJ7kc0As",
+          "score": 0.6402076970274612,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "e88e296c-c0a2-4537-aff7-6019f4a18033",
+          "manifestId": "AZ31hv9kdzE",
+          "score": 0.6249679070022697,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+          "manifestId": "z4yzSsH5EAo",
+          "score": 0.6226734511560172,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "64235f62-6750-423c-930f-95b015524437",
+          "manifestId": "AbNO2iejoXA",
+          "score": 0.6147509077413978,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "289523dc-6f61-4c06-b888-dfdb8978bf2e",
+          "manifestId": "qQWV91TTBrE",
+          "score": 0.6143846229484196,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "01f0c4a8-d706-4295-9e37-4713332de50d",
+          "manifestId": "2l0CWTpcChI",
+          "score": 0.6087642562836543,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "7848cece-9b52-4df7-be86-ced9e9c026b3",
+          "manifestId": "iQRKBNKyRpo",
+          "score": 0.6013972724589808,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "769fdcac-52d3-4a7e-b976-efb02ad7ffeb",
+          "manifestId": "dtfyRuKG7UY",
+          "score": 0.5754954495691921,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "16785c6f-08f5-40ce-87bf-fed28c95d2be",
+          "manifestId": "G8cB8hY3yvU",
+          "score": 0.5630683964780384,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f73e662b-5665-4193-a1fc-2d626d3b87f6",
+          "manifestId": "78A265wPiO4",
+          "score": 0.5587304992274464,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "96453130-f447-4985-8bc0-7aa3218b020a",
+          "manifestId": "lWBZ01XRRoI",
+          "score": 0.5420279147930813,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3cfa14b3-6332-4909-98b5-028421d0f6ff",
+          "manifestId": "h5H5UyXBLBQ",
+          "score": 0.5409408171422558,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c7526b07-491c-4ef9-86c9-69becd5a8070",
+          "manifestId": "K67sBVqLLuw",
+          "score": 0.5338264252585648,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+          "manifestId": "avA-YuEe2ZA",
+          "score": 0.5308192017625405,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1d4d0885-3dd8-4cda-8fe1-2f95b8bf0902",
+          "manifestId": "PzYiCWOHtfU",
+          "score": 0.529458930954626,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "03025253-7faf-4649-9134-cb882ac8d53a",
+          "manifestId": "xljtGZ2-P3Y",
+          "score": 0.5282603328200495,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d3c95b87-138b-4488-844d-5ac43d880c49",
+          "manifestId": "pPxhM0CRzl4",
+          "score": 0.5275117183329303,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c19ce60e-c4e1-4f06-a95c-6e7f7c877cdb",
+          "manifestId": "dH6IjhWHNQQ",
+          "score": 0.526877749893171,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+          "manifestId": "l5Tzv1alcps",
+          "score": 0.5235449723247697,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f4728a11-f7da-4211-947c-cf8c8ea9ee26",
+          "manifestId": "RwHv7LgeC7s",
+          "score": 0.5201400331795765,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "41984a24-80d9-49c4-b845-a35069392b12",
+          "manifestId": "0LAJfSNa-xQ",
+          "score": 0.5200217418811864,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6f090ce4-7056-4994-bb11-4107d9118116",
+          "manifestId": "yihlaRCCvd4",
+          "score": 0.5180771200440487,
+          "reasons": [
+            "Animal category mismatch: expected fox, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6d7c514d-8a95-4802-880d-39432bec8777",
+          "manifestId": "bmM_IdLd1SA",
+          "score": 0.5171465778099612,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "ee35ce3c-28d3-4478-83f3-6041554d223b",
+          "manifestId": "W5XTTLpk1-I",
+          "score": 0.5170104298513699,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3a6d6a15-2b39-4627-a8c4-22a1a76893f4",
+          "manifestId": "73F4pKoUkM0",
+          "score": 0.5156945031938747,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "53f2d6a9-e88b-41d6-a6ed-c7f7fa672065",
+          "manifestId": "s4wGZw3UuLk",
+          "score": 0.5123544534256981,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1feaa3d6-b781-4338-8219-98937d19ce76",
+          "manifestId": "2Hzmz15wGik",
+          "score": 0.5100395345566702,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "930b7d56-13a0-4db3-b778-37871b05ce27",
+          "manifestId": "NRQV-hBF10M",
+          "score": 0.5065394429982855,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "12e940ac-0950-4fe5-9325-1c2da1da7b27",
+          "manifestId": "Bkci_8qcdvQ",
+          "score": 0.4835049147850851,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2f0ef4ea-ed0a-4f14-8a99-c6310bebdab1",
+          "manifestId": "1Z2niiBPg5A",
+          "score": 0.47461248087276287,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1390aab3-c728-4b82-afe8-9a00c5a4f320",
+          "manifestId": "ttS--i2y9Bo",
+          "score": 0.46457111698819553,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "74249f28-7360-42d1-a8e4-096f1ec7a8d5",
+          "manifestId": "qLW70Aoo8BE",
+          "score": 0.4624415518242434,
+          "reasons": [
+            "Image is flagged, failed, or still processing",
+            "Image classification confidence below threshold or subject unknown",
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "42b5c304-f20b-484d-a9d0-d5d24c4cf0fb",
+          "manifestId": "dDVU6D_6T80",
+          "score": 0.459772268868244,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "975a58fb-2aad-41f7-830f-217bc4038f88",
+          "manifestId": "T7K4aEPoGGk",
+          "score": 0.44150654064434464,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        }
+      ],
+      "reasons": [
+        "Similarity below threshold or compatible embedding unavailable",
+        "Animal category mismatch: expected fox, detected wolf",
+        "Animal category mismatch: expected fox, detected dog",
+        "Animal category mismatch: expected fox, detected deer",
+        "Animal category mismatch: expected fox, detected bear",
+        "Category mismatch: expected animal, detected landscape",
+        "Category mismatch: expected animal, detected plant",
+        "Category mismatch: expected animal, detected architecture",
+        "Image is flagged, failed, or still processing",
+        "Image classification confidence below threshold or subject unknown"
+      ]
+    }
+  },
+  "forcedWolf": {
+    "pass": true,
+    "result": {
+      "imageId": "c1b1c3d4-c7e0-4235-b1ee-0e064d8784e7",
+      "score": 0.6512737202419182,
+      "embeddingRevision": "b672f1cc2a7b7d3ab35ca25592141e94e5900f6cbab90350989a619e98c9b4a2",
+      "embeddingProfile": "sentence-similarity-meaning-v3",
+      "embeddingModelIdentity": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "visionModelIdentity": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "subjectAccepted": false,
+      "accepted": false,
+      "reasons": [
+        "Animal category mismatch: expected fox, detected wolf",
+        "Similarity below threshold or compatible embedding unavailable"
+      ]
+    }
+  },
+  "absent": {
+    "pass": true,
+    "result": {
+      "status": "no confident match",
+      "embeddingModelIdentity": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+      "embeddingProfile": "sentence-similarity-meaning-v3",
+      "suggestions": [],
+      "rejections": [
+        {
+          "imageId": "289523dc-6f61-4c06-b888-dfdb8978bf2e",
+          "manifestId": "qQWV91TTBrE",
+          "score": 0.5997973405241707,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6f090ce4-7056-4994-bb11-4107d9118116",
+          "manifestId": "yihlaRCCvd4",
+          "score": 0.5786393464838923,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+          "manifestId": "u5RZZJKM05E",
+          "score": 0.5649341214097068,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "7848cece-9b52-4df7-be86-ced9e9c026b3",
+          "manifestId": "iQRKBNKyRpo",
+          "score": 0.5585260101259234,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "dfa9120b-5cf1-4706-b9fd-9ecae040b120",
+          "manifestId": "N04FIfHhv_k",
+          "score": 0.5563293001806289,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3fa8bfb8-0f8e-495b-94a9-98a8be9f2bb2",
+          "manifestId": "rGPDLlMNFF4",
+          "score": 0.5532649055226372,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "e88e296c-c0a2-4537-aff7-6019f4a18033",
+          "manifestId": "AZ31hv9kdzE",
+          "score": 0.549632109330094,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+          "manifestId": "favQn8WgRyk",
+          "score": 0.541099449048554,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3dac63ef-2bd9-4b4d-ae08-dc07e9b6a786",
+          "manifestId": "QZ2EQuPpQJs",
+          "score": 0.5348928451165775,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "56bd9801-202a-467b-8904-9d1a5008b62b",
+          "manifestId": "F0dmGPe2KG0",
+          "score": 0.5344277074203929,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "64235f62-6750-423c-930f-95b015524437",
+          "manifestId": "AbNO2iejoXA",
+          "score": 0.5340093255744677,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "53f2d6a9-e88b-41d6-a6ed-c7f7fa672065",
+          "manifestId": "s4wGZw3UuLk",
+          "score": 0.532831237289199,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "96453130-f447-4985-8bc0-7aa3218b020a",
+          "manifestId": "lWBZ01XRRoI",
+          "score": 0.5304160550397914,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f2f307a7-5add-4a89-9a0c-72cce6bcd752",
+          "manifestId": "i6yrDhfZ-XQ",
+          "score": 0.5302707380000019,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "59caca86-2788-412e-9111-decf3fe65d12",
+          "manifestId": "gfqkrJb7Vro",
+          "score": 0.5268963965856427,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f340e626-1ffd-4f60-9a9d-9763dafb0db6",
+          "manifestId": "tauPAnOIGvE",
+          "score": 0.5268220964412115,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+          "manifestId": "Powgsxla7Es",
+          "score": 0.5240126857391431,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "ee35ce3c-28d3-4478-83f3-6041554d223b",
+          "manifestId": "W5XTTLpk1-I",
+          "score": 0.5232701796497697,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+          "manifestId": "z4yzSsH5EAo",
+          "score": 0.5220465690270815,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected bear",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c3b91456-3884-416a-9781-e5393852761d",
+          "manifestId": "fOV7nWWIwRk",
+          "score": 0.5212742850176346,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+          "manifestId": "FGkNt8tO04I",
+          "score": 0.5204659436127287,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected deer",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+          "manifestId": "7LzKELgdzzI",
+          "score": 0.517284966980252,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "fae5c575-2d4f-40f9-9ad8-b7ea98d7f11e",
+          "manifestId": "K4mSJ7kc0As",
+          "score": 0.5161921739456068,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "03025253-7faf-4649-9134-cb882ac8d53a",
+          "manifestId": "xljtGZ2-P3Y",
+          "score": 0.5153167538891028,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "437baf15-9cbe-4100-887b-87367d7f723f",
+          "manifestId": "iUA1cea8QiY",
+          "score": 0.5128737019943941,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c1b1c3d4-c7e0-4235-b1ee-0e064d8784e7",
+          "manifestId": "1AIYdIb3O5M",
+          "score": 0.5081910455057937,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "04a93f49-f22e-46bc-a1d5-ffa920b6b032",
+          "manifestId": "avA-YuEe2ZA",
+          "score": 0.5052551817611007,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "769fdcac-52d3-4a7e-b976-efb02ad7ffeb",
+          "manifestId": "dtfyRuKG7UY",
+          "score": 0.5052232243158238,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected wolf",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "16785c6f-08f5-40ce-87bf-fed28c95d2be",
+          "manifestId": "G8cB8hY3yvU",
+          "score": 0.5049246220694253,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6d7c514d-8a95-4802-880d-39432bec8777",
+          "manifestId": "bmM_IdLd1SA",
+          "score": 0.4991915812316284,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "975a58fb-2aad-41f7-830f-217bc4038f88",
+          "manifestId": "T7K4aEPoGGk",
+          "score": 0.4890835534678858,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c19ce60e-c4e1-4f06-a95c-6e7f7c877cdb",
+          "manifestId": "dH6IjhWHNQQ",
+          "score": 0.48654473086888805,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "a3c5639e-a39f-40c4-bab8-5d7020c8f61b",
+          "manifestId": "XBm7P2Amm2g",
+          "score": 0.4852182221216833,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected fox",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "01f0c4a8-d706-4295-9e37-4713332de50d",
+          "manifestId": "2l0CWTpcChI",
+          "score": 0.48391427187023783,
+          "reasons": [
+            "Animal category mismatch: expected octopus, detected dog",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "d3c95b87-138b-4488-844d-5ac43d880c49",
+          "manifestId": "pPxhM0CRzl4",
+          "score": 0.48367751359604877,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "74249f28-7360-42d1-a8e4-096f1ec7a8d5",
+          "manifestId": "qLW70Aoo8BE",
+          "score": 0.4834720178644732,
+          "reasons": [
+            "Image is flagged, failed, or still processing",
+            "Image classification confidence below threshold or subject unknown",
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "c7526b07-491c-4ef9-86c9-69becd5a8070",
+          "manifestId": "K67sBVqLLuw",
+          "score": 0.48014724208359405,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3cfa14b3-6332-4909-98b5-028421d0f6ff",
+          "manifestId": "h5H5UyXBLBQ",
+          "score": 0.4786426199265118,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1feaa3d6-b781-4338-8219-98937d19ce76",
+          "manifestId": "2Hzmz15wGik",
+          "score": 0.4755598127357587,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "2f0ef4ea-ed0a-4f14-8a99-c6310bebdab1",
+          "manifestId": "1Z2niiBPg5A",
+          "score": 0.47027104792535657,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f73e662b-5665-4193-a1fc-2d626d3b87f6",
+          "manifestId": "78A265wPiO4",
+          "score": 0.46934235421517095,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1d4d0885-3dd8-4cda-8fe1-2f95b8bf0902",
+          "manifestId": "PzYiCWOHtfU",
+          "score": 0.46771710427804447,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "3a6d6a15-2b39-4627-a8c4-22a1a76893f4",
+          "manifestId": "73F4pKoUkM0",
+          "score": 0.4673322131034299,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+          "manifestId": "l5Tzv1alcps",
+          "score": 0.46633656548485697,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "41984a24-80d9-49c4-b845-a35069392b12",
+          "manifestId": "0LAJfSNa-xQ",
+          "score": 0.46492364785749335,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "f4728a11-f7da-4211-947c-cf8c8ea9ee26",
+          "manifestId": "RwHv7LgeC7s",
+          "score": 0.46322229065756415,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "1390aab3-c728-4b82-afe8-9a00c5a4f320",
+          "manifestId": "ttS--i2y9Bo",
+          "score": 0.4547738654191339,
+          "reasons": [
+            "Category mismatch: expected animal, detected architecture",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "12e940ac-0950-4fe5-9325-1c2da1da7b27",
+          "manifestId": "Bkci_8qcdvQ",
+          "score": 0.4437084519162455,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "930b7d56-13a0-4db3-b778-37871b05ce27",
+          "manifestId": "NRQV-hBF10M",
+          "score": 0.43605532599924357,
+          "reasons": [
+            "Category mismatch: expected animal, detected landscape",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        },
+        {
+          "imageId": "42b5c304-f20b-484d-a9d0-d5d24c4cf0fb",
+          "manifestId": "dDVU6D_6T80",
+          "score": 0.4186042617023049,
+          "reasons": [
+            "Category mismatch: expected animal, detected plant",
+            "Similarity below threshold or compatible embedding unavailable"
+          ]
+        }
+      ],
+      "reasons": [
+        "Animal category mismatch: expected octopus, detected bear",
+        "Similarity below threshold or compatible embedding unavailable",
+        "Animal category mismatch: expected octopus, detected dog",
+        "Animal category mismatch: expected octopus, detected fox",
+        "Animal category mismatch: expected octopus, detected deer",
+        "Animal category mismatch: expected octopus, detected wolf",
+        "Category mismatch: expected animal, detected plant",
+        "Category mismatch: expected animal, detected landscape",
+        "Category mismatch: expected animal, detected architecture",
+        "Image is flagged, failed, or still processing",
+        "Image classification confidence below threshold or subject unknown"
+      ]
+    }
+  },
+  "costs": {
+    "pass": true,
+    "result": {
+      "provider": "local Ollama",
+      "monetaryCostUsd": 0,
+      "budget": {
+        "call_budget": 1000,
+        "reserved_calls": 296
+      },
+      "calls": [
+        {
+          "id": "c1d75889-801c-4b06-9b70-86701f97619d",
+          "job_id": "0134afd2-d8dc-4f8a-94aa-e607c0a12b0f",
+          "entity_id": "16f3c4f6-c67d-4206-ad65-b70904a6e479",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 50,
+          "output_tokens": null,
+          "duration_ms": 1716.4628400000001,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:31:45.341Z"
+        },
+        {
+          "id": "3af4092b-f9f9-4978-9e33-7d9c859c8f75",
+          "job_id": "cda3b76d-d710-4c86-950c-ae05c17e2b5a",
+          "entity_id": "db712272-f8af-4a00-af9d-ed52e92d346b",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 51,
+          "output_tokens": null,
+          "duration_ms": 2246.4750900000004,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:31:42.901Z"
+        },
+        {
+          "id": "35bf4066-2221-45a3-bb5e-60e271d08af5",
+          "job_id": "77fe3078-68a2-4e0a-99b7-ba19038328dc",
+          "entity_id": "16f3c4f6-c67d-4206-ad65-b70904a6e479",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 52,
+          "output_tokens": null,
+          "duration_ms": 1967.5532550000062,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:42.323Z"
+        },
+        {
+          "id": "7f139bd6-6536-4d69-8a7e-9331277b5433",
+          "job_id": "77fe3078-68a2-4e0a-99b7-ba19038328dc",
+          "entity_id": "16f3c4f6-c67d-4206-ad65-b70904a6e479",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 141,
+          "output_tokens": 34,
+          "duration_ms": 8441.613289,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:33.872Z"
+        },
+        {
+          "id": "a8c1a238-ba2b-4bd4-ab55-99b1f8cf9b25",
+          "job_id": "b20a855b-61e7-4b9a-b0bd-8dc518fc28d8",
+          "entity_id": "3e63f965-6664-4aee-871f-851096f5af1d",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 47,
+          "output_tokens": null,
+          "duration_ms": 1967.2104469999904,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:31.878Z"
+        },
+        {
+          "id": "f1db68bf-9879-4293-adff-6d523ec6888d",
+          "job_id": "b20a855b-61e7-4b9a-b0bd-8dc518fc28d8",
+          "entity_id": "3e63f965-6664-4aee-871f-851096f5af1d",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 136,
+          "output_tokens": 29,
+          "duration_ms": 8169.406596000015,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:23.699Z"
+        },
+        {
+          "id": "580327f1-ac23-488a-9d40-4c09825be714",
+          "job_id": "d04773d4-0556-4559-afd7-8737d434775e",
+          "entity_id": "9ac919cc-a55b-4f65-bbea-84dbd2dbcbd6",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 38,
+          "output_tokens": null,
+          "duration_ms": 1922.609128000011,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:21.747Z"
+        },
+        {
+          "id": "6d5bf348-6138-41ad-82b6-61932406e68a",
+          "job_id": "d04773d4-0556-4559-afd7-8737d434775e",
+          "entity_id": "9ac919cc-a55b-4f65-bbea-84dbd2dbcbd6",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 129,
+          "output_tokens": 29,
+          "duration_ms": 8336.189277999976,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:13.402Z"
+        },
+        {
+          "id": "7cd0e2ed-c5d4-468b-921d-e79b641e8937",
+          "job_id": "2d2a4148-9745-4a6e-8f17-a551ab716c3e",
+          "entity_id": "6e93598a-aecc-4772-99d9-63e4b62e8eea",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 39,
+          "output_tokens": null,
+          "duration_ms": 1941.7936579999805,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:11.430Z"
+        },
+        {
+          "id": "4b0b41eb-b833-49f1-bae9-c10ccda61db2",
+          "job_id": "2d2a4148-9745-4a6e-8f17-a551ab716c3e",
+          "entity_id": "6e93598a-aecc-4772-99d9-63e4b62e8eea",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 127,
+          "output_tokens": 35,
+          "duration_ms": 7975.394094999996,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:03.447Z"
+        },
+        {
+          "id": "e4375738-67a9-4a77-9233-b34c6aad16f2",
+          "job_id": "e461e561-26aa-4e3b-b153-df6ef80591b6",
+          "entity_id": "95986b4f-8664-405e-9253-3126dd94fc40",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 41,
+          "output_tokens": null,
+          "duration_ms": 1936.499027999991,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:27:01.483Z"
+        },
+        {
+          "id": "068577fe-4d2d-4dd9-9388-92f5132d0bfe",
+          "job_id": "e461e561-26aa-4e3b-b153-df6ef80591b6",
+          "entity_id": "95986b4f-8664-405e-9253-3126dd94fc40",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 130,
+          "output_tokens": 35,
+          "duration_ms": 8247.865583999985,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:53.225Z"
+        },
+        {
+          "id": "752c98c1-c268-4cc5-9b42-0ee740fd46f6",
+          "job_id": "29eead37-87e5-490e-9774-fa5a56d1dd4e",
+          "entity_id": "b1bde616-9b31-46cc-b6b5-f78ad89642d6",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 1919.092027000006,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:51.276Z"
+        },
+        {
+          "id": "d32415b1-ec9b-4f72-a548-1872618fd6d5",
+          "job_id": "29eead37-87e5-490e-9774-fa5a56d1dd4e",
+          "entity_id": "b1bde616-9b31-46cc-b6b5-f78ad89642d6",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 125,
+          "output_tokens": 32,
+          "duration_ms": 7694.721353999979,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:43.571Z"
+        },
+        {
+          "id": "bcccb81e-d9c9-45b8-9e9d-50a75adb0cd0",
+          "job_id": "63d2bb4c-d266-4fda-8f29-b35a9d76d99d",
+          "entity_id": "8aec3d4b-b322-4d28-9124-381644778441",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 43,
+          "output_tokens": null,
+          "duration_ms": 1966.110343999986,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:41.578Z"
+        },
+        {
+          "id": "b1d5ea93-226f-420f-b511-c16da1b31925",
+          "job_id": "63d2bb4c-d266-4fda-8f29-b35a9d76d99d",
+          "entity_id": "8aec3d4b-b322-4d28-9124-381644778441",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 133,
+          "output_tokens": 35,
+          "duration_ms": 8392.807926999987,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:33.177Z"
+        },
+        {
+          "id": "cdfd7859-19fe-4642-a115-dc5ad111334f",
+          "job_id": "d775df40-aefd-4878-9961-13f9bf471c28",
+          "entity_id": "7c703c28-2b41-4d36-ab8e-7ccc12b67682",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 40,
+          "output_tokens": null,
+          "duration_ms": 1948.7904380000255,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:31.200Z"
+        },
+        {
+          "id": "5e02dc3c-6f06-4f41-a872-cd01e5cdf6bb",
+          "job_id": "d775df40-aefd-4878-9961-13f9bf471c28",
+          "entity_id": "7c703c28-2b41-4d36-ab8e-7ccc12b67682",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 130,
+          "output_tokens": 30,
+          "duration_ms": 7887.345040000015,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:23.303Z"
+        },
+        {
+          "id": "4d4f6926-0d46-461d-bfc4-0957c905cf3f",
+          "job_id": "6da0dd8f-2dd2-4938-a492-8134a2b12bb0",
+          "entity_id": "3c7ae393-6127-4e8d-9af0-104e504c3b38",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 36,
+          "output_tokens": null,
+          "duration_ms": 1938.1065880000242,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:21.338Z"
+        },
+        {
+          "id": "3859a388-6fab-4c8e-9abc-4856bbaf15dc",
+          "job_id": "6da0dd8f-2dd2-4938-a492-8134a2b12bb0",
+          "entity_id": "3c7ae393-6127-4e8d-9af0-104e504c3b38",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 125,
+          "output_tokens": 34,
+          "duration_ms": 8078.9323129999975,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:13.250Z"
+        },
+        {
+          "id": "6cb44381-6a47-42f7-b7b0-adbd7a8c7488",
+          "job_id": "e3a80f47-caa3-4cc4-97a6-f05ba1a6248c",
+          "entity_id": "cdfc62f2-4ab7-461c-b0fb-dba78166bd1c",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 43,
+          "output_tokens": null,
+          "duration_ms": 1936.3300510000263,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:11.282Z"
+        },
+        {
+          "id": "dc942598-d757-4cc9-98dd-db5ab6b69bde",
+          "job_id": "e3a80f47-caa3-4cc4-97a6-f05ba1a6248c",
+          "entity_id": "cdfc62f2-4ab7-461c-b0fb-dba78166bd1c",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 134,
+          "output_tokens": 29,
+          "duration_ms": 8160.719089999999,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:03.113Z"
+        },
+        {
+          "id": "9be550b8-1db2-4464-94e7-d0933e9a6dfb",
+          "job_id": "a15f9826-8fbf-41d2-8799-68b7ba683af8",
+          "entity_id": "1925ea6e-29ac-4a4b-beb7-552e2566ebb1",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 41,
+          "output_tokens": null,
+          "duration_ms": 1946.3799329999893,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:26:01.139Z"
+        },
+        {
+          "id": "d0548674-10cb-43df-aa13-21d3c3765060",
+          "job_id": "a15f9826-8fbf-41d2-8799-68b7ba683af8",
+          "entity_id": "1925ea6e-29ac-4a4b-beb7-552e2566ebb1",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 130,
+          "output_tokens": 30,
+          "duration_ms": 8180.023427999986,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:52.948Z"
+        },
+        {
+          "id": "2c6f5927-ac81-42dc-a096-8741f0dfa673",
+          "job_id": "5e07ac9c-fabb-48fc-968f-79435742328e",
+          "entity_id": "36c4341e-e236-41c7-adcc-fa943e0e50a1",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 43,
+          "output_tokens": null,
+          "duration_ms": 1943.8561749999935,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:50.976Z"
+        },
+        {
+          "id": "de373ae0-d02b-4333-a22d-26de57bf809d",
+          "job_id": "5e07ac9c-fabb-48fc-968f-79435742328e",
+          "entity_id": "36c4341e-e236-41c7-adcc-fa943e0e50a1",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 132,
+          "output_tokens": 30,
+          "duration_ms": 8191.734982000024,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:42.774Z"
+        },
+        {
+          "id": "ef09f7d7-81b1-41ef-b369-5c4c380ab8a9",
+          "job_id": "96333d5a-18b4-4549-9667-afed1780b0f6",
+          "entity_id": "db712272-f8af-4a00-af9d-ed52e92d346b",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 53,
+          "output_tokens": null,
+          "duration_ms": 1986.4606820000045,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:40.759Z"
+        },
+        {
+          "id": "882a266f-dac0-4cbd-bc26-d768f82bd5de",
+          "job_id": "96333d5a-18b4-4549-9667-afed1780b0f6",
+          "entity_id": "db712272-f8af-4a00-af9d-ed52e92d346b",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 141,
+          "output_tokens": 34,
+          "duration_ms": 8585.381404000014,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:32.165Z"
+        },
+        {
+          "id": "f1c80c18-8135-4111-86f2-3632d893b927",
+          "job_id": "829ae53c-c4ff-43ee-bf75-ab1f7b6c1dae",
+          "entity_id": "64d4dc01-f196-40f3-a162-3fb45c57152e",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 38,
+          "output_tokens": null,
+          "duration_ms": 2179.2493499999982,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:29.959Z"
+        },
+        {
+          "id": "24814b73-9507-4959-8ffc-2ffd4ba6e15f",
+          "job_id": "829ae53c-c4ff-43ee-bf75-ab1f7b6c1dae",
+          "entity_id": "64d4dc01-f196-40f3-a162-3fb45c57152e",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 129,
+          "output_tokens": 29,
+          "duration_ms": 8640.231839999993,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:21.307Z"
+        },
+        {
+          "id": "2bb479b0-1e3d-4af9-b714-b591bb3ff62a",
+          "job_id": "af296d99-c69a-43b5-949d-7b694068d06e",
+          "entity_id": "784dde62-3cd3-4556-a8ab-cc3b2edc95da",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 1938.576436000003,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:19.338Z"
+        },
+        {
+          "id": "b20b1a87-2439-45c5-9d3f-5f17a73a8f39",
+          "job_id": "af296d99-c69a-43b5-949d-7b694068d06e",
+          "entity_id": "784dde62-3cd3-4556-a8ab-cc3b2edc95da",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 127,
+          "output_tokens": 29,
+          "duration_ms": 8795.556185000009,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:10.527Z"
+        },
+        {
+          "id": "3f6c172b-116b-48a9-a08d-c887449ee26d",
+          "job_id": "4c2f689a-b26f-44c0-adeb-df50300bf129",
+          "entity_id": "8c19616e-a6ad-458e-83e4-ff2c87151738",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 37,
+          "output_tokens": null,
+          "duration_ms": 1977.2360550000012,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:25:08.515Z"
+        },
+        {
+          "id": "2ab0e4ac-d87a-44fb-ad41-94a6805afb40",
+          "job_id": "4c2f689a-b26f-44c0-adeb-df50300bf129",
+          "entity_id": "8c19616e-a6ad-458e-83e4-ff2c87151738",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 126,
+          "output_tokens": 36,
+          "duration_ms": 9645.816260000007,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:58.859Z"
+        },
+        {
+          "id": "ea1f8d52-e443-4b71-a393-5f9877f73346",
+          "job_id": "7abf4f3b-1943-428f-af72-e3fa2a0957ce",
+          "entity_id": "dacd6dd2-dbf7-405a-bbb5-233ea6869cb4",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 3462.9423989999923,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:55.355Z"
+        },
+        {
+          "id": "6dcd180a-dbe6-433f-86a0-33dfff0973fc",
+          "job_id": "7abf4f3b-1943-428f-af72-e3fa2a0957ce",
+          "entity_id": "dacd6dd2-dbf7-405a-bbb5-233ea6869cb4",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 122,
+          "output_tokens": 35,
+          "duration_ms": 9446.372283999997,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:45.896Z"
+        },
+        {
+          "id": "2de47a2d-5e2b-4564-b50e-93799875fcc0",
+          "job_id": "53f4ce1e-ec76-480e-9865-2dce00e30802",
+          "entity_id": "2abe91db-897b-4c65-9c5f-862d5ecae0b9",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 2255.774118000001,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:43.596Z"
+        },
+        {
+          "id": "64e6ebda-947e-4fab-8790-eebace8cc09c",
+          "job_id": "53f4ce1e-ec76-480e-9865-2dce00e30802",
+          "entity_id": "2abe91db-897b-4c65-9c5f-862d5ecae0b9",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 126,
+          "output_tokens": 34,
+          "duration_ms": 10010.597683999993,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:33.551Z"
+        },
+        {
+          "id": "f1ce8d4f-3b60-4d13-b214-e507e9b22357",
+          "job_id": "8a4318d0-c015-4144-a875-419e331c0406",
+          "entity_id": "2257d5cc-b265-4f29-aa5a-e7da96a0e53a",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 40,
+          "output_tokens": null,
+          "duration_ms": 2016.3137429999988,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:31.498Z"
+        },
+        {
+          "id": "307012aa-d095-4d0a-b7f4-72017d489134",
+          "job_id": "8a4318d0-c015-4144-a875-419e331c0406",
+          "entity_id": "2257d5cc-b265-4f29-aa5a-e7da96a0e53a",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 127,
+          "output_tokens": 33,
+          "duration_ms": 9213.544283999996,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:22.268Z"
+        },
+        {
+          "id": "e4006c86-d339-44e4-b4f2-5dc7e7883733",
+          "job_id": "91b5cf2e-85b9-4d41-bb7a-5a4532edb13f",
+          "entity_id": "45810c3c-2f76-4b86-a1ef-eec0d11c010c",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 1952.9749589999992,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:20.284Z"
+        },
+        {
+          "id": "b89facb2-ab96-4e47-bce3-585bf771f4b6",
+          "job_id": "91b5cf2e-85b9-4d41-bb7a-5a4532edb13f",
+          "entity_id": "45810c3c-2f76-4b86-a1ef-eec0d11c010c",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 125,
+          "output_tokens": 29,
+          "duration_ms": 8085.131693999996,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:12.189Z"
+        },
+        {
+          "id": "bb0baef1-e2ae-48f3-8729-5f41e8e9030e",
+          "job_id": "f1156732-74f6-4118-86e4-102919de100f",
+          "entity_id": "170cdaca-e3bc-4257-8141-b488f0b0ea83",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 36,
+          "output_tokens": null,
+          "duration_ms": 1995.6228539999938,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:10.159Z"
+        },
+        {
+          "id": "52874c80-9623-4b4b-92b9-ec19bcb02ce1",
+          "job_id": "f1156732-74f6-4118-86e4-102919de100f",
+          "entity_id": "170cdaca-e3bc-4257-8141-b488f0b0ea83",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 126,
+          "output_tokens": 35,
+          "duration_ms": 8448.852343999999,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:24:01.695Z"
+        },
+        {
+          "id": "e1f552b7-2e30-4210-ac07-e83cee03928b",
+          "job_id": "3d87b570-40b1-46bd-82f8-c150601027a7",
+          "entity_id": "b3c14f31-d472-451c-bbe3-3e2cf83f57c7",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 1940.238280999998,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:59.726Z"
+        },
+        {
+          "id": "0a0ad58c-60e7-4fcf-8619-6a849fb8834e",
+          "job_id": "3d87b570-40b1-46bd-82f8-c150601027a7",
+          "entity_id": "b3c14f31-d472-451c-bbe3-3e2cf83f57c7",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 128,
+          "output_tokens": 34,
+          "duration_ms": 8815.457544000004,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:50.901Z"
+        },
+        {
+          "id": "211e2eb9-cc8c-4754-b41c-c7670c5fd967",
+          "job_id": "04c7387e-bd36-4ec0-adc5-0a81465b42b6",
+          "entity_id": "23db7d17-ab38-4be4-b2c8-2eb9da12dd47",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 43,
+          "output_tokens": null,
+          "duration_ms": 1943.6844619999974,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:48.929Z"
+        },
+        {
+          "id": "fb5e6778-456b-46b5-a614-71a7e0a8084d",
+          "job_id": "04c7387e-bd36-4ec0-adc5-0a81465b42b6",
+          "entity_id": "23db7d17-ab38-4be4-b2c8-2eb9da12dd47",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 132,
+          "output_tokens": 29,
+          "duration_ms": 8188.208509000002,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:40.726Z"
+        },
+        {
+          "id": "767e881c-4f53-4ecf-959c-3de798211d6d",
+          "job_id": "2f5b54e8-3e76-453b-adfc-d5f30e4c678f",
+          "entity_id": "c004ce7b-5c81-49d1-9b74-84795d49b2ca",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 40,
+          "output_tokens": null,
+          "duration_ms": 2302.869817999999,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:38.371Z"
+        },
+        {
+          "id": "bc9782fc-e220-436f-964b-3c6a8145789c",
+          "job_id": "2f5b54e8-3e76-453b-adfc-d5f30e4c678f",
+          "entity_id": "c004ce7b-5c81-49d1-9b74-84795d49b2ca",
+          "operation": "post_intent",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 129,
+          "output_tokens": 30,
+          "duration_ms": 8916.534719,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:23:29.430Z"
+        },
+        {
+          "id": "cfa02e56-39ec-4162-8a5c-67e27814dee5",
+          "job_id": "4d1d98ab-5982-49f6-b67c-206c4093706f",
+          "entity_id": "16f3c4f6-c67d-4206-ad65-b70904a6e479",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 45,
+          "output_tokens": null,
+          "duration_ms": 2041.438334000064,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:43.000Z"
+        },
+        {
+          "id": "bbfc043c-9816-40d1-ba45-6b7c7a4a66c5",
+          "job_id": "86c6fc54-99d8-4c50-b052-4cfa54a4bcbd",
+          "entity_id": "3e63f965-6664-4aee-871f-851096f5af1d",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 42,
+          "output_tokens": null,
+          "duration_ms": 2020.38042400009,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:40.946Z"
+        },
+        {
+          "id": "9c8090ca-6ff9-400a-b46d-7de83962fbc3",
+          "job_id": "baafcd22-b0da-40a6-be3b-8af3131f6956",
+          "entity_id": "9ac919cc-a55b-4f65-bbea-84dbd2dbcbd6",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 33,
+          "output_tokens": null,
+          "duration_ms": 1948.0725020000245,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:38.968Z"
+        },
+        {
+          "id": "91047434-bc7b-4c26-8d1e-6823df87c196",
+          "job_id": "be18aac3-e6f2-4e7f-9226-9b4221058a3b",
+          "entity_id": "6e93598a-aecc-4772-99d9-63e4b62e8eea",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 33,
+          "output_tokens": null,
+          "duration_ms": 1984.2915029998403,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:36.946Z"
+        },
+        {
+          "id": "c5bc953a-6675-4b0a-b2d6-a7bf522f863f",
+          "job_id": "2c88c678-af70-45cf-b09b-cfca2a2e04ef",
+          "entity_id": "95986b4f-8664-405e-9253-3126dd94fc40",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 2523.8698980000336,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:34.394Z"
+        },
+        {
+          "id": "2e1375b6-177a-4fee-910b-db063ac9457b",
+          "job_id": "f8433041-4ac4-4b0b-b95b-1782bdf3d2c9",
+          "entity_id": "b1bde616-9b31-46cc-b6b5-f78ad89642d6",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 29,
+          "output_tokens": null,
+          "duration_ms": 2234.804907000158,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:32.131Z"
+        },
+        {
+          "id": "adacb0be-fd8e-49a1-9dc2-3ceedbf17cbe",
+          "job_id": "c37d01ca-e13d-4a7d-9b5a-b92d6beb85cb",
+          "entity_id": "8aec3d4b-b322-4d28-9124-381644778441",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 37,
+          "output_tokens": null,
+          "duration_ms": 2045.7912459999789,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:30.050Z"
+        },
+        {
+          "id": "783190fb-a6fc-439d-bb4c-899114f2c2e5",
+          "job_id": "af93ceac-1cf2-4802-a17c-97271d413003",
+          "entity_id": "7c703c28-2b41-4d36-ab8e-7ccc12b67682",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 2047.555643999949,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:27.965Z"
+        },
+        {
+          "id": "be2bc523-f21a-4ae4-835a-cd1b7474b7e2",
+          "job_id": "43749cfd-1b47-4f72-9d80-8c352c5e6fad",
+          "entity_id": "3c7ae393-6127-4e8d-9af0-104e504c3b38",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 31,
+          "output_tokens": null,
+          "duration_ms": 2277.246994000161,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:25.644Z"
+        },
+        {
+          "id": "f2b16972-c4cd-464f-9642-1249c246feb4",
+          "job_id": "5511df52-aaed-496f-8105-17c9ef6d73a0",
+          "entity_id": "cdfc62f2-4ab7-461c-b0fb-dba78166bd1c",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 38,
+          "output_tokens": null,
+          "duration_ms": 3083.204693000065,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:22.525Z"
+        },
+        {
+          "id": "0b82fbd8-0b7b-42b5-bcf9-93e53e44a296",
+          "job_id": "0830b546-a44c-4e09-87b1-335e277c99bb",
+          "entity_id": "1925ea6e-29ac-4a4b-beb7-552e2566ebb1",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 37,
+          "output_tokens": null,
+          "duration_ms": 2250.672779999906,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:20.244Z"
+        },
+        {
+          "id": "6f52f2dc-9c73-4dfe-998f-05aa596edd69",
+          "job_id": "c992a9cc-a848-485f-87b6-bb2685f1734e",
+          "entity_id": "36c4341e-e236-41c7-adcc-fa943e0e50a1",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 38,
+          "output_tokens": null,
+          "duration_ms": 2010.639124999987,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:18.200Z"
+        },
+        {
+          "id": "bb6c8c0b-ea96-4b2d-96ce-961bcc60ee2b",
+          "job_id": "9a1c4daf-b578-417b-8a01-40de9738ad90",
+          "entity_id": "db712272-f8af-4a00-af9d-ed52e92d346b",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 46,
+          "output_tokens": null,
+          "duration_ms": 1857.861588000087,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:16.312Z"
+        },
+        {
+          "id": "53646118-3a38-416c-98f5-831da0759dc4",
+          "job_id": "b6a8200b-eb13-43ee-84aa-e1c2e42d05e3",
+          "entity_id": "64d4dc01-f196-40f3-a162-3fb45c57152e",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 33,
+          "output_tokens": null,
+          "duration_ms": 1942.8787020000163,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:14.342Z"
+        },
+        {
+          "id": "5dba6b21-f0f0-4e49-864b-b2dcf2241668",
+          "job_id": "70376985-9f49-4edb-b1e0-4a47462c82c3",
+          "entity_id": "784dde62-3cd3-4556-a8ab-cc3b2edc95da",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 29,
+          "output_tokens": null,
+          "duration_ms": 1959.798264999874,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:12.345Z"
+        },
+        {
+          "id": "480b86bb-bc9f-4d46-a4c4-6b2651f18825",
+          "job_id": "bbe6c0d8-bcec-4513-8625-2fd5f0edd7de",
+          "entity_id": "8c19616e-a6ad-458e-83e4-ff2c87151738",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 30,
+          "output_tokens": null,
+          "duration_ms": 1686.127116000047,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:10.633Z"
+        },
+        {
+          "id": "10cf8baa-2f8a-41d3-987d-f73569bd491e",
+          "job_id": "066402ae-9881-4f86-ac83-1f730868717e",
+          "entity_id": "dacd6dd2-dbf7-405a-bbb5-233ea6869cb4",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 27,
+          "output_tokens": null,
+          "duration_ms": 1697.9962210000958,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:08.910Z"
+        },
+        {
+          "id": "b3d28abd-9ece-4adf-8ab2-5ef3550d08c5",
+          "job_id": "65521805-e741-47ce-8a3e-421a4c999b8a",
+          "entity_id": "2abe91db-897b-4c65-9c5f-862d5ecae0b9",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 29,
+          "output_tokens": null,
+          "duration_ms": 1689.3823540001176,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:07.192Z"
+        },
+        {
+          "id": "29cafd1e-e101-4a9f-860c-2ed94f817939",
+          "job_id": "3fd16ca6-e727-444f-ab6d-b68ceb0bb3b4",
+          "entity_id": "2257d5cc-b265-4f29-aa5a-e7da96a0e53a",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 1693.8992820000276,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:05.469Z"
+        },
+        {
+          "id": "008409d6-f53f-4297-8eaa-c1778a71fe62",
+          "job_id": "2f95c528-f311-403e-9e27-56315f0f0a4c",
+          "entity_id": "45810c3c-2f76-4b86-a1ef-eec0d11c010c",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 29,
+          "output_tokens": null,
+          "duration_ms": 1959.8744479999878,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:03.475Z"
+        },
+        {
+          "id": "4c98ec4e-f826-4388-8c8d-4e7276458c60",
+          "job_id": "0741711f-dcdc-43bf-a178-474f1b53e192",
+          "entity_id": "170cdaca-e3bc-4257-8141-b488f0b0ea83",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 31,
+          "output_tokens": null,
+          "duration_ms": 2034.8838319999631,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:17:01.402Z"
+        },
+        {
+          "id": "832c95a4-3f86-45e7-96ac-b53d763cb925",
+          "job_id": "c8f5895e-2994-495e-9fd1-cad1eed246c8",
+          "entity_id": "b3c14f31-d472-451c-bbe3-3e2cf83f57c7",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 31,
+          "output_tokens": null,
+          "duration_ms": 1972.910676999949,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:59.394Z"
+        },
+        {
+          "id": "8fedc5af-7944-4cc8-a356-61acceff0ab3",
+          "job_id": "7170fd44-431e-449f-846d-2725c2202128",
+          "entity_id": "23db7d17-ab38-4be4-b2c8-2eb9da12dd47",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 38,
+          "output_tokens": null,
+          "duration_ms": 2002.812939999858,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:57.361Z"
+        },
+        {
+          "id": "7377138f-7103-4f65-8878-0b02e12ca316",
+          "job_id": "c0010930-f7c5-4a31-991d-91ffd882bf2e",
+          "entity_id": "c004ce7b-5c81-49d1-9b74-84795d49b2ca",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 2519.710955000017,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:54.806Z"
+        },
+        {
+          "id": "b957994e-e9b2-49b5-8ad6-9c345a42c566",
+          "job_id": "faf3e42f-3b4e-490f-a3a3-2757b37d4f19",
+          "entity_id": "01f0c4a8-d706-4295-9e37-4713332de50d",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 33,
+          "output_tokens": null,
+          "duration_ms": 2104.5769200001378,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:52.657Z"
+        },
+        {
+          "id": "4dbdc3a1-7fba-4834-ac8d-851178ac1284",
+          "job_id": "f350b783-9893-4110-808e-af2de5453115",
+          "entity_id": "437baf15-9cbe-4100-887b-87367d7f723f",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 31,
+          "output_tokens": null,
+          "duration_ms": 2276.3215340001043,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:50.339Z"
+        },
+        {
+          "id": "7bca9c2d-ea14-499d-a0dd-793e0e9955d1",
+          "job_id": "f188f810-d261-4929-b54c-fcc96c731c5a",
+          "entity_id": "03025253-7faf-4649-9134-cb882ac8d53a",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 2279.994313000003,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:16:48.010Z"
+        },
+        {
+          "id": "ace50a9f-ca90-47cb-a6e0-9c7afd3525bd",
+          "job_id": "f188f810-d261-4929-b54c-fcc96c731c5a",
+          "entity_id": "03025253-7faf-4649-9134-cb882ac8d53a",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1184,
+          "output_tokens": 82,
+          "duration_ms": 78101.29178600013,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:15:29.897Z"
+        },
+        {
+          "id": "1bd6806c-b3d7-4232-ba48-4e4d35b5f5f2",
+          "job_id": "ea5f02fa-2cba-4288-912e-fcdda7bd4bc5",
+          "entity_id": "975a58fb-2aad-41f7-830f-217bc4038f88",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 39,
+          "output_tokens": null,
+          "duration_ms": 2029.1348840000574,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:15:27.819Z"
+        },
+        {
+          "id": "f87c956c-9345-4301-8457-8c55c72b26e1",
+          "job_id": "ea5f02fa-2cba-4288-912e-fcdda7bd4bc5",
+          "entity_id": "975a58fb-2aad-41f7-830f-217bc4038f88",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 105,
+          "duration_ms": 87656.49650899996,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:14:00.136Z"
+        },
+        {
+          "id": "9206f55c-a299-460c-9c23-58420e48c527",
+          "job_id": "e3dd726a-bbea-49c2-92b5-8d5a9e949732",
+          "entity_id": "74249f28-7360-42d1-a8e4-096f1ec7a8d5",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 31,
+          "output_tokens": null,
+          "duration_ms": 1952.562421000097,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:13:58.147Z"
+        },
+        {
+          "id": "b294123e-6c5e-4aa9-a690-eb58072baa41",
+          "job_id": "e250aa55-78a8-4ba5-b4ad-56dce2534835",
+          "entity_id": "b372ec1a-9d67-42a4-abf9-bee756bd31ad",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 1957.3287469998468,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:13:56.147Z"
+        },
+        {
+          "id": "6320ad37-67b2-4e7f-8286-52e53b2294e8",
+          "job_id": "cedcfa6a-c039-4e87-9b77-81736ee14fbe",
+          "entity_id": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 2622.725547999842,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:13:53.450Z"
+        },
+        {
+          "id": "0c7d2c0a-f70a-453a-8edd-909568eadab5",
+          "job_id": "cedcfa6a-c039-4e87-9b77-81736ee14fbe",
+          "entity_id": "d93bcec8-b53d-45d1-80d8-4658d51169e5",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 92,
+          "duration_ms": 89939.66988399997,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:12:23.480Z"
+        },
+        {
+          "id": "f16e69a4-e7e4-4b7c-bce0-7599d3aa1238",
+          "job_id": "c827f554-7c0e-4893-9862-54ca26cbd484",
+          "entity_id": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 1975.4877379999962,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:12:21.462Z"
+        },
+        {
+          "id": "94f7d982-31c8-40b5-ace0-115b0b7b0491",
+          "job_id": "c827f554-7c0e-4893-9862-54ca26cbd484",
+          "entity_id": "6619662a-b5dd-4bcf-a5db-b7511cd746da",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 99,
+          "duration_ms": 86653.68727999995,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:10:54.786Z"
+        },
+        {
+          "id": "89a4c162-ff15-41ec-a309-1c318081e7c8",
+          "job_id": "bf3ff2bd-bb02-45ec-9a2c-527b54ba9218",
+          "entity_id": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 2860.098008000059,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:10:51.854Z"
+        },
+        {
+          "id": "a59ea122-386e-4b5a-98a8-59b3c0b2bae9",
+          "job_id": "bf3ff2bd-bb02-45ec-9a2c-527b54ba9218",
+          "entity_id": "2ac9ad14-87a6-44b3-aeca-3ca5b57549a3",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 87,
+          "duration_ms": 99793.526847,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:09:12.049Z"
+        },
+        {
+          "id": "55dfd554-4bf7-4ecb-858e-8886f46e1fc8",
+          "job_id": "bde7ab0a-265d-4ff9-afb1-e3893386c71d",
+          "entity_id": "c19ce60e-c4e1-4f06-a95c-6e7f7c877cdb",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 35,
+          "output_tokens": null,
+          "duration_ms": 1731.444656000007,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:09:10.267Z"
+        },
+        {
+          "id": "bacdd514-2dd5-4d83-8c06-f68c6fd45f99",
+          "job_id": "bcd0ba8d-a6d9-4192-a07e-aae20fb0060a",
+          "entity_id": "16785c6f-08f5-40ce-87bf-fed28c95d2be",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 34,
+          "output_tokens": null,
+          "duration_ms": 1973.6535380000714,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:09:08.259Z"
+        },
+        {
+          "id": "e7ba1d7b-9078-4bef-8eb5-fcb4b6cea5a3",
+          "job_id": "b8f89b39-ec8b-4b10-a0f1-2b021d3a1c10",
+          "entity_id": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 43,
+          "output_tokens": null,
+          "duration_ms": 2272.4930529999547,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:09:05.950Z"
+        },
+        {
+          "id": "60fb04ff-23a8-4f70-844f-98c8bd4732ec",
+          "job_id": "b8f89b39-ec8b-4b10-a0f1-2b021d3a1c10",
+          "entity_id": "6b6e47a9-bb9a-470b-ba37-dc3237ee919c",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 107,
+          "duration_ms": 84725.90994699998,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:41.212Z"
+        },
+        {
+          "id": "825faf4a-4479-4a98-a9bb-268275821b21",
+          "job_id": "adb4afcc-dbd6-4dae-9934-fbfaf9fdbcca",
+          "entity_id": "e88e296c-c0a2-4537-aff7-6019f4a18033",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 32,
+          "output_tokens": null,
+          "duration_ms": 1711.6019829998259,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:39.467Z"
+        },
+        {
+          "id": "8f5c77de-b6d0-402a-a4ce-97938280a045",
+          "job_id": "a60a6165-ef67-400f-b6f1-95357304c825",
+          "entity_id": "930b7d56-13a0-4db3-b778-37871b05ce27",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 41,
+          "output_tokens": null,
+          "duration_ms": 1749.42071700003,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:37.688Z"
+        },
+        {
+          "id": "84a8cd29-75fe-4f9a-9a4c-3e0ddb1e638f",
+          "job_id": "a2027aeb-3a8c-465e-b288-362bfc8aeacb",
+          "entity_id": "c22612c2-b3eb-40fb-b4c3-ecd78c43a9a0",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 28,
+          "output_tokens": null,
+          "duration_ms": 2145.327393000014,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:35.507Z"
+        },
+        {
+          "id": "078f37cf-1414-4e0a-9f32-0c2a68a64f1a",
+          "job_id": "a1aadb1b-9dab-420f-9b2e-09afe1ca68ed",
+          "entity_id": "4d5a6bdf-63e4-4ede-b964-96046f56bca8",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 33,
+          "output_tokens": null,
+          "duration_ms": 1717.0856640001293,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:33.762Z"
+        },
+        {
+          "id": "87b164c8-750f-48e1-b39e-4672779e9fee",
+          "job_id": "9fffcc3c-3b47-4f91-b74b-d1758a124ee9",
+          "entity_id": "6d7c514d-8a95-4802-880d-39432bec8777",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 36,
+          "output_tokens": null,
+          "duration_ms": 1965.269459999865,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:07:31.762Z"
+        },
+        {
+          "id": "3077cc30-a1ca-46f4-bf72-8da9fe558b7d",
+          "job_id": "9fffcc3c-3b47-4f91-b74b-d1758a124ee9",
+          "entity_id": "6d7c514d-8a95-4802-880d-39432bec8777",
+          "operation": "vision",
+          "model": "qwen3-vl:2b-instruct@ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 1232,
+          "output_tokens": 86,
+          "duration_ms": 85893.06654599984,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:06:05.842Z"
+        },
+        {
+          "id": "93ead962-ee2d-4a0d-a216-3d76eeeba452",
+          "job_id": "9f59db7e-f403-45a8-8a6c-109f042a6dfb",
+          "entity_id": "c3b91456-3884-416a-9781-e5393852761d",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 37,
+          "output_tokens": null,
+          "duration_ms": 2021.0862440000055,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:06:03.783Z"
+        },
+        {
+          "id": "607d3323-1869-4eaf-b6ca-54b4768811cc",
+          "job_id": "9e16d5f8-879b-4f63-a580-b4bd21a59115",
+          "entity_id": "3cfa14b3-6332-4909-98b5-028421d0f6ff",
+          "operation": "embedding",
+          "model": "embeddinggemma:300m@85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1",
+          "provider": "ollama",
+          "attempt": 1,
+          "status": "succeeded",
+          "input_tokens": 30,
+          "output_tokens": null,
+          "duration_ms": 1970.860745999962,
+          "cost_usd": "0.000000",
+          "error_code": null,
+          "created_at": "2026-10-06T00:06:01.775Z"
+        }
+      ]
+    }
+  }
+}
