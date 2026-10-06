@@ -91,7 +91,7 @@ npm test
 docker compose --profile testing run --rm --no-deps test-runner npm run test:integration
 ```
 
-Deterministic provider fixtures are explicitly confined to tests; live evidence comes from actual Ollama calls. See `EVIDENCE.md` for verified transcripts and honest pending items, and `BUILDLOG.md` for AI assistance, mistakes, and corrections.
+Deterministic provider fixtures are explicitly confined to tests; live evidence comes from actual Ollama calls. See `EVIDENCE.md` for verified transcripts and documented limitations, and `BUILDLOG.md` for AI assistance, mistakes, and corrections.
 
 ## Limitations
 
@@ -102,3 +102,4 @@ Deterministic provider fixtures are explicitly confined to tests; live evidence 
 - API keys are required even though the HTTP port is local. Database/Ollama services are not publicly exposed. Paid providers are rejected by configuration.
 - Source photographs retain the [Unsplash license](https://unsplash.com/license); MIT applies to application code, not the corpus. See [attribution](data/ATTRIBUTION.md).
 - FlyRank decides acceptance asynchronously. A completed or submitted repository does not itself guarantee a certificate.
+
